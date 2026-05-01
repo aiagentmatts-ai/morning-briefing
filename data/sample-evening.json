@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-17",
+  "type": "evening",
+  "generated_at": "2026-04-17T21:00:00-04:00",
+  "weather": {
+    "home": {
+      "city": "Harrisburg, PA",
+      "hi": 87,
+      "lo": 63,
+      "condition": "Partly sunny, unseasonably warm"
+    },
+    "travel": null
+  },
+  "calendar": [
+    {
+      "time": "12:15 PM",
+      "title": "Eva teeth cleaning",
+      "calendar": "Personal",
+      "color": "#16A34A"
+    }
+  ],
+  "tasks": {
+    "due_tomorrow": [
+      {
+        "task": "Check on Omega Speedmaster",
+        "project": null,
+        "done": false
+      },
+      {
+        "task": "Check on EV fee rebate",
+        "project": null,
+        "done": false
+      }
+    ],
+    "overdue": [
+      {
+        "task": "HB 98 State Board of Electricians",
+        "project": "Lobbying",
+        "due": "2025-04-08"
+      },
+      {
+        "task": "Follow up with Ogburn on visit",
+        "project": "PAC",
+        "due": "2025-06-17"
+      },
+      {
+        "task": "Draft PA specific wildfire liability limit language",
+        "project": "Lobbying",
+        "due": "2025-08-29"
+      },
+      {
+        "task": "Inform winner & honor at Leg Event",
+        "project": null,
+        "due": "2025-12-05"
+      },
+      {
+        "task": "Dinner with Darisha Parker",
+        "project": "Lobbying",
+        "due": "2025-12-18"
+      },
+      {
+        "task": "Legislator Meetings",
+        "project": "Legislative Conference",
+        "due": "2026-02-06"
+      },
+      {
+        "task": "EV Fees",
+        "project": "Miscellaneous",
+        "due": "2026-03-05"
+      },
+      {
+        "task": "Planning meeting",
+        "project": "Podcast",
+        "due": "2026-04-09"
+      }
+    ]
+  }
+}

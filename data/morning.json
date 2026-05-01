@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-30",
+  "type": "morning",
+  "generated_at": "2026-04-30T09:30:00-04:00",
+  "sections": [
+    {
+      "id": "energy-industry",
+      "label": "Energy Industry",
+      "count": 4,
+      "stories": [
+        {
+          "headline": "PJM's reopened interconnection queue draws 811 projects totaling 220 GW — gas leads at 106 GW",
+          "summary": "PJM announced 811 generation projects totaling 220 GW applied to Cycle 1 of its reformed queue: 105.8 GW gas, 66.5 GW storage, 17.9 GW nuclear, 14.8 GW solar; review runs 1–2 years and reshapes the next decade of PJM capacity.",
+          "source": "Utility Dive / PJM Inside Lines",
+          "time": "Apr 29",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/pjm-interconnection-queue-gas-solar-nuclear/818824/"
+        },
+        {
+          "headline": "PA Senate committee hears grid issues are getting worse; PJM 'backstop' procurement called critical",
+          "summary": "A PA Senate committee took testimony on worsening grid reliability, the 220-GW PJM queue, and PJM's proposed backstop procurement to make data centers pay for new generation rather than shifting cost to ratepayers.",
+          "source": "PA Environment Digest",
+          "time": "Apr 29",
+          "flagged": true,
+          "url": "http://paenvironmentdaily.blogspot.com/2026/04/senate-committee-hears-electric-grid.html"
+        },
+        {
+          "headline": "Vineyard Wind contracts switch on, easing New England electricity prices",
+          "summary": "Vineyard Wind's commercial power purchase agreements have begun delivering, the project's first stabilizing impact on regional rates and a counterpoint to the wave of canceled offshore wind projects further south.",
+          "source": "Utility Dive",
+          "time": "Apr 29",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
+        },
+        {
+          "headline": "MISO capacity prices fall as new supply outpaces demand growth",
+          "summary": "MISO's latest capacity auction cleared lower as new supply additions outpaced load growth — a notable divergence from PJM's record $329.17/MW-day 2026/27 clearing price and a useful comparator for PA/NJ co-op planners.",
+          "source": "Utility Dive",
+          "time": "Apr 29",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
+        }
+      ]
+    },
+    {
+      "id": "pa-politics",
+      "label": "PA & NJ Politics",
+      "count": 4,
+      "stories": [
+        {
+          "headline": "Garrity and Shapiro split on broadband and federal program cuts in PA gubernatorial race",
+          "summary": "Spotlight PA contrasts Treasurer Stacy Garrity and Gov. Josh Shapiro on rural broadband deployment and how to absorb federal program cuts — directly relevant to co-op pole-attachment broadband and RUS-funded service.",
+          "source": "Spotlight PA / PoliticsPA",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "PA-01: Fitzpatrick attacks Harvie over open-primaries stance",
+          "summary": "Rep. Brian Fitzpatrick (R-Pa.) called Bucks County commissioner Bob Harvie's opposition to open primaries an 'insult to independent voters,' opening the general-election attack lines in PA's most competitive House race.",
+          "source": "Philadelphia Inquirer / PoliticsPA",
+          "time": "Yesterday",
+          "flagged": false
+        },
+        {
+          "headline": "Advocates push 'skill games' tax as lottery losses cut PA senior programs",
+          "summary": "Pennsylvania Association of Area Agencies on Aging warned cuts to senior programs will worsen unless Harrisburg replaces declining Lottery revenue, putting renewed pressure on a skill-games tax in the General Assembly.",
+          "source": "WESA / PoliticsPA",
+          "time": "Yesterday",
+          "flagged": false
+        },
+        {
+          "headline": "PA House passes bill allowing PIAA to split public and private playoffs",
+          "summary": "The state House passed HB 41 authorizing the PIAA to separate boundary (public) and non-boundary (private/charter/Catholic) schools into different postseason brackets, ending a years-long fairness fight.",
+          "source": "PennLive / PoliticsPA",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.pennlive.com/"
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 5,
+      "stories": [
+        {
+          "headline": "SCOTUS guts VRA Section 2; analysts see 1–4 GOP House seats this cycle, more in 2028",
+          "summary": "Louisiana v. Callais sharply curtailed race-based redistricting under VRA Section 2; Cook's Matthew Klein and Sabato's J. Miles Coleman estimate 1–4 GOP seats this fall, with bigger 2028/2030 implications and likely blue-state retaliation.",
+          "source": "Punchbowl AM / Politico Playbook",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.supremecourt.gov/opinions/25pdf/24-109_21o3.pdf"
+        },
+        {
+          "headline": "FISA Section 702 expires today; Thune rejects Johnson's House deal, sends 45-day patch",
+          "summary": "Senate Majority Leader John Thune rejected Speaker Mike Johnson's FISA package after the House loaded it with a CBDC ban, and is jamming the House with a 45-day Section 702 extension before authority lapses Thursday.",
+          "source": "Punchbowl AM",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "House adopts Senate budget resolution 215-211 teeing up ICE/Border Patrol reconciliation",
+          "summary": "After five hours of holding the vote open, House Republicans cleared the budget resolution late Wednesday, putting GOP leaders on a tight track to a final reconciliation bill by Trump's June 1 deadline.",
+          "source": "Punchbowl AM / Politico Playbook",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "Hegseth and Caine face Senate Armed Services on Iran war as cost estimates hit $40–50B",
+          "summary": "Defense Secretary Pete Hegseth and Joint Chiefs Chair Gen. Dan Caine testify at 11 a.m. before SASC; Pentagon cited $25B but CNN sources peg the all-in cost at $40–50B once Mideast base repairs are included.",
+          "source": "Politico Playbook / Punchbowl AM",
+          "time": "Today 11 AM",
+          "flagged": false,
+          "url": "https://www.armed-services.senate.gov/"
+        },
+        {
+          "headline": "Powell-Tillis fight ends as DOJ closes probe; Warsh on track at Fed despite policy dissent",
+          "summary": "Sen. Thom Tillis (R-N.C.) cleared Kevin Warsh's path after DOJ ended its Powell probe, but multiple regional Fed presidents publicly oppose the rate-cut posture — the deepest policy split since 1992 — ahead of today's Q1 GDP print at 8:30 a.m.",
+          "source": "Politico Playbook",
+          "time": "Today 8:30 AM",
+          "flagged": false,
+          "url": "https://www.politico.com/playbook"
+        }
+      ]
+    },
+    {
+      "id": "pittsburgh-sports",
+      "label": "Pittsburgh Sports",
+      "count": 3,
+      "stories": [
+        {
+          "headline": "Flyers eliminate Penguins in OT, 1-0, win first-round series 4-2",
+          "summary": "Cam York's blue-line shot through a Noah Cates screen with 2:28 left in OT ended Pittsburgh's season; Arturs Silovs stopped 31 shots for the Pens, who blew a chance to become the fifth team ever to erase a 3-0 series deficit.",
+          "source": "NHL.com",
+          "time": "Last night",
+          "flagged": false,
+          "url": "https://www.nhl.com/news/pittsburgh-penguins-philadelphia-flyers-game-6-recap-april-29-2026"
+        },
+        {
+          "headline": "Cardinals score 4 in 9th to beat Pirates 5-4; Bucs drop to 16-16",
+          "summary": "Pedro Pages and JJ Wetherholt hit back-to-back HRs off Dennis Santana to tie it, and Jose Fermin's two-run double scored Victor Scott for the lead in a four-run ninth as Pittsburgh's losing streak hit three.",
+          "source": "MLB.com / CBS Pittsburgh",
+          "time": "Last night",
+          "flagged": false,
+          "url": "https://www.mlb.com/gameday/cardinals-vs-pirates/2026/04/29/823392/final/video"
+        },
+        {
+          "headline": "Steelers 2026 draft class headlined by OT Iheanachor, WR Bernard, QB Allar",
+          "summary": "Pittsburgh took Arizona State OT Max Iheanachor at No. 21, traded up for Alabama WR Germie Bernard at 47, and used a third on Penn State QB Drew Allar — graders split, with most calling Allar an early reach.",
+          "source": "Steelers Depot / CBS Sports",
+          "time": "This week",
+          "flagged": false,
+          "url": "https://www.steelers.com/news/a-look-at-the-steelers-2026-draft-class"
+        }
+      ]
+    }
+  ],
+  "market_data": {
+    "as_of": "Apr 29 close",
+    "rows": [
+      { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
+      { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
+      { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.71/MMBtu", "change": "-1.8%" },
+      { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
+      { "market": "WTI Crude", "price": "$106.88/bbl", "change": "+6.9%" }
+    ]
+  }
+}

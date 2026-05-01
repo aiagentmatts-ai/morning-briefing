@@ -1,0 +1,140 @@
+{
+  "date": "2026-04-17",
+  "type": "morning",
+  "generated_at": "2026-04-17T07:00:00-04:00",
+  "sections": [
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 6,
+      "stories": [
+        {
+          "headline": "FISA Collapses Overnight — Johnson Gets Two-Week Band-Aid",
+          "summary": "Speaker Mike Johnson's compromise FISA extension failed 200-220 when Republicans broke ranks. A two-week extension passed via unanimous consent, kicking the can to early May.",
+          "source": "Punchbowl News",
+          "time": "3h ago",
+          "flagged": true
+        },
+        {
+          "headline": "GOP Can't Stop Fighting Itself — House vs. Senate Tensions Deepen",
+          "summary": "The FISA flop is one symptom of a broader Republican breakdown. Unresolved conflicts include the DHS shutdown, budget reconciliation, SAVE America Act, and appropriations.",
+          "source": "Punchbowl News",
+          "time": "3h ago",
+          "flagged": false
+        },
+        {
+          "headline": "NJ-11 Result: Mejia Wins by 20 Points",
+          "summary": "Democrat Analilia Mejia cruised to victory in the NJ-11 special election, beating Republican Joe Hathaway by 20 points — exceeding most projections.",
+          "source": "Punchbowl News",
+          "time": "4h ago",
+          "flagged": false
+        },
+        {
+          "headline": "Cherfilus-McCormick Ethics: CBC Faces Expulsion Vote April 21",
+          "summary": "Rep. Sheila Cherfilus-McCormick faces a full House Ethics Committee sanction hearing after 26 ethics violations were found, including allegedly stealing $5M from FEMA.",
+          "source": "Punchbowl News",
+          "time": "4h ago",
+          "flagged": false
+        },
+        {
+          "headline": "~20 House Republicans Outraised by Democratic Challengers",
+          "summary": "Q1 FEC analysis finds roughly 20 House Republicans outraised by Democratic challengers. PA incumbent Scott Perry outraised by Janelle Stelson, who holds more cash-on-hand.",
+          "source": "Punchbowl News",
+          "time": "5h ago",
+          "flagged": false
+        },
+        {
+          "headline": "Iran War Powers: CPC Pushing Weekly House Votes",
+          "summary": "The Congressional Progressive Caucus discussed forcing repeated House votes on Iran war powers resolutions, putting every House Republican on record.",
+          "source": "Punchbowl News",
+          "time": "6h ago",
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "id": "pa-nj-politics",
+      "label": "PA & NJ Politics",
+      "count": 6,
+      "stories": [
+        {
+          "headline": "PECO Withdraws 12.5% Rate Hike — Shapiro Claims $510M Win",
+          "summary": "PECO withdrew its proposed 12.5% electric and 11.4% gas rate increase after direct pressure from Gov. Shapiro, who called the request 'pure greed.' 1.7 million Pennsylvanians will collectively save $510 million.",
+          "source": "WHYY / Inquirer",
+          "time": "2h ago",
+          "flagged": true
+        },
+        {
+          "headline": "Data Center Moratorium Battle Intensifies in PA Legislature",
+          "summary": "Multiple competing bills target data centers in eastern PA — from moratoriums to fast-track permitting. Two bipartisan oversight bills already passed the PA House.",
+          "source": "LehighValleyLive",
+          "time": "4h ago",
+          "flagged": false
+        },
+        {
+          "headline": "PA-07 Democratic Primary: Questions Around Brooks Campaign",
+          "summary": "With the May 19 primary a month away, questions are surfacing around Bob Brooks' campaign in PA-07 (Lehigh Valley).",
+          "source": "Politics PA",
+          "time": "5h ago",
+          "flagged": false
+        },
+        {
+          "headline": "Stelson Tops All PA Congressional Candidates in Q1 Fundraising",
+          "summary": "Democratic challenger Janelle Stelson outraised every congressional candidate in Pennsylvania in Q1 2026, nearly doubling incumbent Rep. Scott Perry's haul.",
+          "source": "Politics PA",
+          "time": "5h ago",
+          "flagged": false
+        },
+        {
+          "headline": "Nuclear Waste Cleanup Begins in Armstrong County, PA",
+          "summary": "The federal government began long-awaited cleanup of a nuclear waste dump in Parks Township, near Apollo — site of decades of cancer cases and lawsuits.",
+          "source": "CBS News",
+          "time": "6h ago",
+          "flagged": false
+        },
+        {
+          "headline": "PA Counties Insurance Pool Drops 287(g)/ICE Coverage",
+          "summary": "The PA Counties Risk Pool voted to exclude liability coverage for 287(g) immigration enforcement partnerships with ICE. Counties will need alternative coverage.",
+          "source": "Pittsburgh Post-Gazette",
+          "time": "7h ago",
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "id": "energy-industry",
+      "label": "Energy Industry",
+      "count": 4,
+      "stories": [
+        {
+          "headline": "PECO Withdrawal — Regulatory Landmark for PA Utility Market",
+          "summary": "PECO's withdrawal of its rate increases is the most significant PA utility regulatory event this week. Sets a political template for how Shapiro will approach future large IOU rate filings.",
+          "source": "WHYY / Inquirer",
+          "time": "2h ago",
+          "flagged": true
+        },
+        {
+          "headline": "Energy Market Dashboard: Oil Elevated, Gas Near 17-Month Lows",
+          "summary": "WTI ~$92/bbl (Hormuz tensions), Henry Hub $2.68/MMBtu (+1.16%), Central App Coal ~$87/ton, RGGI ~$25/ton. Oil risk premium intact; gas oversupply weighing.",
+          "source": "EIA / CME",
+          "time": "1h ago",
+          "flagged": true
+        },
+        {
+          "headline": "FERC Co-Location: Reply Briefs Due Today",
+          "summary": "Deadline for reply briefs in FERC's proceeding directing PJM to establish co-location rules for large loads with grid-connected generation. Final order expected in coming months.",
+          "source": "FERC.gov",
+          "time": "3h ago",
+          "flagged": false
+        },
+        {
+          "headline": "PA Data Center Energy Stakes — Grid Impact Analysis",
+          "summary": "Large data center load growth in PA would increase PJM capacity and transmission costs. Ratepayer protection — whether connection costs are socialized — is the core interest.",
+          "source": "Utility Dive",
+          "time": "5h ago",
+          "flagged": false
+        }
+      ]
+    }
+  ]
+}
