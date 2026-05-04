@@ -1,7 +1,7 @@
 {
-  "date": "2026-05-01",
+  "date": "2026-05-04",
   "type": "morning",
-  "generated_at": "2026-05-01T08:30:00-04:00",
+  "generated_at": "2026-05-04T08:30:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
@@ -9,83 +9,44 @@
       "count": 5,
       "stories": [
         {
-          "headline": "PA PUC votes 5-0 to advance large-load tariff framework for data centers",
-          "summary": "Chairman Steve DeFrank's amended final order, applying to customers over 50 MW (or 100 MW aggregate), directs EDCs toward a transparent cost-causation model so existing residential and small-business ratepayers don't subsidize speculative data-center build-out — a revised final order is due in coming days.",
-          "source": "POLITICO / PA PUC",
+          "headline": "Shapiro pressure forces PECO to withdraw rate case that would have hit 1.7M customers",
+          "summary": "PECO pulled its pending PUC filing that would have raised the average residential electric bill ~$20.08/month and gas bill ~$14.52/month starting 2027, after Shapiro sent an April 29 letter to 24 utility CEOs vowing to 'vocally and forcefully' oppose hikes.",
+          "source": "WHYY / Spotlight PA",
           "time": "Yesterday",
           "flagged": true,
-          "url": "https://www.puc.pa.gov/press-release/2025/puc-advances-plan-to-balance-data-center-growth-and-consumer-protection-11062025"
+          "url": "https://whyy.org/articles/peco-rate-hike-case-withdrawn-shapiro/"
         },
         {
-          "headline": "FirstEnergy CEO Tierney calls PJM's backstop auction design 'flawed'",
-          "summary": "On Wednesday's earnings call Brian Tierney said power-plant developers should contract directly with end-use data-center customers instead of going through PJM, and large loads should pay the utility for upgrades — pushback as PJM finalizes its Reliability Backstop Procurement.",
-          "source": "Utility Dive",
-          "time": "Apr 30",
+          "headline": "FERC's December co-location order forces PJM tariff rewrite — directly bearing on Susquehanna",
+          "summary": "FERC's Dec. 18, 2025 order found PJM's tariff 'unjust and unreasonable' for co-located load and ordered three new transmission services (Interim NITS, Firm and Non-Firm Contract Demand) plus a BTMG resource-adequacy threshold — the framework Talen-Amazon now has to operate under.",
+          "source": "K&L Gates / FERC",
+          "time": "Background",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/firstenergy-earnings-pjm-auction-affordability-data/818929/"
+          "url": "https://www.klgates.com/FERC-Orders-PJM-to-Reform-Tariff-for-Co-Located-Generation-and-Load-1-15-2026"
         },
         {
-          "headline": "Gas leads PJM's reopened queue at 106 GW of 220 GW total",
-          "summary": "PJM's first reformed-queue cycle drew 811 projects: 105.8 GW gas, 66.5 GW storage, 17.9 GW nuclear, 14.8 GW solar — a generation-mix signal directly relevant to Allegheny's PJM stake and 26/27 capacity-market dynamics.",
-          "source": "Utility Dive",
-          "time": "Apr 29",
+          "headline": "PJM 27/28 BRA cleared at $333.44/MW-day cap — still 6,623 MW short of reliability requirement",
+          "summary": "December's auction procured 134,479 MW UCAP (43% gas, 21% nuclear, 20% coal, 5% DR) at the FERC-approved cap, up 1.3% from the 26/27 result; peak load forecast jumped ~5,250 MW year-over-year, with ~5,100 MW of that from data centers.",
+          "source": "PJM Inside Lines",
+          "time": "Dec 17, 2025",
           "flagged": false,
-          "url": "https://www.utilitydive.com/news/pjm-interconnection-queue-gas-solar-nuclear/818824/"
+          "url": "https://insidelines.pjm.com/pjm-auction-procures-134479-mw-of-generation-resources/"
         },
         {
-          "headline": "Meta deal pushes Entergy's 4-year capital plan to $57B",
-          "summary": "Entergy disclosed a 30% jump in its capex plan to $57 billion through 2029, driven largely by a hyperscale Meta data-center commitment — another data point as PJM-region utilities and IPPs negotiate similar large-load PPAs.",
-          "source": "Utility Dive",
-          "time": "Apr 30",
+          "headline": "NRECA pushes Congress to lift RUS electric-loan authority by 50% for FY27",
+          "summary": "RUS Administrator Karl Elmshaeuser told NRECA's Legislative Conference the agency is again notifying Congress it will lend up to 25% above the program's $7B FY26 cap; NRECA wants statutory headroom raised to 50% as co-op load growth keeps outpacing infrastructure.",
+          "source": "America's Electric Cooperatives",
+          "time": "Last week",
           "flagged": false,
-          "url": "https://www.utilitydive.com/"
+          "url": "https://www.electric.coop/legislative-conference-agencies-discuss-work-to-bring-megawatts-onto-the-grid"
         },
         {
-          "headline": "NYT poll: voter hostility to data centers is bipartisan",
-          "summary": "New polling shows liberals and conservatives have both soured on data-center siting; the political backlash is shaping how PA, NJ, Virginia and Texas regulators write large-load tariffs and grid-cost-allocation rules.",
-          "source": "New York Times via PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.nytimes.com/"
-        }
-      ]
-    },
-    {
-      "id": "national-politics",
-      "label": "National Politics",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "House clears farm bill 224-200 capping 'hell of a week' for Johnson",
-          "summary": "Speaker Johnson muscled through FISA Section 702 (45-day patch), ended a 75-day DHS shutdown, passed the farm bill 224-200 and adopted the Senate budget resolution; reconciliation work resumes the week of May 11 with a June 1 Trump deadline.",
-          "source": "Punchbowl AM",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://punchbowl.news/"
-        },
-        {
-          "headline": "White House declares Iran war 'terminated' as 60-day War Powers clock expires",
-          "summary": "An administration official said an April 7 ceasefire reset the War Powers Resolution clock; Sen. Susan Collins broke with the GOP on Thursday's war-powers vote, warning the 60-day requirement is 'not a suggestion.'",
-          "source": "Punchbowl AM",
+          "headline": "Building-trades unions become public ally for tech giants on data-center buildout",
+          "summary": "Trades unions are scrambling to recruit apprentices for hyperscaler data-center projects and now echo the China-AI-race talking point, giving Microsoft, Amazon and Google a blue-collar voice in zoning and siting fights — including in PA where Bucks County is the latest flashpoint.",
+          "source": "AP via PoliticsPA",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/"
-        },
-        {
-          "headline": "Schumer's primary slump deepens as Mills cedes Maine to Platner",
-          "summary": "Sen. Martin Heinrich publicly urged Schumer and the DSCC to pull back from contested Iowa (June 2) and Michigan (Aug. 4) primaries after Maine Gov. Janet Mills exited; Schumer's pick Stevens trails McMorrow in Michigan polling.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
-        },
-        {
-          "headline": "Senate unanimously bans members and staff from prediction-market bets",
-          "summary": "Sen. Bernie Moreno's bill, drawing rare bipartisan praise from Schumer, prohibits congressional members and staff from wagering on platforms like Polymarket after a string of insider-trading concerns.",
-          "source": "Politico Playbook",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
+          "url": "https://www.politicspa.com/"
         }
       ]
     },
@@ -95,36 +56,75 @@
       "count": 4,
       "stories": [
         {
-          "headline": "Lt. Gov. Davis tells PA Teamsters Pennsylvania 'will never' be right-to-work",
-          "summary": "Speaking at the PA Conference of Teamsters in Hershey, Lt. Gov. Austin Davis pledged a Shapiro-Davis second term would block right-to-work, sharpening labor's role as the November contest takes shape against Garrity.",
-          "source": "The Center Square / PoliticsPA",
-          "time": "This week",
-          "flagged": false,
-          "url": "https://politicspa.com/"
-        },
-        {
-          "headline": "McCormick (R-Pa.) and Gillibrand (D-N.Y.) introduce prediction-markets bill",
-          "summary": "The bipartisan Senate measure would update federal commodities regulation as the Trump administration pushes CFTC jurisdiction over event-contract platforms — a notable McCormick play on a fast-moving financial-tech file.",
-          "source": "Semafor / PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.semafor.com/"
-        },
-        {
-          "headline": "Fetterman tells DHS Secretary Mullin he opposes ICE detention sites in Schuylkill, Berks",
-          "summary": "Sen. John Fetterman reiterated to new DHS Secretary Markwayne Mullin his opposition to opening ICE detention facilities in Schuylkill and Berks counties, repeating the position he gave former Secretary Kristi Noem.",
-          "source": "PennLive / PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.pennlive.com/"
-        },
-        {
-          "headline": "Allentown HD-22 Dem primary exposes party rift: Tiburcio vs. Gerlach",
-          "summary": "State Rep. Ana Tiburcio, who won February's special, faces progressive Allentown councilmember Ce-Ce Gerlach in a May 19 primary that's become a proxy fight between Democratic establishment and the progressive wing in Lehigh Valley.",
-          "source": "Morning Call / PoliticsPA",
+          "headline": "Today is the final day to register to vote in PA's May 19 primary",
+          "summary": "Steve Ulrich's Playbook leads with the registration deadline for the closed primary; key downballot races include the GOP primary in PA-1 (Fitzpatrick) and competitive Dem primaries in SD-16 (Lehigh/Bucks) where Bradley Merkl-Gump and Mark Pinsley are running to face Sen. Jarrett Coleman.",
+          "source": "PoliticsPA",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.mcall.com/"
+          "url": "https://www.politicspa.com/"
+        },
+        {
+          "headline": "Politico floats Fetterman party-switch scenario if Senate balance is razor-thin in November",
+          "summary": "Politico's piece — circulated in Monday's PoliticsPA Playbook — games out a post-election scenario where Trump and Senate Republicans pressure Fetterman to switch or go independent if Democrats net the four seats they need; Fetterman publicly says he's 'staying' a Democrat.",
+          "source": "Politico via PoliticsPA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politicspa.com/"
+        },
+        {
+          "headline": "Bucks County data-center fights become a 2026 election issue",
+          "summary": "Multiple pending data-center projects across Bucks municipalities are pulling township and county candidates into resident-vs-developer disputes — a leading edge of the broader PA siting/zoning fight that Allegheny and PREA distribution co-ops are watching as load applications spread.",
+          "source": "Bucks County Courier Times",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.buckscountycouriertimes.com/"
+        },
+        {
+          "headline": "Axios report alleges Shapiro quietly aided Garrity's 2024 Treasurer reelection over Dem Erin McClelland",
+          "summary": "PA-7 Dem candidate Bob Brooks, on a recording obtained by Axios, told college students Shapiro helped GOP Treasurer Stacy Garrity after McClelland criticized him as a potential VP pick — a story that could complicate Shapiro's standing with state Dems heading into May 19.",
+          "source": "PoliticsPA / Axios",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politicspa.com/"
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 4,
+      "stories": [
+        {
+          "headline": "Southern redistricting frenzy after Callais — LA suspends primaries, AL preps special session",
+          "summary": "Gov. Jeff Landry suspended Louisiana's already-begun House primaries to let Republicans redraw maps post-Callais; Alabama's Ivey called a special session pending a SCOTUS injunction lift; Tennessee, Florida and South Carolina are also in motion, with 12+ House seats potentially in play.",
+          "source": "Punchbowl News",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "Trump's 5,000-troop pullout from Germany draws bipartisan rebuke from Armed Services chairs",
+          "summary": "Senate Armed Services Chair Roger Wicker and House Chair Mike Rogers issued a joint statement saying they are 'very concerned'; Sen. Ruben Gallego said NDAA Section 1249 requires presidential certifications before drawdowns below 76,000 troops in Europe and Dems plan to invoke it.",
+          "source": "Punchbowl News",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "ICE-thanks line in June 2025 Boulder resolution roils Senate Dem primaries",
+          "summary": "Reps. Haley Stevens (MI), Angie Craig (MN), Raja Krishnamoorthi (IL) and April McClain Delaney (MD) are taking incoming from primary opponents over their votes for the resolution's final line thanking ICE — a vote 75 House Democrats joined and that Sen. McMorrow weaponized at an AFT forum Saturday.",
+          "source": "Punchbowl News",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "Indiana and Ohio hold primaries Tuesday — OH-9 GOP race the marquee fight to take on Kaptur",
+          "summary": "Former state Rep. Derek Merrin (the 2024 nominee) is favored over state Rep. Josh Williams and former ICE official Madison Sheahan in the GOP primary to challenge Marcy Kaptur; Trump is also targeting Indiana state senators who blocked the redistricting push.",
+          "source": "Punchbowl News",
+          "time": "Tomorrow",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
         }
       ]
     },
@@ -134,41 +134,41 @@
       "count": 3,
       "stories": [
         {
-          "headline": "Cardinals sweep Pirates with 10-5 rout; Skenes falls to 0-5 vs. St. Louis",
-          "summary": "JJ Wetherholt led off with a homer off Paul Skenes and Jordan Walker added an early shot as St. Louis completed a four-game sweep at PNC; Skenes (4-2) gave up five runs, four earned, in five innings. Pirates open Cincinnati series tonight.",
+          "headline": "Pirates sweep Reds with 1-0 walk-off, Cruz singles in Griffin to push to 19-16",
+          "summary": "Rookie SS Konnor Griffin doubled off Tony Santillan with two outs in the 8th and Oneil Cruz singled him in; Braxton Ashcraft turned in a no-decision gem, Gregory Soto (3-0) got the last four outs, and Reds starter Chase Burns lowered his ERA to 2.20 in seven-plus.",
           "source": "ESPN",
           "time": "Last night",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap?gameId=401815152"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815188/reds-pirates"
         },
         {
-          "headline": "Penguins eliminated by Flyers in Game 6 OT, 1-0",
-          "summary": "Cam York's overtime goal Wednesday ended Pittsburgh's first-round series 4-2 after Arturs Silovs and Ivan Vladar dueled scoreless through 60 minutes; Philadelphia opens Round 2 at Carolina tomorrow.",
-          "source": "NHL.com",
-          "time": "Wed",
+          "headline": "Steelers OTAs open May 18 under McCarthy with shorter blocks than Tomlin era",
+          "summary": "First-year HC Mike McCarthy's offseason program starts a week earlier than 2025 and never groups more than two OTAs in a row (May 18, 20-21, 26, 28-29; June 8-9, 11-12); the team also placed a UFA tender on Aaron Rodgers, which insiders frame as protective rather than active.",
+          "source": "Steelers.com / Steelers Depot",
+          "time": "Recent",
           "flagged": false,
-          "url": "https://www.nhl.com/news/philadelphia-flyers-pittsburgh-penguins-game-6-recap-april-29-2026"
+          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
         },
         {
-          "headline": "Steelers' 10-pick draft class led by Iheanachor (OT), Bernard (WR), Allar (QB)",
-          "summary": "Pittsburgh took Arizona State OT Max Iheanachor at No. 21, traded up for Alabama WR Germie Bernard at No. 47, and grabbed Penn State QB Drew Allar in the third round — Omar Khan's first draft for new HC Mike McCarthy.",
-          "source": "ESPN / Steelers.com",
+          "headline": "Penguins enter offseason with 16 UFAs and Dubas weighing Malkin, Skinner futures",
+          "summary": "After a first-round playoff exit to the Flyers, GM Kyle Dubas faces decisions on Evgeni Malkin (likely a short-term legacy deal) and starter Stuart Skinner (could walk with Sergei Murashov and Joel Blomqvist in the system); the Pens are expected to lean on their stockpiled draft capital.",
+          "source": "The Hockey News / Post-Gazette",
           "time": "This week",
           "flagged": false,
-          "url": "https://www.espn.com/nfl/draft2026/story/_/id/48452091/pittsburgh-steelers-nfl-draft-picks-2026-selection-analysis-depth-chart"
+          "url": "https://www.post-gazette.com/sports/penguins/2026/04/30/penguins-offseason-preview-sidney-crosby-evgeni-malkin-kris-letang/stories/202604300050"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "Apr 30 close",
+    "as_of": "May 1 close",
     "rows": [
       { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "n/a", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.72/MMBtu", "change": "—" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$105.07/bbl", "change": "-1.7%" }
+      { "market": "WTI Crude", "price": "$106.00/bbl", "change": "—" }
     ]
   }
 }
