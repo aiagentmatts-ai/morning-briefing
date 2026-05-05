@@ -1,88 +1,41 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "type": "morning",
-  "generated_at": "2026-05-04T08:30:00-04:00",
+  "generated_at": "2026-05-05T07:30:00-04:00",
   "sections": [
-    {
-      "id": "energy-industry",
-      "label": "Energy Industry",
-      "count": 5,
-      "stories": [
-        {
-          "headline": "Shapiro pressure forces PECO to withdraw rate case that would have hit 1.7M customers",
-          "summary": "PECO pulled its pending PUC filing that would have raised the average residential electric bill ~$20.08/month and gas bill ~$14.52/month starting 2027, after Shapiro sent an April 29 letter to 24 utility CEOs vowing to 'vocally and forcefully' oppose hikes.",
-          "source": "WHYY / Spotlight PA",
-          "time": "Yesterday",
-          "flagged": true,
-          "url": "https://whyy.org/articles/peco-rate-hike-case-withdrawn-shapiro/"
-        },
-        {
-          "headline": "FERC's December co-location order forces PJM tariff rewrite — directly bearing on Susquehanna",
-          "summary": "FERC's Dec. 18, 2025 order found PJM's tariff 'unjust and unreasonable' for co-located load and ordered three new transmission services (Interim NITS, Firm and Non-Firm Contract Demand) plus a BTMG resource-adequacy threshold — the framework Talen-Amazon now has to operate under.",
-          "source": "K&L Gates / FERC",
-          "time": "Background",
-          "flagged": true,
-          "url": "https://www.klgates.com/FERC-Orders-PJM-to-Reform-Tariff-for-Co-Located-Generation-and-Load-1-15-2026"
-        },
-        {
-          "headline": "PJM 27/28 BRA cleared at $333.44/MW-day cap — still 6,623 MW short of reliability requirement",
-          "summary": "December's auction procured 134,479 MW UCAP (43% gas, 21% nuclear, 20% coal, 5% DR) at the FERC-approved cap, up 1.3% from the 26/27 result; peak load forecast jumped ~5,250 MW year-over-year, with ~5,100 MW of that from data centers.",
-          "source": "PJM Inside Lines",
-          "time": "Dec 17, 2025",
-          "flagged": false,
-          "url": "https://insidelines.pjm.com/pjm-auction-procures-134479-mw-of-generation-resources/"
-        },
-        {
-          "headline": "NRECA pushes Congress to lift RUS electric-loan authority by 50% for FY27",
-          "summary": "RUS Administrator Karl Elmshaeuser told NRECA's Legislative Conference the agency is again notifying Congress it will lend up to 25% above the program's $7B FY26 cap; NRECA wants statutory headroom raised to 50% as co-op load growth keeps outpacing infrastructure.",
-          "source": "America's Electric Cooperatives",
-          "time": "Last week",
-          "flagged": false,
-          "url": "https://www.electric.coop/legislative-conference-agencies-discuss-work-to-bring-megawatts-onto-the-grid"
-        },
-        {
-          "headline": "Building-trades unions become public ally for tech giants on data-center buildout",
-          "summary": "Trades unions are scrambling to recruit apprentices for hyperscaler data-center projects and now echo the China-AI-race talking point, giving Microsoft, Amazon and Google a blue-collar voice in zoning and siting fights — including in PA where Bucks County is the latest flashpoint.",
-          "source": "AP via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
-        }
-      ]
-    },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
       "count": 4,
       "stories": [
         {
-          "headline": "Today is the final day to register to vote in PA's May 19 primary",
-          "summary": "Steve Ulrich's Playbook leads with the registration deadline for the closed primary; key downballot races include the GOP primary in PA-1 (Fitzpatrick) and competitive Dem primaries in SD-16 (Lehigh/Bucks) where Bradley Merkl-Gump and Mark Pinsley are running to face Sen. Jarrett Coleman.",
+          "headline": "Shapiro tells 24 PA utility CEOs the 'regulated utility model is broken'",
+          "summary": "In an April 29 letter, Gov. Shapiro told CEOs of 24 electric, gas and water utilities that 13 PA utilities sought $975M in 2025 rate increases after earning $1.4B in 2024 profits, and pushed for utilities to bid out their cost of equity through a competitive process — a structural change that would compress regulated returns by several points.",
+          "source": "Spotlight PA / WHYY",
+          "time": "Yesterday",
+          "flagged": true,
+          "url": "https://www.spotlightpa.org/news/2026/05/pennsylvania-shapiro-utility-rate-hikes-capitol/"
+        },
+        {
+          "headline": "Senate Consumer Protection Committee meets Wednesday at 10:45 a.m.",
+          "summary": "PA Senate Consumer Protection & Professional Licensure Committee is scheduled to meet May 6 at 10:45 a.m. in Room 461, Main Capitol — agenda not yet posted; worth tracking given Shapiro's parallel pressure on regulated utilities.",
+          "source": "PA Senate",
+          "time": "Tomorrow",
+          "flagged": false,
+          "url": "https://consumer.pasenategop.com/"
+        },
+        {
+          "headline": "Garrity says she'd veto recreational cannabis if elected governor",
+          "summary": "State Treasurer Stacy Garrity, the probable GOP gubernatorial nominee, told NBC10 Philadelphia she would veto any recreational cannabis legalization bill that reached her desk; the Garrity campaign also launched a $500K opening TV buy with two ads, 'Mr. Incompetent' and 'Service and Leadership.'",
           "source": "PoliticsPA",
           "time": "Today",
           "flagged": false,
           "url": "https://www.politicspa.com/"
         },
         {
-          "headline": "Politico floats Fetterman party-switch scenario if Senate balance is razor-thin in November",
-          "summary": "Politico's piece — circulated in Monday's PoliticsPA Playbook — games out a post-election scenario where Trump and Senate Republicans pressure Fetterman to switch or go independent if Democrats net the four seats they need; Fetterman publicly says he's 'staying' a Democrat.",
-          "source": "Politico via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
-        },
-        {
-          "headline": "Bucks County data-center fights become a 2026 election issue",
-          "summary": "Multiple pending data-center projects across Bucks municipalities are pulling township and county candidates into resident-vs-developer disputes — a leading edge of the broader PA siting/zoning fight that Allegheny and PREA distribution co-ops are watching as load applications spread.",
-          "source": "Bucks County Courier Times",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.buckscountycouriertimes.com/"
-        },
-        {
-          "headline": "Axios report alleges Shapiro quietly aided Garrity's 2024 Treasurer reelection over Dem Erin McClelland",
-          "summary": "PA-7 Dem candidate Bob Brooks, on a recording obtained by Axios, told college students Shapiro helped GOP Treasurer Stacy Garrity after McClelland criticized him as a potential VP pick — a story that could complicate Shapiro's standing with state Dems heading into May 19.",
-          "source": "PoliticsPA / Axios",
+          "headline": "DCCC endorsements in contested PA primaries spark intra-Democratic fight",
+          "summary": "DCCC endorsed candidates still in contested primaries — including bypassing Latino-preferred Carol Obando-Derstine in PA — drawing public criticism from BOLD PAC; PA-7 candidate Lamont McClure said being passed over wouldn't affect his relationship with leadership if he beats GOP Rep. Ryan Mackenzie.",
+          "source": "Axios / Semafor (via PoliticsPA)",
           "time": "Today",
           "flagged": false,
           "url": "https://www.politicspa.com/"
@@ -90,39 +43,70 @@
       ]
     },
     {
-      "id": "national-politics",
-      "label": "National Politics",
+      "id": "energy-industry",
+      "label": "Energy Industry",
       "count": 4,
       "stories": [
         {
-          "headline": "Southern redistricting frenzy after Callais — LA suspends primaries, AL preps special session",
-          "summary": "Gov. Jeff Landry suspended Louisiana's already-begun House primaries to let Republicans redraw maps post-Callais; Alabama's Ivey called a special session pending a SCOTUS injunction lift; Tennessee, Florida and South Carolina are also in motion, with 12+ House seats potentially in play.",
+          "headline": "PJM's reopened interconnection queue takes in 800+ projects totaling 220 GW; gas-fired leads at 106 GW",
+          "summary": "PJM's revamped interconnection queue, now reopened, drew more than 800 projects totaling roughly 220 GW; natural gas accounts for 106 GW — the largest single category — signaling where developers see the easiest path to capacity revenue at current prices.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
+        },
+        {
+          "headline": "PJM market monitor opposes 1.3-GW Hull Street/Rockland gas plant deal serving data centers",
+          "summary": "Monitoring Analytics is pushing back on a 1.3-GW gas plant deal between Hull Street and Rockland Capital, warning the arrangement would 'draw capacity out of the PJM market to serve data centers' — the same load-versus-grid tension at the heart of the Talen-Amazon Susquehanna fight.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
+        },
+        {
+          "headline": "Talen-Amazon Susquehanna colocation expected to shift 'front-of-the-meter' this spring",
+          "summary": "After FERC's November 2024 rejection of the amended ISA, Talen and AWS are moving the 300-MW colo arrangement at Susquehanna to a front-of-the-meter framework — directly relevant to Allegheny Electric Cooperative's 10% stake in the plant — with the transition expected once transmission upgrades finish in spring 2026.",
+          "source": "Utility Dive / World Nuclear News",
+          "time": "Recent",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/"
+        },
+        {
+          "headline": "PJM 2027/2028 BRA cleared at $333.44/MW-day cap RTO-wide",
+          "summary": "PJM's 2027/2028 Base Residual Auction (cleared Dec. 17, 2025) procured 134,479 MW at the FERC-approved $333.44/MW-day cap across all four LDAs, up 1.3% from the 2026/2027 BRA's $329.17 — capacity revenue stays at the cap heading into the next auction.",
+          "source": "PJM",
+          "time": "Reference",
+          "flagged": false,
+          "url": "https://insidelines.pjm.com/pjm-auction-procures-134479-mw-of-generation-resources/"
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 3,
+      "stories": [
+        {
+          "headline": "Indiana primary today is Trump's biggest test of GOP grip in 2026",
+          "summary": "Indiana Republicans pick state Senate primary winners today after Trump vowed retribution against eight GOP senators who blocked a White House-driven gerrymander; Politico's measure: Trump's side needs to win a majority of the eight target seats to claim victory, with results expected by 8 p.m. ET.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politico.com/playbook"
+        },
+        {
+          "headline": "Senate GOP rolls out $72B immigration reconciliation package",
+          "summary": "Senate Judiciary and HSGAC released text for a $72B reconciliation bill: $38.2B for ICE, $26B for CBP, $5B extra for DHS, $1.5B for DOJ, and $1B for the Secret Service tied to Trump's White House ballroom security; Senate GOP leaders aim to put it on the floor the week of May 18.",
           "source": "Punchbowl News",
           "time": "Today",
           "flagged": false,
           "url": "https://punchbowl.news/"
         },
         {
-          "headline": "Trump's 5,000-troop pullout from Germany draws bipartisan rebuke from Armed Services chairs",
-          "summary": "Senate Armed Services Chair Roger Wicker and House Chair Mike Rogers issued a joint statement saying they are 'very concerned'; Sen. Ruben Gallego said NDAA Section 1249 requires presidential certifications before drawdowns below 76,000 troops in Europe and Dems plan to invoke it.",
+          "headline": "Iowa Senate Democratic primary turns nasty ahead of June 2",
+          "summary": "State Sen. Zach Wahls (Warren-backed) and state Rep. Josh Turek face off in their first head-to-head debate tonight; VoteVets is dropping another $800K on a pro-Turek ad, and the winner takes on GOP Rep. Ashley Hinson in a state Trump carried by 13 in 2024.",
           "source": "Punchbowl News",
           "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news/"
-        },
-        {
-          "headline": "ICE-thanks line in June 2025 Boulder resolution roils Senate Dem primaries",
-          "summary": "Reps. Haley Stevens (MI), Angie Craig (MN), Raja Krishnamoorthi (IL) and April McClain Delaney (MD) are taking incoming from primary opponents over their votes for the resolution's final line thanking ICE — a vote 75 House Democrats joined and that Sen. McMorrow weaponized at an AFT forum Saturday.",
-          "source": "Punchbowl News",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news/"
-        },
-        {
-          "headline": "Indiana and Ohio hold primaries Tuesday — OH-9 GOP race the marquee fight to take on Kaptur",
-          "summary": "Former state Rep. Derek Merrin (the 2024 nominee) is favored over state Rep. Josh Williams and former ICE official Madison Sheahan in the GOP primary to challenge Marcy Kaptur; Trump is also targeting Indiana state senators who blocked the redistricting push.",
-          "source": "Punchbowl News",
-          "time": "Tomorrow",
           "flagged": false,
           "url": "https://punchbowl.news/"
         }
@@ -134,41 +118,41 @@
       "count": 3,
       "stories": [
         {
-          "headline": "Pirates sweep Reds with 1-0 walk-off, Cruz singles in Griffin to push to 19-16",
-          "summary": "Rookie SS Konnor Griffin doubled off Tony Santillan with two outs in the 8th and Oneil Cruz singled him in; Braxton Ashcraft turned in a no-decision gem, Gregory Soto (3-0) got the last four outs, and Reds starter Chase Burns lowered his ERA to 2.20 in seven-plus.",
-          "source": "ESPN",
-          "time": "Last night",
+          "headline": "Pirates complete sweep of Reds on Cruz's 8th-inning RBI single, 1-0",
+          "summary": "Oneil Cruz drove home the only run of a Sunday pitchers' duel after rookie Konnor Griffin's two-out double and a Jake Mangum walk; Braxton Ashcraft led the staff and the Pirates (19-16) head to Arizona for a Tue–Thu series at the Diamondbacks.",
+          "source": "AP / WPXI",
+          "time": "Sunday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815188/reds-pirates"
+          "url": "https://www.wpxi.com/sports/mlb/pittsburgh-pirates/pirates-complete-sweep-reds-epic-pitchers-duel-cruz-comes-through/DE4C6Y342NFPXFKABG7PHQZLEU/"
         },
         {
-          "headline": "Steelers OTAs open May 18 under McCarthy with shorter blocks than Tomlin era",
-          "summary": "First-year HC Mike McCarthy's offseason program starts a week earlier than 2025 and never groups more than two OTAs in a row (May 18, 20-21, 26, 28-29; June 8-9, 11-12); the team also placed a UFA tender on Aaron Rodgers, which insiders frame as protective rather than active.",
-          "source": "Steelers.com / Steelers Depot",
-          "time": "Recent",
+          "headline": "Steelers give Aaron Rodgers May 18 OTA deadline to decide on 2026",
+          "summary": "Steelers asked Rodgers for a decision by the May 18 OTA start; in his absence, second-year QB Will Howard sits atop the depth chart ahead of Mason Rudolph at this week's voluntary minicamp under new HC Mike McCarthy.",
+          "source": "CBS Sports / Steelers Depot",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
+          "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-steelers-timeline-updates-latest-news/"
         },
         {
-          "headline": "Penguins enter offseason with 16 UFAs and Dubas weighing Malkin, Skinner futures",
-          "summary": "After a first-round playoff exit to the Flyers, GM Kyle Dubas faces decisions on Evgeni Malkin (likely a short-term legacy deal) and starter Stuart Skinner (could walk with Sergei Murashov and Joel Blomqvist in the system); the Pens are expected to lean on their stockpiled draft capital.",
-          "source": "The Hockey News / Post-Gazette",
-          "time": "This week",
+          "headline": "Penguins enter offseason with 14 UFAs, including Malkin and Skinner",
+          "summary": "After a first-round playoff exit to the Flyers, the Penguins face decisions on 14 pending UFAs (Malkin, Mantha, Acciari, Dewar, Skinner) and 6 RFAs; Arturs Šilovs' postseason (1.52 GAA, .939 SV%) complicates the goaltending plan.",
+          "source": "The Hockey News",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.post-gazette.com/sports/penguins/2026/04/30/penguins-offseason-preview-sidney-crosby-evgeni-malkin-kris-letang/stories/202604300050"
+          "url": "https://thehockeynews.com/nhl/pittsburgh-penguins/players/who-stays-who-goes-for-penguins-in-2026-27"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 1 close",
+    "as_of": "May 4 close",
     "rows": [
       { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.72/MMBtu", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.75/MMBtu", "change": "+2.0%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$106.00/bbl", "change": "—" }
+      { "market": "WTI Crude", "price": "$105.00/bbl", "change": "+3.0%" }
     ]
   }
 }
