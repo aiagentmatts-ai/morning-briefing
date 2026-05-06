@@ -1,42 +1,34 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "type": "morning",
-  "generated_at": "2026-05-05T07:30:00-04:00",
+  "generated_at": "2026-05-06T07:30:00-04:00",
   "sections": [
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 4,
+      "count": 3,
       "stories": [
         {
-          "headline": "Shapiro tells 24 PA utility CEOs the 'regulated utility model is broken'",
-          "summary": "In an April 29 letter, Gov. Shapiro told CEOs of 24 electric, gas and water utilities that 13 PA utilities sought $975M in 2025 rate increases after earning $1.4B in 2024 profits, and pushed for utilities to bid out their cost of equity through a competitive process — a structural change that would compress regulated returns by several points.",
-          "source": "Spotlight PA / WHYY",
-          "time": "Yesterday",
+          "headline": "PA House passes HB 2233 unanimously, requiring utilities to study advanced transmission tech",
+          "summary": "The Pennsylvania House on Monday passed HB 2233 by a unanimous vote, letting the PUC order utilities and other transmission owners to add advanced transmission technologies — high-performance conductors, dynamic line ratings, advanced power flow controllers, topology optimization — to upgrade or new transmission projects.",
+          "source": "Utility Dive",
+          "time": "Monday",
           "flagged": true,
-          "url": "https://www.spotlightpa.org/news/2026/05/pennsylvania-shapiro-utility-rate-hikes-capitol/"
+          "url": "https://www.utilitydive.com/news/pennsylvania-house-advanced-transmission-technology-bill-gets/819303/"
         },
         {
-          "headline": "Senate Consumer Protection Committee meets Wednesday at 10:45 a.m.",
-          "summary": "PA Senate Consumer Protection & Professional Licensure Committee is scheduled to meet May 6 at 10:45 a.m. in Room 461, Main Capitol — agenda not yet posted; worth tracking given Shapiro's parallel pressure on regulated utilities.",
-          "source": "PA Senate",
-          "time": "Tomorrow",
-          "flagged": false,
-          "url": "https://consumer.pasenategop.com/"
-        },
-        {
-          "headline": "Garrity says she'd veto recreational cannabis if elected governor",
-          "summary": "State Treasurer Stacy Garrity, the probable GOP gubernatorial nominee, told NBC10 Philadelphia she would veto any recreational cannabis legalization bill that reached her desk; the Garrity campaign also launched a $500K opening TV buy with two ads, 'Mr. Incompetent' and 'Service and Leadership.'",
-          "source": "PoliticsPA",
-          "time": "Today",
+          "headline": "PA Turnpike's Allegheny Mountain bypass plan draws Somerset County opposition",
+          "summary": "A Turnpike Commission proposal to reroute the cross-state highway by blasting a 1,000-foot-wide cut through Allegheny Mountain in Somerset County — Somerset REC service territory — faces opposition from local leaders who say it would scar a pristine wilderness corridor.",
+          "source": "Penn Capital-Star (via PoliticsPA)",
+          "time": "Yesterday",
           "flagged": false,
           "url": "https://www.politicspa.com/"
         },
         {
-          "headline": "DCCC endorsements in contested PA primaries spark intra-Democratic fight",
-          "summary": "DCCC endorsed candidates still in contested primaries — including bypassing Latino-preferred Carol Obando-Derstine in PA — drawing public criticism from BOLD PAC; PA-7 candidate Lamont McClure said being passed over wouldn't affect his relationship with leadership if he beats GOP Rep. Ryan Mackenzie.",
-          "source": "Axios / Semafor (via PoliticsPA)",
-          "time": "Today",
+          "headline": "Rabb votes against PA sex-trafficking bills two weeks before PA-3 primary",
+          "summary": "State Rep. Chris Rabb, in a tight three-way Democratic primary for Philadelphia's 3rd Congressional seat, voted Monday against two PA House bills increasing penalties for child sexual abuse and trafficking, saying the measures wouldn't achieve their stated purposes — a vote his primary opponents are already using.",
+          "source": "Philadelphia Inquirer (via PoliticsPA)",
+          "time": "Monday",
           "flagged": false,
           "url": "https://www.politicspa.com/"
         }
@@ -45,39 +37,31 @@
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 4,
+      "count": 3,
       "stories": [
         {
-          "headline": "PJM's reopened interconnection queue takes in 800+ projects totaling 220 GW; gas-fired leads at 106 GW",
-          "summary": "PJM's revamped interconnection queue, now reopened, drew more than 800 projects totaling roughly 220 GW; natural gas accounts for 106 GW — the largest single category — signaling where developers see the easiest path to capacity revenue at current prices.",
+          "headline": "NERC issues rare Level 3 alert mandating action on data center load losses",
+          "summary": "NERC issued its highest-tier Level 3 alert May 4 with seven required actions for transmission planners, operators and balancing authorities after multiple events where 1+ GW of data center load disconnected in seconds; entities must acknowledge by May 11 and respond by Aug. 3.",
           "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "PJM market monitor opposes 1.3-GW Hull Street/Rockland gas plant deal serving data centers",
-          "summary": "Monitoring Analytics is pushing back on a 1.3-GW gas plant deal between Hull Street and Rockland Capital, warning the arrangement would 'draw capacity out of the PJM market to serve data centers' — the same load-versus-grid tension at the heart of the Talen-Amazon Susquehanna fight.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "Talen-Amazon Susquehanna colocation expected to shift 'front-of-the-meter' this spring",
-          "summary": "After FERC's November 2024 rejection of the amended ISA, Talen and AWS are moving the 300-MW colo arrangement at Susquehanna to a front-of-the-meter framework — directly relevant to Allegheny Electric Cooperative's 10% stake in the plant — with the transition expected once transmission upgrades finish in spring 2026.",
-          "source": "Utility Dive / World Nuclear News",
-          "time": "Recent",
+          "time": "Monday",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/"
+          "url": "https://www.utilitydive.com/news/nerc-issues-rare-level-3-alert-over-data-center-load-losses/819295/"
         },
         {
-          "headline": "PJM 2027/2028 BRA cleared at $333.44/MW-day cap RTO-wide",
-          "summary": "PJM's 2027/2028 Base Residual Auction (cleared Dec. 17, 2025) procured 134,479 MW at the FERC-approved $333.44/MW-day cap across all four LDAs, up 1.3% from the 2026/2027 BRA's $329.17 — capacity revenue stays at the cap heading into the next auction.",
-          "source": "PJM",
-          "time": "Reference",
+          "headline": "Caterpillar to triple power generation capacity, raises 2030 targets on AI load growth",
+          "summary": "Caterpillar said it will triple its power generation manufacturing capacity and raised its 2030 financial targets, citing data center and AI-driven backup and prime power demand — the latest equipment-side signal that PJM-area gas turbine and reciprocating engine supply remains tight.",
+          "source": "Manufacturing Dive (via Utility Dive)",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://insidelines.pjm.com/pjm-auction-procures-134479-mw-of-generation-resources/"
+          "url": "https://www.manufacturingdive.com/news/caterpillar-triple-power-generation-capacity-raises-2030-targets-q1-2026-earnings/819078/"
+        },
+        {
+          "headline": "California subpoenas Golden State Wind over Trump offshore lease deal",
+          "summary": "California's AG subpoenaed Golden State Wind, the lessee of one of the state's three federal offshore wind areas, seeking documents on its dealings with the Trump administration after the developer reached a private deal Albany officials say bypassed state permitting.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
         }
       ]
     },
@@ -87,24 +71,24 @@
       "count": 3,
       "stories": [
         {
-          "headline": "Indiana primary today is Trump's biggest test of GOP grip in 2026",
-          "summary": "Indiana Republicans pick state Senate primary winners today after Trump vowed retribution against eight GOP senators who blocked a White House-driven gerrymander; Politico's measure: Trump's side needs to win a majority of the eight target seats to claim victory, with results expected by 8 p.m. ET.",
-          "source": "Politico Playbook",
-          "time": "Today",
+          "headline": "Trump-backed challengers oust at least 5 of 7 Indiana state senators in redistricting revenge",
+          "summary": "Trump-aligned PACs spent roughly $8M and defeated at least five of seven targeted Indiana GOP state senators — including Senate caucus chair Travis Holdman — punishing those who blocked his 2025 mid-decade redistricting demand and signaling South Carolina, Tennessee, Louisiana and Alabama legislators eyeing the same fight.",
+          "source": "Politico Playbook / Punchbowl News",
+          "time": "Last night",
           "flagged": false,
           "url": "https://www.politico.com/playbook"
         },
         {
-          "headline": "Senate GOP rolls out $72B immigration reconciliation package",
-          "summary": "Senate Judiciary and HSGAC released text for a $72B reconciliation bill: $38.2B for ICE, $26B for CBP, $5B extra for DHS, $1.5B for DOJ, and $1B for the Secret Service tied to Trump's White House ballroom security; Senate GOP leaders aim to put it on the floor the week of May 18.",
-          "source": "Punchbowl News",
-          "time": "Today",
+          "headline": "Trump pauses 'Project Freedom' Strait of Hormuz mission, citing Iran agreement progress",
+          "summary": "Trump abruptly suspended the U.S. effort to escort civilian shipping through the Strait of Hormuz on Tuesday, saying talks with Iran could yield a finalized agreement; the Navy blockade of Iranian ports continues, and oil prices eased on the announcement.",
+          "source": "Punchbowl News / Politico",
+          "time": "Last night",
           "flagged": false,
           "url": "https://punchbowl.news/"
         },
         {
-          "headline": "Iowa Senate Democratic primary turns nasty ahead of June 2",
-          "summary": "State Sen. Zach Wahls (Warren-backed) and state Rep. Josh Turek face off in their first head-to-head debate tonight; VoteVets is dropping another $800K on a pro-Turek ad, and the winner takes on GOP Rep. Ashley Hinson in a state Trump carried by 13 in 2024.",
+          "headline": "Senate Judiciary moves $72B reconciliation markup toward May 19; floor week of May 18",
+          "summary": "Chair Chuck Grassley placed the $72B ICE/CBP/DHS reconciliation text on Senate Judiciary's agenda for May 19, with HSGAC's Rand Paul expected to mark up his portion this month; GOP leaders aim to bring the package to the Senate floor the week of May 18.",
           "source": "Punchbowl News",
           "time": "Today",
           "flagged": false,
@@ -115,44 +99,36 @@
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Pirates complete sweep of Reds on Cruz's 8th-inning RBI single, 1-0",
-          "summary": "Oneil Cruz drove home the only run of a Sunday pitchers' duel after rookie Konnor Griffin's two-out double and a Jake Mangum walk; Braxton Ashcraft led the staff and the Pirates (19-16) head to Arizona for a Tue–Thu series at the Diamondbacks.",
-          "source": "AP / WPXI",
-          "time": "Sunday",
+          "headline": "Pirates blanked 9-0 by Diamondbacks as Eduardo Rodriguez tosses 7 shutout innings",
+          "summary": "Eduardo Rodriguez allowed two hits over seven innings with seven strikeouts; Geraldo Perdomo and Gabriel Moreno each doubled in Arizona's five-run sixth as the Pirates (19-17) dropped the series opener 9-0, their largest deficit of the season; Paul Skenes (4-2, 3.18) goes tonight.",
+          "source": "AP / ESPN",
+          "time": "Last night",
           "flagged": false,
-          "url": "https://www.wpxi.com/sports/mlb/pittsburgh-pirates/pirates-complete-sweep-reds-epic-pitchers-duel-cruz-comes-through/DE4C6Y342NFPXFKABG7PHQZLEU/"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815227/pirates-diamondbacks"
         },
         {
-          "headline": "Steelers give Aaron Rodgers May 18 OTA deadline to decide on 2026",
-          "summary": "Steelers asked Rodgers for a decision by the May 18 OTA start; in his absence, second-year QB Will Howard sits atop the depth chart ahead of Mason Rudolph at this week's voluntary minicamp under new HC Mike McCarthy.",
-          "source": "CBS Sports / Steelers Depot",
-          "time": "Yesterday",
+          "headline": "Malkin's camp setting Dubas meeting this week to discuss Penguins future",
+          "summary": "Per The Athletic's Josh Yohe, Malkin's representatives are reaching out to GM Kyle Dubas this week to lock down an in-person meeting on a new contract; Malkin (61 points in 56 games) becomes a UFA July 1 and said at exit interviews he wants one more NHL year, in Pittsburgh or elsewhere.",
+          "source": "The Hockey News / The Athletic",
+          "time": "This week",
           "flagged": false,
-          "url": "https://www.cbssports.com/nfl/news/aaron-rodgers-steelers-timeline-updates-latest-news/"
-        },
-        {
-          "headline": "Penguins enter offseason with 14 UFAs, including Malkin and Skinner",
-          "summary": "After a first-round playoff exit to the Flyers, the Penguins face decisions on 14 pending UFAs (Malkin, Mantha, Acciari, Dewar, Skinner) and 6 RFAs; Arturs Šilovs' postseason (1.52 GAA, .939 SV%) complicates the goaltending plan.",
-          "source": "The Hockey News",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://thehockeynews.com/nhl/pittsburgh-penguins/players/who-stays-who-goes-for-penguins-in-2026-27"
+          "url": "https://thehockeynews.com/nhl/pittsburgh-penguins/community/latest-news/report-malkin-camp-to-touch-base-with-dubas-this-week"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 4 close",
+    "as_of": "May 5 close",
     "rows": [
       { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.75/MMBtu", "change": "+2.0%" },
+      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+2.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$105.00/bbl", "change": "+3.0%" }
+      { "market": "WTI Crude", "price": "$102.27/bbl", "change": "-2.6%" }
     ]
   }
 }
