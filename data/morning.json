@@ -149,14 +149,14 @@
     }
   ],
   "market_data": {
-    "as_of": "May 6 close",
+    "as_of": "May 5 DA / May 4 spot",
     "rows": [
-      { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
-      { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
+      { "market": "PJM West Hub (DA)", "price": "$51.69/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (DA)", "price": "$40.89/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$96.00/bbl", "change": "-6.0%" }
+      { "market": "WTI Crude", "price": "$89.83/bbl", "change": "-12.2%" }
     ]
   }
 }
