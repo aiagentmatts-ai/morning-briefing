@@ -1,134 +1,162 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "type": "morning",
-  "generated_at": "2026-05-06T07:30:00-04:00",
+  "generated_at": "2026-05-07T07:30:00-04:00",
   "sections": [
     {
-      "id": "pa-politics",
-      "label": "PA & NJ Politics",
-      "count": 3,
+      "id": "energy-industry",
+      "label": "Energy Industry",
+      "count": 4,
       "stories": [
         {
-          "headline": "PA House passes HB 2233 unanimously, requiring utilities to study advanced transmission tech",
-          "summary": "The Pennsylvania House on Monday passed HB 2233 by a unanimous vote, letting the PUC order utilities and other transmission owners to add advanced transmission technologies — high-performance conductors, dynamic line ratings, advanced power flow controllers, topology optimization — to upgrade or new transmission projects.",
+          "headline": "AEP threatens PJM, SPP exit over slow generation interconnection",
+          "summary": "AEP CEO Bill Fehrman told investors May 5 the utility is reviewing whether to leave PJM and SPP, citing interconnection delays as 16 GW of contracted PJM data-center load awaits power.",
           "source": "Utility Dive",
-          "time": "Monday",
+          "time": "Tuesday",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/pennsylvania-house-advanced-transmission-technology-bill-gets/819303/"
+          "url": "https://www.utilitydive.com/news/aep-pjm-spp-data-centers-earnings/819419/"
         },
         {
-          "headline": "PA Turnpike's Allegheny Mountain bypass plan draws Somerset County opposition",
-          "summary": "A Turnpike Commission proposal to reroute the cross-state highway by blasting a 1,000-foot-wide cut through Allegheny Mountain in Somerset County — Somerset REC service territory — faces opposition from local leaders who say it would scar a pristine wilderness corridor.",
-          "source": "Penn Capital-Star (via PoliticsPA)",
+          "headline": "Xcel-Google deal frames new template for large-load tariff strategy",
+          "summary": "Xcel Energy's recent Google contract is being held up as a model for utilities pricing data-center load through dedicated large-load tariffs rather than spreading the cost to retail ratepayers.",
+          "source": "Utility Dive",
           "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
+          "flagged": false
         },
         {
-          "headline": "Rabb votes against PA sex-trafficking bills two weeks before PA-3 primary",
-          "summary": "State Rep. Chris Rabb, in a tight three-way Democratic primary for Philadelphia's 3rd Congressional seat, voted Monday against two PA House bills increasing penalties for child sexual abuse and trafficking, saying the measures wouldn't achieve their stated purposes — a vote his primary opponents are already using.",
-          "source": "Philadelphia Inquirer (via PoliticsPA)",
-          "time": "Monday",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
+          "headline": "Duke adds 2.7 GW of contracted data-center load in Q1",
+          "summary": "Duke Energy reported 2.7 GW of new contracted data-center load in the first quarter, pushing its pipeline higher as Carolinas and Indiana service territories continue to absorb AI-driven demand.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false
+        },
+        {
+          "headline": "PSEG CEO points to nuclear as answer for NJ load growth",
+          "summary": "PSEG CEO Ralph LaRossa told analysts nuclear is the cleanest path to meet New Jersey's surging electricity demand, with Salem and Hope Creek anchoring the company's plans.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false
         }
       ]
     },
     {
-      "id": "energy-industry",
-      "label": "Energy Industry",
-      "count": 3,
+      "id": "pa-politics",
+      "label": "PA & NJ Politics",
+      "count": 4,
       "stories": [
         {
-          "headline": "NERC issues rare Level 3 alert mandating action on data center load losses",
-          "summary": "NERC issued its highest-tier Level 3 alert May 4 with seven required actions for transmission planners, operators and balancing authorities after multiple events where 1+ GW of data center load disconnected in seconds; entities must acknowledge by May 11 and respond by Aug. 3.",
-          "source": "Utility Dive",
-          "time": "Monday",
+          "headline": "McCormick tours Beaver Valley nuclear, ties AI buildout to PA generation",
+          "summary": "Sen. Dave McCormick toured Vistra's 1,872-MW Beaver Valley nuclear plant in Shippingport on Wednesday, calling Pennsylvania's nuclear fleet central to the AI buildout and pushing to expand the state's nuclear footprint.",
+          "source": "Pittsburgh Post-Gazette",
+          "time": "Yesterday",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/nerc-issues-rare-level-3-alert-over-data-center-load-losses/819295/"
+          "url": "https://www.post-gazette.com/business/powersource/2026/05/06/bruce-mansfield-beaver-power-plant-energy-ai-mccormick/stories/202605060042"
         },
         {
-          "headline": "Caterpillar to triple power generation capacity, raises 2030 targets on AI load growth",
-          "summary": "Caterpillar said it will triple its power generation manufacturing capacity and raised its 2030 financial targets, citing data center and AI-driven backup and prime power demand — the latest equipment-side signal that PJM-area gas turbine and reciprocating engine supply remains tight.",
-          "source": "Manufacturing Dive (via Utility Dive)",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.manufacturingdive.com/news/caterpillar-triple-power-generation-capacity-raises-2030-targets-q1-2026-earnings/819078/"
+          "headline": "Shapiro stakes coattails on PA-7 Democratic primary",
+          "summary": "Gov. Josh Shapiro is going all-in for Bob Brooks ahead of the May 19 PA-7 Democratic primary against Lamont McClure, framing the Mackenzie-rematch race as a test of his pull in the state's marquee 2026 House battleground.",
+          "source": "Politico (via PoliticsPA)",
+          "time": "Today",
+          "flagged": false
         },
         {
-          "headline": "California subpoenas Golden State Wind over Trump offshore lease deal",
-          "summary": "California's AG subpoenaed Golden State Wind, the lessee of one of the state's three federal offshore wind areas, seeking documents on its dealings with the Trump administration after the developer reached a private deal Albany officials say bypassed state permitting.",
-          "source": "Utility Dive",
+          "headline": "PA Senate Judiciary advances constitutional carry",
+          "summary": "PA Senate Judiciary, chaired by Sen. Lisa Baker, advanced SB 357 Wednesday, which would let any adult legally able to own a firearm carry concealed without a state-issued permit.",
+          "source": "Wilkes-Barre Times-Leader (via PoliticsPA)",
           "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
+          "flagged": false
+        },
+        {
+          "headline": "PA House Democrats demand budget offer from Senate GOP",
+          "summary": "PA House Democrats publicly challenged Senate Republicans on Wednesday to send over a budget proposal, escalating the FY26-27 stalemate as the June 30 deadline approaches.",
+          "source": "abc27 (via PoliticsPA)",
+          "time": "Yesterday",
+          "flagged": false
         }
       ]
     },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 3,
+      "count": 5,
       "stories": [
         {
-          "headline": "Trump-backed challengers oust at least 5 of 7 Indiana state senators in redistricting revenge",
-          "summary": "Trump-aligned PACs spent roughly $8M and defeated at least five of seven targeted Indiana GOP state senators — including Senate caucus chair Travis Holdman — punishing those who blocked his 2025 mid-decade redistricting demand and signaling South Carolina, Tennessee, Louisiana and Alabama legislators eyeing the same fight.",
-          "source": "Politico Playbook / Punchbowl News",
-          "time": "Last night",
-          "flagged": false,
-          "url": "https://www.politico.com/playbook"
-        },
-        {
-          "headline": "Trump pauses 'Project Freedom' Strait of Hormuz mission, citing Iran agreement progress",
-          "summary": "Trump abruptly suspended the U.S. effort to escort civilian shipping through the Strait of Hormuz on Tuesday, saying talks with Iran could yield a finalized agreement; the Navy blockade of Iranian ports continues, and oil prices eased on the announcement.",
-          "source": "Punchbowl News / Politico",
-          "time": "Last night",
-          "flagged": false,
-          "url": "https://punchbowl.news/"
-        },
-        {
-          "headline": "Senate Judiciary moves $72B reconciliation markup toward May 19; floor week of May 18",
-          "summary": "Chair Chuck Grassley placed the $72B ICE/CBP/DHS reconciliation text on Senate Judiciary's agenda for May 19, with HSGAC's Rand Paul expected to mark up his portion this month; GOP leaders aim to bring the package to the Senate floor the week of May 18.",
-          "source": "Punchbowl News",
+          "headline": "Republican redistricting wave reshapes 2026 House map",
+          "summary": "Florida pushed through a four-seat GOP gerrymander, Tennessee may vote on a Cohen-targeted map today, and SCOTUS's Louisiana v. Callais ruling has put as many as 10 Democratic seats in play.",
+          "source": "Punchbowl AM",
           "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news/"
+          "flagged": false
+        },
+        {
+          "headline": "Senate shelves SAVE Act as filibuster fight escalates",
+          "summary": "Senate GOP leaders are dropping further floor votes on the SAVE America voter-citizenship bill after a vote-a-rama amendment fell short of 50 votes, intensifying base pressure to gut the filibuster.",
+          "source": "Punchbowl AM",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Mark Kelly v. Hegseth at D.C. Circuit today",
+          "summary": "A three-judge D.C. Circuit panel hears oral arguments at 9:30 a.m. on the Pentagon's appeal of the injunction blocking Hegseth from punishing Sen. Mark Kelly; PA Reps. Houlahan and Deluzio joined an amicus brief backing Kelly.",
+          "source": "Punchbowl AM",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Rubio meets Pope Leo XIV amid Vatican-White House rift",
+          "summary": "Secretary of State Marco Rubio sits down with Pope Leo XIV today after Trump's Truth Social attacks and a 'Jesus meme' drove U.S.-Vatican relations to historic lows; Rubio is downplaying the trip as routine.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Mystery PAC drops $500K in PA-7 Democratic primary",
+          "summary": "Lead Left PAC, a newly registered super PAC, is spending $500,000 on TV in PA-7 to boost Lamont McClure over DCCC-backed Bob Brooks ahead of the May 19 Democratic primary.",
+          "source": "Punchbowl AM",
+          "time": "Today",
+          "flagged": false
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Pirates blanked 9-0 by Diamondbacks as Eduardo Rodriguez tosses 7 shutout innings",
-          "summary": "Eduardo Rodriguez allowed two hits over seven innings with seven strikeouts; Geraldo Perdomo and Gabriel Moreno each doubled in Arizona's five-run sixth as the Pirates (19-17) dropped the series opener 9-0, their largest deficit of the season; Paul Skenes (4-2, 3.18) goes tonight.",
-          "source": "AP / ESPN",
-          "time": "Last night",
+          "headline": "Skenes shuts down D-backs as Pirates win 1-0; Reynolds gets 1,000th hit",
+          "summary": "Paul Skenes threw 8 innings of two-hit ball with 7 strikeouts and Brandon Lowe's 435-foot solo HR was the only run as Pittsburgh beat Arizona 1-0 Wednesday; Bryan Reynolds notched his 1,000th career hit.",
+          "source": "ESPN",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815227/pirates-diamondbacks"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401815242"
         },
         {
-          "headline": "Malkin's camp setting Dubas meeting this week to discuss Penguins future",
-          "summary": "Per The Athletic's Josh Yohe, Malkin's representatives are reaching out to GM Kyle Dubas this week to lock down an in-person meeting on a new contract; Malkin (61 points in 56 games) becomes a UFA July 1 and said at exit interviews he wants one more NHL year, in Pittsburgh or elsewhere.",
-          "source": "The Hockey News / The Athletic",
-          "time": "This week",
+          "headline": "Penguins reportedly preparing to move on from Malkin",
+          "summary": "GM Kyle Dubas is set to tell Evgeni Malkin's camp this week the Penguins plan to move on, with the 39-year-old center expected to test free agency July 1 after his $6.1M AAV deal expires.",
+          "source": "NHL Trade Rumors",
+          "time": "Tuesday",
+          "flagged": false
+        },
+        {
+          "headline": "Steelers OTAs set to begin May 18; draft class drawing scrutiny",
+          "summary": "Pittsburgh's OTA dates were finalized this week with the first session May 18, while early reviews of the 10-pick 2026 draft class — led by 1st-round OT Max Iheanachor — drew mixed reactions.",
+          "source": "Steelers.com",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://thehockeynews.com/nhl/pittsburgh-penguins/community/latest-news/report-malkin-camp-to-touch-base-with-dubas-this-week"
+          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 5 close",
+    "as_of": "May 6 close",
     "rows": [
       { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+2.5%" },
+      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "—" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$102.27/bbl", "change": "-2.6%" }
+      { "market": "WTI Crude", "price": "$96.00/bbl", "change": "-6.0%" }
     ]
   }
 }
