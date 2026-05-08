@@ -1,7 +1,7 @@
 {
   "date": "2026-05-08",
   "type": "morning",
-  "generated_at": "2026-05-08T07:30:00-04:00",
+  "generated_at": "2026-05-08T15:00:00-04:00",
   "sections": [
     {
       "id": "pa-politics",
@@ -9,8 +9,8 @@
       "count": 4,
       "stories": [
         {
-          "headline": "McCormick visits Homer City data center site, pitches federal permit reform",
-          "summary": "Sen. Dave McCormick met with the Homer City project team Thursday and is sponsoring legislation that would require federal water permits be granted or denied within one year, limit court challenges, and extend nuclear plant licenses from 40 to 60 years.",
+          "headline": "McCormick visits Homer City data center site, pitches federal permit reform and 60-year nuclear licenses",
+          "summary": "Sen. Dave McCormick met with the Homer City project team Thursday and is sponsoring legislation that would force federal water permits to be granted or denied within one year, limit court challenges, and extend nuclear plant operating licenses from 40 to 60 years.",
           "source": "WESA",
           "time": "Today",
           "flagged": true,
@@ -21,7 +21,7 @@
           "summary": "Sen. Wayne Langerholc's SB 1298 cleared the Senate on Wednesday, exempting 25 counties — including Cumberland, Dauphin, Lancaster and York — from annual vehicle emissions testing; the bill now moves to the House.",
           "source": "Pennsylvania Capital-Star",
           "time": "2 days ago",
-          "flagged": true,
+          "flagged": false,
           "url": "https://penncapital-star.com/briefs/its-time-to-end-this-outdated-test-pa-senate-votes-to-exempt-newer-vehicles-from-emissions-inspection/"
         },
         {
@@ -41,22 +41,59 @@
       ]
     },
     {
+      "id": "energy-industry",
+      "label": "Energy Industry",
+      "count": 4,
+      "stories": [
+        {
+          "headline": "PJM forecasts sufficient generation for peak demand this summer",
+          "summary": "PJM said Thursday it expects enough capacity to meet projected summer peak across its 13-state footprint, with Friday's real-time load already at 82,506 MW against an 86,252 MW forecast peak and PJM-RTO LMP at $54.86/MWh.",
+          "source": "Reuters / Utility Dive",
+          "time": "1 day ago",
+          "flagged": true,
+          "url": "https://www.reuters.com/business/energy/us-grid-operator-pjm-forecasts-sufficient-generation-peak-demand-this-summer-2026-05-07/"
+        },
+        {
+          "headline": "Eversource CEO: 'We are resisting data centers'",
+          "summary": "Eversource's chief executive told investors the New England utility is pushing back against data-center interconnection requests, a sharp contrast with peers chasing the load — Western Hub cleared at $66.50/MWh in PJM Friday afternoon.",
+          "source": "Utility Dive",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Evergy projects retail sales growth of up to 8% annually on data centers",
+          "summary": "Kansas-Missouri utility Evergy told analysts data-center load could lift retail sales as much as 8% per year, putting it among the most aggressive utility forecasts and underscoring the diverging strategies in the industry.",
+          "source": "Utility Dive",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Sunrun Q1 sales drop sharply on solar tax-credit phase-out and tariffs",
+          "summary": "Residential solar leader Sunrun reported a steep first-quarter sales decline tied to the federal solar tax-credit phase-out and import tariffs, an early signal of how the rooftop market is absorbing the post-IRA reset.",
+          "source": "Utility Dive",
+          "time": "Today",
+          "flagged": false
+        }
+      ]
+    },
+    {
       "id": "national-politics",
       "label": "National Politics",
       "count": 3,
       "stories": [
         {
-          "headline": "Schumer urges DHS to harden grids, water systems against AI-enabled hacks",
-          "summary": "Senate Minority Leader Chuck Schumer pressed DHS Secretary Markwayne Mullin in a May 7 letter to help state and local governments secure energy grids, water infrastructure and election systems against cyber risks from frontier AI models like Anthropic's Mythos.",
-          "source": "Punchbowl News",
-          "time": "1 day ago",
-          "flagged": false
-        },
-        {
           "headline": "Trump's $1B ballroom security request faces GOP resistance",
           "summary": "House and Senate Republicans are privately objecting to including $1 billion for White House ballroom security in the immigration reconciliation bill, with PA Reps. Brian Fitzpatrick and Rob Bresnahan flagged as moderates to watch.",
           "source": "Punchbowl News",
           "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/article/white-house/gop-trump-ballroom/"
+        },
+        {
+          "headline": "Schumer urges DHS to harden grids, water systems against AI-enabled hacks",
+          "summary": "Senate Minority Leader Chuck Schumer pressed DHS Secretary Markwayne Mullin in a May 7 letter to help state and local governments secure energy grids, water infrastructure and election systems against cyber risks from frontier AI models.",
+          "source": "Punchbowl News",
+          "time": "1 day ago",
           "flagged": false
         },
         {
@@ -71,22 +108,31 @@
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Pirates take series in Arizona behind Lowe's 10th HR, Keller's six strong",
-          "summary": "Brandon Lowe's 436-foot homer powered a 4-2 Pirates win over Arizona on Thursday as Mitch Keller (4-1) allowed two runs over six innings, giving Pittsburgh (22-17) the series 2-1 ahead of a weekend set at the Giants.",
+          "headline": "Pirates take series in Arizona behind Lowe HR, Keller's six strong",
+          "summary": "Brandon Lowe's 436-foot homer and Joey Bart's solo shot powered a 4-2 Pirates win over Arizona on Thursday as Mitch Keller (4-1) allowed two runs over six innings, giving Pittsburgh (21-17) the series 2-1 ahead of a weekend set at the Giants.",
           "source": "ESPN",
           "time": "Last night",
           "flagged": false,
           "url": "https://www.espn.com/mlb/game/_/gameId/401815251"
         },
         {
-          "headline": "Malkin's camp seeks meeting with Dubas as UFA window approaches",
-          "summary": "Evgeni Malkin's representatives are reaching out to GM Kyle Dubas this week to set up a meeting on a possible one-year deal — projected near $5 million — before the 39-year-old hits unrestricted free agency July 1.",
+          "headline": "Penguins extend Dewar (2yr/$2.25M AAV) and Solovyov as offseason work begins",
+          "summary": "GM Kyle Dubas signed forward Connor Dewar to a two-year extension at $2.25M AAV and defenseman Ilya Solovyov to a one-year deal at $850K Thursday, with bigger calls on Malkin, Acciari and Mantha still ahead.",
           "source": "Pittsburgh Hockey Now",
-          "time": "This week",
-          "flagged": false
+          "time": "1 day ago",
+          "flagged": false,
+          "url": "https://pittsburghhockeynow.com/pittsburgh-penguins-connor-dewar-ilya-solovyov-sign-contract-extensions/"
+        },
+        {
+          "headline": "Steelers rookies report; Drew Allar takes the field Friday",
+          "summary": "Pittsburgh's 2026 rookie class — including QB Drew Allar, WR Germie Bernard and RB Eli Heidenreich — arrived at the UPMC Rooney Sports Complex Thursday for the start of rookie minicamp.",
+          "source": "Steelers.com",
+          "time": "1 day ago",
+          "flagged": false,
+          "url": "https://www.steelers.com/news/roster-set-for-2026-rookie-minicamp"
         }
       ]
     }
@@ -99,7 +145,7 @@
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
       { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$94.93/bbl", "change": "+0.1%" }
+      { "market": "WTI Crude", "price": "$95.92/bbl", "change": "+1.2%" }
     ]
   }
 }
