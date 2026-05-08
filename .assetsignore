@@ -1,0 +1,27 @@
+# Files in this repo that should NOT be served as public static assets
+# by the Cloudflare Workers deploy. wrangler.jsonc declares
+# assets.directory = ".", so without these exclusions every committed file
+# would be web-accessible (which still matters even behind Cloudflare
+# Access — it bloats the deploy). Gitignore-style syntax. .git/ and
+# node_modules/ are auto-excluded by Cloudflare so they're not listed here.
+
+# Python scraper + its deps (server-side only)
+scripts/
+requirements.txt
+requirements-dev.txt
+tests/
+
+# Internal docs
+PUBLISHING.md
+README.md
+CLAUDE.md
+
+# GitHub-only metadata
+.github/
+.gitignore
+
+# Cloudflare's own config shouldn't be served as a static asset
+wrangler.jsonc
+
+# Self
+.assetsignore

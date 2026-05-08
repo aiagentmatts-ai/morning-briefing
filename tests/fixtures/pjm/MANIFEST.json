@@ -1,0 +1,9 @@
+{
+  "_comment": "Source URL for each PJM fixture, used by scripts/refetch-fixtures.py. The PJM markets-and-operations page server-renders Today's Outlook (current load, forecasted peak, RTO LMP, tomorrow's peak), the zone LMP table, and the gen-fuel-mix Highcharts JSON inline — all scrapable without an API key.",
+  "fixtures": {
+    "markets-and-operations.html": {
+      "url": "https://www.pjm.com/markets-and-operations",
+      "purpose": "parse_todays_outlook + parse_zone_lmps + parse_fuel_mix — single page covers all three"
+    }
+  }
+}

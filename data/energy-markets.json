@@ -1,0 +1,232 @@
+{
+  "_comment": "PJM market snapshot scraped from pjm.com/markets-and-operations. Server-rendered widget data. Refreshed daily by .github/workflows/refresh-energy-markets.yml. Do not edit by hand — overlays should live in a separate file if ever needed.",
+  "lastSync": "2026-05-08T12:45:24Z",
+  "source": "https://www.pjm.com/markets-and-operations",
+  "todaysOutlook": {
+    "asOf": "8:45 a.m. EPT",
+    "currentLoadMw": 85397,
+    "forecastedPeakMw": 86252,
+    "rtoLmpDollars": 19.7,
+    "tomorrowPeakMw": 82107
+  },
+  "zoneLmps": [
+    {
+      "zone": "AECO",
+      "lmpDollars": 19.77,
+      "isPaZone": false
+    },
+    {
+      "zone": "AEP",
+      "lmpDollars": 19.57,
+      "isPaZone": false
+    },
+    {
+      "zone": "APS",
+      "lmpDollars": 19.85,
+      "isPaZone": false
+    },
+    {
+      "zone": "ATSI",
+      "lmpDollars": 19.75,
+      "isPaZone": false
+    },
+    {
+      "zone": "BGE",
+      "lmpDollars": 20.14,
+      "isPaZone": false
+    },
+    {
+      "zone": "COMED",
+      "lmpDollars": 19.04,
+      "isPaZone": false
+    },
+    {
+      "zone": "DAY",
+      "lmpDollars": 20.01,
+      "isPaZone": false
+    },
+    {
+      "zone": "DEOK",
+      "lmpDollars": 19.52,
+      "isPaZone": false
+    },
+    {
+      "zone": "DOM",
+      "lmpDollars": 19.91,
+      "isPaZone": false
+    },
+    {
+      "zone": "DPL",
+      "lmpDollars": 19.68,
+      "isPaZone": false
+    },
+    {
+      "zone": "DUQ",
+      "lmpDollars": 19.59,
+      "isPaZone": false
+    },
+    {
+      "zone": "EKPC",
+      "lmpDollars": 19.27,
+      "isPaZone": false
+    },
+    {
+      "zone": "JCPL",
+      "lmpDollars": 20.11,
+      "isPaZone": false
+    },
+    {
+      "zone": "METED",
+      "lmpDollars": 19.93,
+      "isPaZone": true
+    },
+    {
+      "zone": "OVEC",
+      "lmpDollars": 19.2,
+      "isPaZone": false
+    },
+    {
+      "zone": "PECO",
+      "lmpDollars": 19.65,
+      "isPaZone": true
+    },
+    {
+      "zone": "PENELEC",
+      "lmpDollars": 20.09,
+      "isPaZone": true
+    },
+    {
+      "zone": "PEPCO",
+      "lmpDollars": 20.09,
+      "isPaZone": false
+    },
+    {
+      "zone": "PJM-RTO",
+      "lmpDollars": 19.7,
+      "isPaZone": false
+    },
+    {
+      "zone": "PPL",
+      "lmpDollars": 19.63,
+      "isPaZone": true
+    },
+    {
+      "zone": "PSEG",
+      "lmpDollars": 19.99,
+      "isPaZone": false
+    },
+    {
+      "zone": "RECO",
+      "lmpDollars": 19.95,
+      "isPaZone": false
+    }
+  ],
+  "hubLmps": [
+    {
+      "hub": "AEP GEN HUB",
+      "lmpDollars": 19.16,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "AEP-DAYTON HUB",
+      "lmpDollars": 19.44,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "ATSI GEN HUB",
+      "lmpDollars": 19.6,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "CHICAGO GEN HUB",
+      "lmpDollars": 18.79,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "CHICAGO HUB",
+      "lmpDollars": 19.09,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "DOMINION HUB",
+      "lmpDollars": 19.28,
+      "isPaNjHub": true
+    },
+    {
+      "hub": "EASTERN HUB",
+      "lmpDollars": 19.73,
+      "isPaNjHub": true
+    },
+    {
+      "hub": "N ILLINOIS HUB",
+      "lmpDollars": 18.96,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "NEW JERSEY HUB",
+      "lmpDollars": 19.97,
+      "isPaNjHub": true
+    },
+    {
+      "hub": "OHIO HUB",
+      "lmpDollars": 19.43,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "WEST INT HUB",
+      "lmpDollars": 19.53,
+      "isPaNjHub": false
+    },
+    {
+      "hub": "WESTERN HUB",
+      "lmpDollars": 19.95,
+      "isPaNjHub": true
+    }
+  ],
+  "fuelMix": {
+    "byFuel": [
+      {
+        "name": "Coal",
+        "mw": 11930
+      },
+      {
+        "name": "Gas",
+        "mw": 28684
+      },
+      {
+        "name": "Hydro",
+        "mw": 4462
+      },
+      {
+        "name": "Multiple Fuels",
+        "mw": 2277
+      },
+      {
+        "name": "Nuclear",
+        "mw": 29945
+      },
+      {
+        "name": "Oil",
+        "mw": 380
+      },
+      {
+        "name": "Other Renewables",
+        "mw": 608
+      },
+      {
+        "name": "Solar",
+        "mw": 250
+      },
+      {
+        "name": "Storage",
+        "mw": 22
+      },
+      {
+        "name": "Wind",
+        "mw": 3279
+      }
+    ],
+    "totalMw": 81837,
+    "renewablesMw": 8599
+  }
+}
