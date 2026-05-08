@@ -1,76 +1,41 @@
 {
-  "date": "2026-05-07",
+  "date": "2026-05-08",
   "type": "morning",
-  "generated_at": "2026-05-07T07:30:00-04:00",
+  "generated_at": "2026-05-08T07:30:00-04:00",
   "sections": [
-    {
-      "id": "energy-industry",
-      "label": "Energy Industry",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "AEP threatens PJM, SPP exit over slow generation interconnection",
-          "summary": "AEP CEO Bill Fehrman told investors May 5 the utility is reviewing whether to leave PJM and SPP, citing interconnection delays as 16 GW of contracted PJM data-center load awaits power.",
-          "source": "Utility Dive",
-          "time": "Tuesday",
-          "flagged": true,
-          "url": "https://www.utilitydive.com/news/aep-pjm-spp-data-centers-earnings/819419/"
-        },
-        {
-          "headline": "Xcel-Google deal frames new template for large-load tariff strategy",
-          "summary": "Xcel Energy's recent Google contract is being held up as a model for utilities pricing data-center load through dedicated large-load tariffs rather than spreading the cost to retail ratepayers.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false
-        },
-        {
-          "headline": "Duke adds 2.7 GW of contracted data-center load in Q1",
-          "summary": "Duke Energy reported 2.7 GW of new contracted data-center load in the first quarter, pushing its pipeline higher as Carolinas and Indiana service territories continue to absorb AI-driven demand.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false
-        },
-        {
-          "headline": "PSEG CEO points to nuclear as answer for NJ load growth",
-          "summary": "PSEG CEO Ralph LaRossa told analysts nuclear is the cleanest path to meet New Jersey's surging electricity demand, with Salem and Hope Creek anchoring the company's plans.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false
-        }
-      ]
-    },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
       "count": 4,
       "stories": [
         {
-          "headline": "McCormick tours Beaver Valley nuclear, ties AI buildout to PA generation",
-          "summary": "Sen. Dave McCormick toured Vistra's 1,872-MW Beaver Valley nuclear plant in Shippingport on Wednesday, calling Pennsylvania's nuclear fleet central to the AI buildout and pushing to expand the state's nuclear footprint.",
-          "source": "Pittsburgh Post-Gazette",
-          "time": "Yesterday",
-          "flagged": true,
-          "url": "https://www.post-gazette.com/business/powersource/2026/05/06/bruce-mansfield-beaver-power-plant-energy-ai-mccormick/stories/202605060042"
-        },
-        {
-          "headline": "Shapiro stakes coattails on PA-7 Democratic primary",
-          "summary": "Gov. Josh Shapiro is going all-in for Bob Brooks ahead of the May 19 PA-7 Democratic primary against Lamont McClure, framing the Mackenzie-rematch race as a test of his pull in the state's marquee 2026 House battleground.",
-          "source": "Politico (via PoliticsPA)",
+          "headline": "McCormick visits Homer City data center site, pitches federal permit reform",
+          "summary": "Sen. Dave McCormick met with the Homer City project team Thursday and is sponsoring legislation that would require federal water permits be granted or denied within one year, limit court challenges, and extend nuclear plant licenses from 40 to 60 years.",
+          "source": "WESA",
           "time": "Today",
+          "flagged": true,
+          "url": "https://www.wesa.fm/environment-energy/2026-05-08/pa-sen-dave-mccormick-homer-city-data-center-permit-reform"
+        },
+        {
+          "headline": "PA Senate votes 29-21 to end emissions inspections in 25 counties",
+          "summary": "Sen. Wayne Langerholc's SB 1298 cleared the Senate on Wednesday, exempting 25 counties — including Cumberland, Dauphin, Lancaster and York — from annual vehicle emissions testing; the bill now moves to the House.",
+          "source": "Pennsylvania Capital-Star",
+          "time": "2 days ago",
+          "flagged": true,
+          "url": "https://penncapital-star.com/briefs/its-time-to-end-this-outdated-test-pa-senate-votes-to-exempt-newer-vehicles-from-emissions-inspection/"
+        },
+        {
+          "headline": "Flynn, Lake spar over data centers in PA-22 Senate primary debate",
+          "summary": "Incumbent Sen. Marty Flynn and challenger Jeffrey Lake clashed Wednesday at a University of Scranton debate over data-center siting and energy demand ahead of the May 19 Democratic primary in the 22nd Senate District.",
+          "source": "WVIA",
+          "time": "2 days ago",
           "flagged": false
         },
         {
-          "headline": "PA Senate Judiciary advances constitutional carry",
-          "summary": "PA Senate Judiciary, chaired by Sen. Lisa Baker, advanced SB 357 Wednesday, which would let any adult legally able to own a firearm carry concealed without a state-issued permit.",
-          "source": "Wilkes-Barre Times-Leader (via PoliticsPA)",
-          "time": "Yesterday",
-          "flagged": false
-        },
-        {
-          "headline": "PA House Democrats demand budget offer from Senate GOP",
-          "summary": "PA House Democrats publicly challenged Senate Republicans on Wednesday to send over a budget proposal, escalating the FY26-27 stalemate as the June 30 deadline approaches.",
-          "source": "abc27 (via PoliticsPA)",
-          "time": "Yesterday",
+          "headline": "Fetterman: 'I haven't changed,' rules out switching parties",
+          "summary": "Sen. John Fetterman published an op-ed Thursday declaring he will not leave the Democratic Party despite expanding cross-aisle friendships with Senate Republicans as Democrats eye a Senate flip.",
+          "source": "Philadelphia Inquirer",
+          "time": "1 day ago",
           "flagged": false
         }
       ]
@@ -78,41 +43,27 @@
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 5,
+      "count": 3,
       "stories": [
         {
-          "headline": "Republican redistricting wave reshapes 2026 House map",
-          "summary": "Florida pushed through a four-seat GOP gerrymander, Tennessee may vote on a Cohen-targeted map today, and SCOTUS's Louisiana v. Callais ruling has put as many as 10 Democratic seats in play.",
-          "source": "Punchbowl AM",
+          "headline": "Schumer urges DHS to harden grids, water systems against AI-enabled hacks",
+          "summary": "Senate Minority Leader Chuck Schumer pressed DHS Secretary Markwayne Mullin in a May 7 letter to help state and local governments secure energy grids, water infrastructure and election systems against cyber risks from frontier AI models like Anthropic's Mythos.",
+          "source": "Punchbowl News",
+          "time": "1 day ago",
+          "flagged": false
+        },
+        {
+          "headline": "Trump's $1B ballroom security request faces GOP resistance",
+          "summary": "House and Senate Republicans are privately objecting to including $1 billion for White House ballroom security in the immigration reconciliation bill, with PA Reps. Brian Fitzpatrick and Rob Bresnahan flagged as moderates to watch.",
+          "source": "Punchbowl News",
           "time": "Today",
           "flagged": false
         },
         {
-          "headline": "Senate shelves SAVE Act as filibuster fight escalates",
-          "summary": "Senate GOP leaders are dropping further floor votes on the SAVE America voter-citizenship bill after a vote-a-rama amendment fell short of 50 votes, intensifying base pressure to gut the filibuster.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Mark Kelly v. Hegseth at D.C. Circuit today",
-          "summary": "A three-judge D.C. Circuit panel hears oral arguments at 9:30 a.m. on the Pentagon's appeal of the injunction blocking Hegseth from punishing Sen. Mark Kelly; PA Reps. Houlahan and Deluzio joined an amicus brief backing Kelly.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Rubio meets Pope Leo XIV amid Vatican-White House rift",
-          "summary": "Secretary of State Marco Rubio sits down with Pope Leo XIV today after Trump's Truth Social attacks and a 'Jesus meme' drove U.S.-Vatican relations to historic lows; Rubio is downplaying the trip as routine.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Mystery PAC drops $500K in PA-7 Democratic primary",
-          "summary": "Lead Left PAC, a newly registered super PAC, is spending $500,000 on TV in PA-7 to boost Lamont McClure over DCCC-backed Bob Brooks ahead of the May 19 Democratic primary.",
-          "source": "Punchbowl AM",
-          "time": "Today",
+          "headline": "Trade court rules Trump's 10% global tariff illegal",
+          "summary": "A federal trade court ruled Thursday that Trump's justification for imposing a 10% global tariff after the Supreme Court struck down his original tariff authority is illegal, though the court declined to issue nationwide relief.",
+          "source": "Politico",
+          "time": "1 day ago",
           "flagged": false
         }
       ]
@@ -120,43 +71,35 @@
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Skenes shuts down D-backs as Pirates win 1-0; Reynolds gets 1,000th hit",
-          "summary": "Paul Skenes threw 8 innings of two-hit ball with 7 strikeouts and Brandon Lowe's 435-foot solo HR was the only run as Pittsburgh beat Arizona 1-0 Wednesday; Bryan Reynolds notched his 1,000th career hit.",
+          "headline": "Pirates take series in Arizona behind Lowe's 10th HR, Keller's six strong",
+          "summary": "Brandon Lowe's 436-foot homer powered a 4-2 Pirates win over Arizona on Thursday as Mitch Keller (4-1) allowed two runs over six innings, giving Pittsburgh (22-17) the series 2-1 ahead of a weekend set at the Giants.",
           "source": "ESPN",
-          "time": "Yesterday",
+          "time": "Last night",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401815242"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815251"
         },
         {
-          "headline": "Penguins reportedly preparing to move on from Malkin",
-          "summary": "GM Kyle Dubas is set to tell Evgeni Malkin's camp this week the Penguins plan to move on, with the 39-year-old center expected to test free agency July 1 after his $6.1M AAV deal expires.",
-          "source": "NHL Trade Rumors",
-          "time": "Tuesday",
+          "headline": "Malkin's camp seeks meeting with Dubas as UFA window approaches",
+          "summary": "Evgeni Malkin's representatives are reaching out to GM Kyle Dubas this week to set up a meeting on a possible one-year deal — projected near $5 million — before the 39-year-old hits unrestricted free agency July 1.",
+          "source": "Pittsburgh Hockey Now",
+          "time": "This week",
           "flagged": false
-        },
-        {
-          "headline": "Steelers OTAs set to begin May 18; draft class drawing scrutiny",
-          "summary": "Pittsburgh's OTA dates were finalized this week with the first session May 18, while early reviews of the 10-pick 2026 draft class — led by 1st-round OT Max Iheanachor — drew mixed reactions.",
-          "source": "Steelers.com",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 5 DA / May 4 spot",
+    "as_of": "May 7 close",
     "rows": [
-      { "market": "PJM West Hub (DA)", "price": "$51.69/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (DA)", "price": "$40.89/MWh", "change": "—" },
+      { "market": "PJM West Hub (DA)", "price": "n/a", "change": "—" },
+      { "market": "PJM AEP-Dayton (DA)", "price": "n/a", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
       { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$89.83/bbl", "change": "-12.2%" }
+      { "market": "WTI Crude", "price": "$94.93/bbl", "change": "+0.1%" }
     ]
   }
 }
