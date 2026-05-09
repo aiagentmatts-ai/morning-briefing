@@ -1,174 +1,119 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "type": "morning",
-  "generated_at": "2026-05-08T16:30:00-04:00",
+  "generated_at": "2026-05-09T08:30:00-04:00",
   "sections": [
-    {
-      "id": "energy-industry",
-      "label": "Energy Industry",
-      "count": 5,
-      "stories": [
-        {
-          "headline": "PJM outlines 3 paths to market reform",
-          "summary": "PJM laid out three reform tracks — capacity-market design, interconnection queue, and demand-response treatment — as it confronts pressure after consecutive auctions cleared at the FERC ceiling, with Western Hub at $23.77/MWh and load forecast at 86.3 GW today.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": true,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "Eversource CEO: 'We are resisting data centers'",
-          "summary": "Eversource's chief executive told Q1 investors the utility is pushing back on hyperscaler load requests rather than chasing growth, a sharp counterpoint to PJM peers booking 8%+ data center sales lifts.",
-          "source": "Utility Dive",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "Evergy projects up to 8% annual retail sales growth from data center load",
-          "summary": "Evergy raised its long-term sales-growth outlook to as much as 8% per year on hyperscaler commitments in Kansas and Missouri, signaling the load surge PJM utilities are also booking into IRPs.",
-          "source": "Utility Dive",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "Exelon shifts capex from distribution to transmission, cites affordability",
-          "summary": "Exelon trimmed planned utility spending and reallocated dollars to transmission to soften retail rate increases, with management citing customer affordability as the driver across PECO, ComEd, BGE, ACE, Pepco, and Delmarva.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "PJM says it will have enough generation for summer peak",
-          "summary": "PJM's summer outlook projects sufficient capacity to meet expected peak demand across the 13-state footprint, with the RTO citing committed resources and demand response after a tight 25/26 delivery year.",
-          "source": "Reuters via Utility Dive",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.reuters.com/business/energy/us-grid-operator-pjm-forecasts-sufficient-generation-peak-demand-this-summer-2026-05-07/"
-        }
-      ]
-    },
-    {
-      "id": "pa-politics",
-      "label": "PA & NJ Politics",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "McCormick pitches federal permit reform after Homer City data center update",
-          "summary": "Sen. Dave McCormick toured the Homer City gas-fired redevelopment and is sponsoring legislation to force water-permit decisions within one year, cap court challenges, and extend nuclear licenses from 40 to 60 years.",
-          "source": "WESA",
-          "time": "Today",
-          "flagged": true,
-          "url": "https://www.wesa.fm/"
-        },
-        {
-          "headline": "PA Senate votes to end vehicle emissions inspections",
-          "summary": "The PA Senate passed a bill ending the state's emissions-inspection program for non-commercial vehicles in a regional split, with Philadelphia and Pittsburgh-area lawmakers largely opposed; the bill heads to the House.",
-          "source": "PoliticsPA / PennLive",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.pennlive.com/"
-        },
-        {
-          "headline": "PA-7 Dem primary: Brooks consolidates establishment support against Mackenzie",
-          "summary": "Bethlehem firefighter and state firefighters' union president Bob Brooks has locked up the bulk of national and Lehigh Valley Democratic backing in the May 19 primary to challenge Rep. Ryan Mackenzie.",
-          "source": "Allentown Morning Call",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.mcall.com/"
-        },
-        {
-          "headline": "Fetterman: 'I haven't changed' — pens op-ed denying party switch",
-          "summary": "Sen. John Fetterman wrote a personal op-ed insisting he has no plans to leave the Democratic Party, even as his cross-aisle friendships and breaks with Senate Democrats deepen ahead of November.",
-          "source": "Philadelphia Inquirer / PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.inquirer.com/"
-        }
-      ]
-    },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 4,
+      "count": 5,
       "stories": [
         {
-          "headline": "Trump's $1B ballroom security request stalling on the Hill",
-          "summary": "House and Senate Republicans are privately telling leadership the $1B for White House ballroom security is too politically toxic to ride in the immigration reconciliation bill, with Speaker Johnson's two-vote margin shrinking.",
-          "source": "Punchbowl News",
-          "time": "Today",
+          "headline": "Trump announces three-day Russia-Ukraine ceasefire for May 9–11",
+          "summary": "Trump said Friday the truce was requested \"directly by me\" and accepted by Zelenskyy and Putin, casting it as the start of broader talks to end the largest war in Europe since WWII.",
+          "source": "Politico Playbook PM",
+          "time": "Friday afternoon",
           "flagged": false,
-          "url": "https://punchbowl.news/"
+          "url": "https://www.politico.com/newsletters/playbook-pm"
         },
         {
-          "headline": "Federal trade court rules Trump's post-SCOTUS 10% global tariff illegal",
-          "summary": "A federal trade court found the administration's fallback justification for a 10% across-the-board tariff unlawful, declining nationwide relief but giving importers precedent to fight collections in individual cases.",
+          "headline": "Virginia Supreme Court overturns Democrats' redistricting referendum",
+          "summary": "Justices ruled Friday that Democrats failed to follow proper procedure putting the measure on the ballot, erasing four targeted blue seats and handing the GOP a major midterm map advantage.",
+          "source": "Politico Playbook PM",
+          "time": "Friday",
+          "flagged": false,
+          "url": "https://www.politico.com/newsletters/playbook-pm"
+        },
+        {
+          "headline": "April jobs: 115K added, double the forecast",
+          "summary": "BLS reported 115,000 jobs added in April with unemployment steady at 4.3%, doubling the 55K consensus and beating expectations for the second straight month as the White House touts the rebound.",
           "source": "Politico",
-          "time": "Today",
+          "time": "Friday",
           "flagged": false,
-          "url": "https://www.politico.com/"
+          "url": "https://www.politico.com/news"
         },
         {
-          "headline": "GOP redistricting push: Tennessee enacts new map, South Carolina and Louisiana next",
-          "summary": "Tennessee's legislature carved up Rep. Steve Cohen's Memphis district Thursday; South Carolina House panels take up a map erasing Rep. Jim Clyburn's seat today, while Louisiana opens a public comment window.",
-          "source": "Punchbowl News",
-          "time": "Today",
+          "headline": "$1B Trump ballroom security ask hits House GOP wall",
+          "summary": "House Republicans privately tell Speaker Mike Johnson the request tucked into the immigration reconciliation bill can't reach 218 votes, with PA moderates Brian Fitzpatrick and Rob Bresnahan on the watch list.",
+          "source": "Punchbowl News AM",
+          "time": "Friday",
           "flagged": false,
-          "url": "https://punchbowl.news/"
+          "url": "https://punchbowl.news"
         },
         {
-          "headline": "GOP frets over midterm message as Trump focuses on Iran, ballroom",
-          "summary": "Republican strategists and House Conference Chair Lisa McClain say the White House lacks a coherent affordability/economy pitch heading into 2026, with Iran, redistricting, and intra-party fights dominating the airtime.",
-          "source": "Politico Playbook",
-          "time": "Today",
+          "headline": "FDA Commissioner Makary departing after tumultuous year",
+          "summary": "The White House greenlit Marty Makary's exit after a year marked by high-level departures, eroded morale and political fights that left the FDA chief increasingly isolated, Politico's David Lim reports.",
+          "source": "Politico",
+          "time": "Friday",
           "flagged": false,
-          "url": "https://www.politico.com/playbook"
+          "url": "https://www.politico.com/news"
+        }
+      ]
+    },
+    {
+      "id": "energy-industry",
+      "label": "Energy Industry",
+      "count": 3,
+      "stories": [
+        {
+          "headline": "PJM forecasts adequate summer supply but warns of tightening reserves",
+          "summary": "PJM's 2026 summer outlook expects ~156,400 MW peak demand against 180,200 MW of generation plus 7,800 MW of demand response, but flags shrinking margins as data-center load outpaces new generation across the 13-state footprint.",
+          "source": "PJM Inside Lines",
+          "time": "May 7",
+          "flagged": true,
+          "url": "https://insidelines.pjm.com/summer-outlook-2026-pjm-prepared-to-meet-growing-summer-demand-with-adequate-resources/"
+        },
+        {
+          "headline": "Eversource CEO: 'We are resisting data centers'",
+          "summary": "On Eversource's Q1 call Wednesday, Joe Nolan told analysts data centers offer \"no value to our residential customer — actually, any customer\" and \"will only drive up the price of energy,\" breaking with peers racing to court the load.",
+          "source": "Utility Dive",
+          "time": "May 7 earnings call",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/news/data-centers-eversource-ceo-ferc-roe-earnings/819709/"
+        },
+        {
+          "headline": "PJM real-time prices steady as load runs at 76 GW",
+          "summary": "PJM-RTO LMP printed $43.68/MWh at 8:10 a.m. EPT with current load at 75,665 MW; nuclear (29.7 GW) and gas (23.5 GW) supplied the bulk of generation, and PJM forecasts a 82.1 GW peak today and 86.1 GW Sunday.",
+          "source": "PJM markets snapshot",
+          "time": "Today 8:10 a.m. EPT",
+          "flagged": false,
+          "url": "https://www.pjm.com/markets-and-operations"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Skenes shuts down D-backs as Pirates take rubber game 1-0",
-          "summary": "Paul Skenes worked a dominant start at Chase Field and Brandon Lowe's solo homer was the only run as the Pirates (21-17) beat Arizona 1-0 Thursday afternoon; series at San Francisco opens tonight.",
-          "source": "MLB.com",
-          "time": "Yesterday",
+          "headline": "Pirates fall 5-2 to Giants behind Devers homer",
+          "summary": "Carmen Mlodzinski (2-3) yielded two earned runs over six innings as Manuel Ozuna's solo shot was Pittsburgh's only standout; Robbie Ray struck out seven over six for San Francisco at Oracle Park.",
+          "source": "ESPN",
+          "time": "Friday night",
           "flagged": false,
-          "url": "https://www.mlb.com/stories/game/825090"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815266/pirates-giants"
         },
         {
-          "headline": "Penguins extend Dewar and Solovyov to open offseason",
-          "summary": "Pittsburgh re-signed forward Connor Dewar at $2.25M AAV through 2027-28 and defenseman Ilya Solovyov to a one-year, $850K deal, locking in two depth pieces before the UFA market opens.",
-          "source": "Pittsburgh Hockey Now",
-          "time": "Yesterday",
+          "headline": "Penguins re-sign Dewar (2 yr/$4.5M) and Solovyov (1 yr/$850K)",
+          "summary": "Kyle Dubas opened his offseason Thursday by extending forward Connor Dewar at $2.25M AAV through 2027-28 and bringing back depth defenseman Ilya Solovyov, leaving Evgeni Malkin's expiring deal as the biggest open question.",
+          "source": "EnforceTheSport",
+          "time": "May 7",
           "flagged": false,
-          "url": "https://pittsburghhockeynow.com/pittsburgh-penguins-connor-dewar-ilya-solovyov-sign-contract-extensions/"
-        },
-        {
-          "headline": "Steelers open rookie minicamp today; Rodgers expected to re-sign this weekend",
-          "summary": "The 2026 draft class — headlined by QB Drew Allar — reports to UPMC Rooney Sports Complex for rookie minicamp Friday, while reporting indicates Aaron Rodgers will re-up with Pittsburgh in the next 48 hours.",
-          "source": "Steelers.com / Steelers Depot",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.steelers.com/news/roster-set-for-2026-rookie-minicamp"
+          "url": "https://www.enforcethesport.com/blog/pittsburgh-penguins-start-2026-offseason-with-two-big-re-signings"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 8 15:20 ET",
+    "as_of": "May 8 close",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$23.77/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$16.31/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$43.48/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$45.62/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$95.83/bbl", "change": "+1.1%" }
+      { "market": "WTI Crude", "price": "$95.92/bbl", "change": "+1.2%" }
     ]
   }
 }
