@@ -1,119 +1,126 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "type": "morning",
-  "generated_at": "2026-05-09T08:30:00-04:00",
+  "generated_at": "2026-05-10T07:30:00-04:00",
   "sections": [
-    {
-      "id": "national-politics",
-      "label": "National Politics",
-      "count": 5,
-      "stories": [
-        {
-          "headline": "Trump announces three-day Russia-Ukraine ceasefire for May 9–11",
-          "summary": "Trump said Friday the truce was requested \"directly by me\" and accepted by Zelenskyy and Putin, casting it as the start of broader talks to end the largest war in Europe since WWII.",
-          "source": "Politico Playbook PM",
-          "time": "Friday afternoon",
-          "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook-pm"
-        },
-        {
-          "headline": "Virginia Supreme Court overturns Democrats' redistricting referendum",
-          "summary": "Justices ruled Friday that Democrats failed to follow proper procedure putting the measure on the ballot, erasing four targeted blue seats and handing the GOP a major midterm map advantage.",
-          "source": "Politico Playbook PM",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook-pm"
-        },
-        {
-          "headline": "April jobs: 115K added, double the forecast",
-          "summary": "BLS reported 115,000 jobs added in April with unemployment steady at 4.3%, doubling the 55K consensus and beating expectations for the second straight month as the White House touts the rebound.",
-          "source": "Politico",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://www.politico.com/news"
-        },
-        {
-          "headline": "$1B Trump ballroom security ask hits House GOP wall",
-          "summary": "House Republicans privately tell Speaker Mike Johnson the request tucked into the immigration reconciliation bill can't reach 218 votes, with PA moderates Brian Fitzpatrick and Rob Bresnahan on the watch list.",
-          "source": "Punchbowl News AM",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://punchbowl.news"
-        },
-        {
-          "headline": "FDA Commissioner Makary departing after tumultuous year",
-          "summary": "The White House greenlit Marty Makary's exit after a year marked by high-level departures, eroded morale and political fights that left the FDA chief increasingly isolated, Politico's David Lim reports.",
-          "source": "Politico",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://www.politico.com/news"
-        }
-      ]
-    },
     {
       "id": "energy-industry",
       "label": "Energy Industry",
       "count": 3,
       "stories": [
         {
-          "headline": "PJM forecasts adequate summer supply but warns of tightening reserves",
-          "summary": "PJM's 2026 summer outlook expects ~156,400 MW peak demand against 180,200 MW of generation plus 7,800 MW of demand response, but flags shrinking margins as data-center load outpaces new generation across the 13-state footprint.",
-          "source": "PJM Inside Lines",
-          "time": "May 7",
-          "flagged": true,
-          "url": "https://insidelines.pjm.com/summer-outlook-2026-pjm-prepared-to-meet-growing-summer-demand-with-adequate-resources/"
-        },
-        {
-          "headline": "Eversource CEO: 'We are resisting data centers'",
-          "summary": "On Eversource's Q1 call Wednesday, Joe Nolan told analysts data centers offer \"no value to our residential customer — actually, any customer\" and \"will only drive up the price of energy,\" breaking with peers racing to court the load.",
+          "headline": "Eversource CEO Joe Nolan: 'We are resisting data centers'",
+          "summary": "Eversource CEO Joe Nolan told analysts data centers are of 'no value to our residential customer — actually, any customer' and will only drive up energy prices, putting a major investor-owned utility on record against accommodating large-load growth.",
           "source": "Utility Dive",
-          "time": "May 7 earnings call",
-          "flagged": false,
+          "time": "Friday",
+          "flagged": true,
           "url": "https://www.utilitydive.com/news/data-centers-eversource-ceo-ferc-roe-earnings/819709/"
         },
         {
-          "headline": "PJM real-time prices steady as load runs at 76 GW",
-          "summary": "PJM-RTO LMP printed $43.68/MWh at 8:10 a.m. EPT with current load at 75,665 MW; nuclear (29.7 GW) and gas (23.5 GW) supplied the bulk of generation, and PJM forecasts a 82.1 GW peak today and 86.1 GW Sunday.",
-          "source": "PJM markets snapshot",
-          "time": "Today 8:10 a.m. EPT",
+          "headline": "Evergy projects up to 8% annual retail sales growth on data centers",
+          "summary": "Evergy told investors data center demand could push retail sales growth as high as 8% per year — the polar opposite of Eversource's stance and a preview of the regulatory fights coming for utilities racing to add hyperscaler load.",
+          "source": "Utility Dive",
+          "time": "Friday",
           "flagged": false,
-          "url": "https://www.pjm.com/markets-and-operations"
+          "url": "https://www.utilitydive.com/"
+        },
+        {
+          "headline": "Sunrun Q1 sales drop sharply after solar tax credit expiration, tariffs",
+          "summary": "Sunrun reported a steep Q1 sales decline tied to the wind-down of the residential solar Investment Tax Credit and Trump-era tariffs on imported components — an early read on how the post-IRA solar market is contracting.",
+          "source": "Utility Dive",
+          "time": "Friday",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/"
+        }
+      ]
+    },
+    {
+      "id": "pa-politics",
+      "label": "PA & NJ Politics",
+      "count": 2,
+      "stories": [
+        {
+          "headline": "PA PUC's large-load tariff for data centers heads to revised final order",
+          "summary": "A PUC spokesperson said a revised final order on the Model Large Load Tariff — covering customers above 50 MW individually or 100 MW in aggregate, with termination fees and universal-service contributions — will issue 'in the coming days,' Chairman Stephen DeFrank said.",
+          "source": "WESA",
+          "time": "Friday",
+          "flagged": true,
+          "url": "https://www.wesa.fm/environment-energy/2026-05-08/pennsylvania-public-utility-commission-data-center-protection"
+        },
+        {
+          "headline": "363,324 PA mail ballots returned ahead of May 19 primary",
+          "summary": "Pennsylvania Department of State data through 8 a.m. Friday show 363,324 mail ballots returned — 43.24% of the 840,222 applications approved — nine days out from the May 19 primary that includes six competitive U.S. House races.",
+          "source": "ABC27 / PA Department of State",
+          "time": "Friday",
+          "flagged": false,
+          "url": "https://www.abc27.com/pennsylvania-politics/more-than-363000-mail-ballots-returned-ahead-of-pennsylvania-primary/"
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 2,
+      "stories": [
+        {
+          "headline": "Alabama files emergency SCOTUS appeal after court blocks new GOP primary maps",
+          "summary": "An Alabama court Friday night denied the GOP's request to greenlight new mid-decade primary elections under freshly drawn maps; the state filed an emergency appeal to the U.S. Supreme Court, the latest front in the White House-driven redistricting push.",
+          "source": "Politico Playbook",
+          "time": "Saturday",
+          "flagged": false,
+          "url": "https://www.politico.com/newsletters/playbook"
+        },
+        {
+          "headline": "AOC declines to rule out 2028 presidential or Schumer Senate challenge",
+          "summary": "Rep. Alexandria Ocasio-Cortez, asked Friday at the University of Chicago Institute of Politics about a 2028 White House bid or primarying Sen. Chuck Schumer, said 'my ambition is way bigger' than any title and could be pursued from 'the House… the Senate… the White House.'",
+          "source": "Politico Playbook",
+          "time": "Saturday",
+          "flagged": false,
+          "url": "https://www.politico.com/newsletters/playbook"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Pirates fall 5-2 to Giants behind Devers homer",
-          "summary": "Carmen Mlodzinski (2-3) yielded two earned runs over six innings as Manuel Ozuna's solo shot was Pittsburgh's only standout; Robbie Ray struck out seven over six for San Francisco at Oracle Park.",
+          "headline": "Pirates pound Giants 13-3 behind 20-hit barrage; Ashcraft tosses 7 strong",
+          "summary": "Braxton Ashcraft (2-2) went 7 IP, 6 H, 1 ER, 6 K at Oracle Park as Brandon Lowe drove in four (including a 2-run triple) and Nick Gonzales went 4-for-6 in Pittsburgh's season-high 20-hit night; Pirates climb to 22-18.",
           "source": "ESPN",
-          "time": "Friday night",
+          "time": "Saturday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815266/pirates-giants"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815281/pirates-giants"
         },
         {
-          "headline": "Penguins re-sign Dewar (2 yr/$4.5M) and Solovyov (1 yr/$850K)",
-          "summary": "Kyle Dubas opened his offseason Thursday by extending forward Connor Dewar at $2.25M AAV through 2027-28 and bringing back depth defenseman Ilya Solovyov, leaving Evgeni Malkin's expiring deal as the biggest open question.",
-          "source": "EnforceTheSport",
-          "time": "May 7",
+          "headline": "Steelers wrap rookie minicamp; McCarthy holds Saturday media availability",
+          "summary": "Pittsburgh's three-day rookie minicamp ran May 8-10 — first on-field work for the 2026 draft class — with Mike McCarthy speaking after Saturday's practice; the team also signed third-round OT Gennings Dunker. OTAs begin May 18.",
+          "source": "Steelers.com",
+          "time": "Saturday",
           "flagged": false,
-          "url": "https://www.enforcethesport.com/blog/pittsburgh-penguins-start-2026-offseason-with-two-big-re-signings"
+          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
+        },
+        {
+          "headline": "Riverhounds top Louisville City 2-0 on the road",
+          "summary": "Trevor Amann scored inside the opening 10 minutes and Sam Bassett added one from outside the box early in the second half as keeper Nico Campuzano made seven saves for the shutout in front of nearly 10,000 at Lynn Family Stadium.",
+          "source": "Pittsburgh Soccer Now",
+          "time": "Saturday",
+          "flagged": false,
+          "url": "https://pittsburghsoccernow.com/2026/05/09/opportunistic-riverhounds-top-louisville-city-2-0/"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 8 close",
+    "as_of": "May 8 close / PJM RT 8:11 a.m. EPT",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$43.48/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$45.62/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$14.22/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$14.13/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
+      { "market": "Henry Hub", "price": "$2.63/MMBtu", "change": "-1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$95.92/bbl", "change": "+1.2%" }
+      { "market": "WTI Crude", "price": "$95.42/bbl", "change": "+0.6%" }
     ]
   }
 }
