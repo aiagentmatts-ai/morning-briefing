@@ -1,126 +1,134 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "type": "morning",
-  "generated_at": "2026-05-10T07:30:00-04:00",
+  "generated_at": "2026-05-11T08:30:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Eversource CEO Joe Nolan: 'We are resisting data centers'",
-          "summary": "Eversource CEO Joe Nolan told analysts data centers are of 'no value to our residential customer — actually, any customer' and will only drive up energy prices, putting a major investor-owned utility on record against accommodating large-load growth.",
-          "source": "Utility Dive",
-          "time": "Friday",
+          "headline": "PJM floats curtailing power to new data centers, citing 'unsustainable stress' on grid",
+          "summary": "PJM's 'Powering Reliability Through Market Design' paper warns that data center load growth, plant retirements, and permitting delays may force the RTO to curtail electricity to new large-load customers during peak demand — Western Hub cleared $26.90/MWh and load hit 84.7 GW in this morning's real-time snapshot.",
+          "source": "PJM / YourNews",
+          "time": "Yesterday",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/data-centers-eversource-ceo-ferc-roe-earnings/819709/"
+          "url": "https://yournews.com/2026/05/10/6928100/grid-operator-floats-power-cutbacks-for-new-data-centers-amid/"
         },
         {
-          "headline": "Evergy projects up to 8% annual retail sales growth on data centers",
-          "summary": "Evergy told investors data center demand could push retail sales growth as high as 8% per year — the polar opposite of Eversource's stance and a preview of the regulatory fights coming for utilities racing to add hyperscaler load.",
-          "source": "Utility Dive",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
-        },
-        {
-          "headline": "Sunrun Q1 sales drop sharply after solar tax credit expiration, tariffs",
-          "summary": "Sunrun reported a steep Q1 sales decline tied to the wind-down of the residential solar Investment Tax Credit and Trump-era tariffs on imported components — an early read on how the post-IRA solar market is contracting.",
-          "source": "Utility Dive",
-          "time": "Friday",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/"
+          "headline": "PJM gets 811 generation project applications totaling 220 GW, led by gas and storage",
+          "summary": "Developers submitted 811 projects to PJM's new interconnection cycle by the April 27 close — 105.8 GW natural gas, 66.5 GW storage, 17.9 GW nuclear, 14.8 GW solar — driven by data center demand; PJM now begins validation, with no backlog from prior queues.",
+          "source": "Delaware Business Now / WESA",
+          "time": "Saturday",
+          "flagged": true,
+          "url": "https://www.wesa.fm/environment-energy/2026-05-06/pjm-power-project-proposals"
         }
       ]
     },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "PA PUC's large-load tariff for data centers heads to revised final order",
-          "summary": "A PUC spokesperson said a revised final order on the Model Large Load Tariff — covering customers above 50 MW individually or 100 MW in aggregate, with termination fees and universal-service contributions — will issue 'in the coming days,' Chairman Stephen DeFrank said.",
-          "source": "WESA",
-          "time": "Friday",
-          "flagged": true,
-          "url": "https://www.wesa.fm/environment-energy/2026-05-08/pennsylvania-public-utility-commission-data-center-protection"
+          "headline": "Shapiro quietly working to derail AOC-backed PA-03 candidate ahead of May 19 primary",
+          "summary": "Axios reports Gov. Josh Shapiro is trying to block a left-wing congressional candidate championed by Rep. Alexandria Ocasio-Cortez in the May 19 PA-03 Democratic primary, framed as an early 2028-presidential proxy fight; Chris Rabb, Sharif Street, and Ala Stanford are now flooding Philly airwaves.",
+          "source": "Axios / PoliticsPA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politicspa.com"
         },
         {
-          "headline": "363,324 PA mail ballots returned ahead of May 19 primary",
-          "summary": "Pennsylvania Department of State data through 8 a.m. Friday show 363,324 mail ballots returned — 43.24% of the 840,222 applications approved — nine days out from the May 19 primary that includes six competitive U.S. House races.",
-          "source": "ABC27 / PA Department of State",
+          "headline": "Shapiro tells PA Senate to 'come back to work' and pass a budget",
+          "summary": "Speaking in Lancaster County Friday, Gov. Shapiro called on the GOP-controlled Senate — not scheduled to reconvene until June 1 — to return and 'get a budget to my desk as soon as possible,' siding with Sens. Costa and Hughes who said Republicans were 'wasting time.'",
+          "source": "PoliticsPA",
           "time": "Friday",
           "flagged": false,
-          "url": "https://www.abc27.com/pennsylvania-politics/more-than-363000-mail-ballots-returned-ahead-of-pennsylvania-primary/"
+          "url": "https://www.politicspa.com"
+        },
+        {
+          "headline": "Shapiro endorses Bucks County's Bob Harvie in PA-01",
+          "summary": "Gov. Shapiro on Sunday formally endorsed Bucks County Commissioner Bob Harvie in the 1st Congressional District; Harvie also picked up a New Democrat Coalition endorsement and is one of three Dems the group is backing against GOP incumbents.",
+          "source": "PoliticsPA / Punchbowl",
+          "time": "Sunday",
+          "flagged": false,
+          "url": "https://www.politicspa.com"
         }
       ]
     },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 2,
+      "count": 4,
       "stories": [
         {
-          "headline": "Alabama files emergency SCOTUS appeal after court blocks new GOP primary maps",
-          "summary": "An Alabama court Friday night denied the GOP's request to greenlight new mid-decade primary elections under freshly drawn maps; the state filed an emergency appeal to the U.S. Supreme Court, the latest front in the White House-driven redistricting push.",
-          "source": "Politico Playbook",
-          "time": "Saturday",
+          "headline": "Johnson, Jeffries enter two-week stretch with shifting fortunes after SCOTUS VRA ruling",
+          "summary": "Punchbowl: Supreme Court rulings in Washington and Richmond reshape the 2026 House map, with up to 10 seats potentially affected — Tennessee Republicans already eliminated Rep. Steve Cohen's seat, Louisiana set to gain at least one GOP seat, and Alabama could yield two more if SCOTUS clears the way.",
+          "source": "Punchbowl AM",
+          "time": "Today",
           "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
+          "url": "https://punchbowl.news"
         },
         {
-          "headline": "AOC declines to rule out 2028 presidential or Schumer Senate challenge",
-          "summary": "Rep. Alexandria Ocasio-Cortez, asked Friday at the University of Chicago Institute of Politics about a 2028 White House bid or primarying Sen. Chuck Schumer, said 'my ambition is way bigger' than any title and could be pursued from 'the House… the Senate… the White House.'",
-          "source": "Politico Playbook",
-          "time": "Saturday",
+          "headline": "Schumer turns $1B Trump ballroom security ask into reconciliation flashpoint",
+          "summary": "Senate Minority Leader Chuck Schumer's Dear Colleague letter Monday morning tees up Byrd Rule challenges and forced amendment votes on the $72B ICE/border reconciliation bill ahead of a planned floor vote the week of May 18; moderate Republicans are privately objecting.",
+          "source": "Punchbowl AM",
+          "time": "Today",
           "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
+          "url": "https://punchbowl.news"
+        },
+        {
+          "headline": "Trump heads to China Tuesday seeking Xi's help on Iran war",
+          "summary": "President Trump travels to Beijing Tuesday for his first in-person Xi meeting in nearly seven months, bringing a group of CEOs and pushing for progress on the Iran war and reopening the Strait of Hormuz; Trump rejected an Iranian peace offer Sunday.",
+          "source": "Punchbowl AM / NYT",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.nytimes.com/2026/05/10/us/politics/iran-war-us-peace-proposal-response.html"
+        },
+        {
+          "headline": "Senate teed up for cloture vote on Warsh as Fed governor Monday evening",
+          "summary": "Senate returns at 3 p.m. for two roll-call votes at 5:30 p.m. — a procedural vote on executive nominees and a cloture vote on Kevin Warsh's nomination to the Federal Reserve Board; a confirmation vote on Warsh as Fed chair follows later this week, with Powell's term ending Friday.",
+          "source": "Punchbowl AM",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Pirates pound Giants 13-3 behind 20-hit barrage; Ashcraft tosses 7 strong",
-          "summary": "Braxton Ashcraft (2-2) went 7 IP, 6 H, 1 ER, 6 K at Oracle Park as Brandon Lowe drove in four (including a 2-run triple) and Nick Gonzales went 4-for-6 in Pittsburgh's season-high 20-hit night; Pirates climb to 22-18.",
+          "headline": "Pirates blow late lead, fall 7-6 in 12 to Giants on dropped fly",
+          "summary": "Bubba Chandler went 5 IP / 2 ER and Konnor Griffin and Oneil Cruz homered, but the Giants tied it and won 7-6 in 12 innings Sunday after RF Ryan O'Hearn dropped a Matt Chapman fly, sending the automatic runner to third; Pirates fall to 22-19, host Colorado Tuesday-Thursday.",
           "source": "ESPN",
-          "time": "Saturday",
+          "time": "Sunday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815281/pirates-giants"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401815296"
         },
         {
-          "headline": "Steelers wrap rookie minicamp; McCarthy holds Saturday media availability",
-          "summary": "Pittsburgh's three-day rookie minicamp ran May 8-10 — first on-field work for the 2026 draft class — with Mike McCarthy speaking after Saturday's practice; the team also signed third-round OT Gennings Dunker. OTAs begin May 18.",
-          "source": "Steelers.com",
-          "time": "Saturday",
+          "headline": "Steelers wrap rookie minicamp; OTAs open May 18",
+          "summary": "Pittsburgh held its 2026 rookie minicamp this past weekend, with first-round OT Max Iheanachor (Arizona State, No. 21), 2nd-round WR Germie Bernard (Alabama), and 3rd-round QB Drew Allar (Penn State) on the field; OTAs begin May 18 and run through June 12.",
+          "source": "Steelers.com / Steelers Depot",
+          "time": "Weekend",
           "flagged": false,
-          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
-        },
-        {
-          "headline": "Riverhounds top Louisville City 2-0 on the road",
-          "summary": "Trevor Amann scored inside the opening 10 minutes and Sam Bassett added one from outside the box early in the second half as keeper Nico Campuzano made seven saves for the shutout in front of nearly 10,000 at Lynn Family Stadium.",
-          "source": "Pittsburgh Soccer Now",
-          "time": "Saturday",
-          "flagged": false,
-          "url": "https://pittsburghsoccernow.com/2026/05/09/opportunistic-riverhounds-top-louisville-city-2-0/"
+          "url": "https://www.steelers.com/news/dates-set-for-2026-steelers-rookie-minicamp"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 8 close / PJM RT 8:11 a.m. EPT",
+    "as_of": "May 11, 8:09 a.m. ET",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$14.22/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$14.13/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$26.90/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$25.80/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
       { "market": "Henry Hub", "price": "$2.63/MMBtu", "change": "-1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$95.42/bbl", "change": "+0.6%" }
+      { "market": "WTI Crude", "price": "$98.40/bbl", "change": "+3.1%" }
     ]
   }
 }
