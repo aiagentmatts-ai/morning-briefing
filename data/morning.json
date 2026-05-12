@@ -1,28 +1,66 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "type": "morning",
-  "generated_at": "2026-05-11T08:30:00-04:00",
+  "generated_at": "2026-05-12T09:15:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "PJM floats curtailing power to new data centers, citing 'unsustainable stress' on grid",
-          "summary": "PJM's 'Powering Reliability Through Market Design' paper warns that data center load growth, plant retirements, and permitting delays may force the RTO to curtail electricity to new large-load customers during peak demand — Western Hub cleared $26.90/MWh and load hit 84.7 GW in this morning's real-time snapshot.",
-          "source": "PJM / YourNews",
+          "headline": "PPL's 'advanced' PA data center pipeline jumps 12% to 28.3 GW by 2034",
+          "summary": "PPL's advanced-stage Pennsylvania data center pipeline grew to 28.3 GW from 25.2 GW three months ago, with 10 GW under signed agreements and 5 GW under construction for QTS, AWS, PowerHouse and CoreWeave; CEO Vincent Sorgi warned PJM's reliability backstop auction may not adequately shift costs to large loads, while PPL-Blackstone is 'executing multiple gas turbine reservation agreements' in the queue. Western Hub printed $16.14/MWh and load hit 84,038 MW in this morning's PJM snapshot.",
+          "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": true,
-          "url": "https://yournews.com/2026/05/10/6928100/grid-operator-floats-power-cutbacks-for-new-data-centers-amid/"
+          "url": "https://www.utilitydive.com/news/ppl-data-center-pipeline-pjm-blackstone-earnings/819804/"
         },
         {
-          "headline": "PJM gets 811 generation project applications totaling 220 GW, led by gas and storage",
-          "summary": "Developers submitted 811 projects to PJM's new interconnection cycle by the April 27 close — 105.8 GW natural gas, 66.5 GW storage, 17.9 GW nuclear, 14.8 GW solar — driven by data center demand; PJM now begins validation, with no backlog from prior queues.",
-          "source": "Delaware Business Now / WESA",
-          "time": "Saturday",
-          "flagged": true,
-          "url": "https://www.wesa.fm/environment-energy/2026-05-06/pjm-power-project-proposals"
+          "headline": "Vistra adds 4.5 GW across PJM, ERCOT, ISO-NE; sees 2-3% PJM load growth through 2030",
+          "summary": "Vistra has 4.5 GW of capacity additions completed or in process — gas uprates, coal-to-gas conversions, renewables and nuclear uprates — and CEO Jim Burke told Q1 investors that 2–3% annual PJM load growth and 5–6% in ERCOT is 'reasonable' through 2030, on top of the pending $4B Cogentrix acquisition.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/news/vistra-adds-45-gw-of-capacity-in-line-with-reasonable-forecasts-for-pjm/819845/"
+        },
+        {
+          "headline": "WTI crude jumps 3.5% to $101/bbl as Iran ceasefire on 'massive life support'",
+          "summary": "WTI crude rose $3.39 to $101.46/bbl Tuesday morning after Trump said Monday the Iran ceasefire is on 'massive life support,' raising Strait of Hormuz shipping fears; the national gasoline average sits at $4.50/gal, driving Trump and Sen. Hawley to push a federal gas tax holiday.",
+          "source": "Trading Economics / Punchbowl",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://tradingeconomics.com/commodity/crude-oil"
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 3,
+      "stories": [
+        {
+          "headline": "SCOTUS 6-3 clears Alabama's old map; South Carolina moves to redraw Clyburn's seat today",
+          "summary": "The Supreme Court Monday vacated the 2023 injunction requiring two Black-majority Alabama districts, letting GOP officials revert to a map that erases Rep. Shomari Figures's 2nd District (+1 GOP); South Carolina House Republicans take up bills today to redraw Rep. Jim Clyburn's 6th District and push primaries to August 11.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politico.com/newsletters/playbook"
+        },
+        {
+          "headline": "Trump backs federal gas tax holiday as $4.50/gal hits GOP; Boyle bill already filed",
+          "summary": "Trump Monday called a federal gas tax holiday 'a great idea' as the national average sits at $4.50/gal post-Iran war, but Senate Majority Leader Thune sounded skeptical Democrats would go along; Rep. Brendan Boyle (D-PA) filed a similar bill last month capping the 18-cent tax when gas exceeds $4.",
+          "source": "Punchbowl News / Inquirer",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/article/finance/economy/trump-capitalism/"
+        },
+        {
+          "headline": "Senate votes on Warsh Fed Board confirmation today, procedural step on chair role",
+          "summary": "The Senate votes today to confirm Kevin Warsh to the Federal Reserve Board of Governors and takes an initial procedural vote on his elevation to Fed chair, with the final chair confirmation vote expected Wednesday.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": false
         }
       ]
     },
@@ -32,103 +70,72 @@
       "count": 3,
       "stories": [
         {
-          "headline": "Shapiro quietly working to derail AOC-backed PA-03 candidate ahead of May 19 primary",
-          "summary": "Axios reports Gov. Josh Shapiro is trying to block a left-wing congressional candidate championed by Rep. Alexandria Ocasio-Cortez in the May 19 PA-03 Democratic primary, framed as an early 2028-presidential proxy fight; Chris Rabb, Sharif Street, and Ala Stanford are now flooding Philly airwaves.",
-          "source": "Axios / PoliticsPA",
-          "time": "Today",
+          "headline": "Trump nominates Sen. Doug Mastriano as U.S. ambassador to Slovakia",
+          "summary": "Trump Monday nominated state Sen. Doug Mastriano (R-Adams) — the 2022 GOP gubernatorial nominee who lost to Shapiro 56.5-41.7 — to be U.S. ambassador to Slovakia; confirmation by the Senate Foreign Relations Committee would vacate his SD-33 seat in conservative south-central PA and trigger a special election.",
+          "source": "Philadelphia Inquirer / PoliticsPA",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.politicspa.com"
+          "url": "https://www.inquirer.com/politics/pennsylvania/mastriano-slovakia-trump-ambassador-pennsylvania-20260511.html"
         },
         {
-          "headline": "Shapiro tells PA Senate to 'come back to work' and pass a budget",
-          "summary": "Speaking in Lancaster County Friday, Gov. Shapiro called on the GOP-controlled Senate — not scheduled to reconvene until June 1 — to return and 'get a budget to my desk as soon as possible,' siding with Sens. Costa and Hughes who said Republicans were 'wasting time.'",
+          "headline": "PA Supreme Court Justice David Wecht switches affiliation from Democrat to Independent",
+          "summary": "Justice David Wecht announced Monday he is changing his voter registration from Democrat to Independent, saying his 'jurisprudence and adjudication have always been independent, and they always will be'; voters retained Wecht to a second 10-year term last November.",
           "source": "PoliticsPA",
-          "time": "Friday",
+          "time": "Yesterday",
           "flagged": false,
           "url": "https://www.politicspa.com"
         },
         {
-          "headline": "Shapiro endorses Bucks County's Bob Harvie in PA-01",
-          "summary": "Gov. Shapiro on Sunday formally endorsed Bucks County Commissioner Bob Harvie in the 1st Congressional District; Harvie also picked up a New Democrat Coalition endorsement and is one of three Dems the group is backing against GOP incumbents.",
-          "source": "PoliticsPA / Punchbowl",
-          "time": "Sunday",
+          "headline": "Mystery super PAC drops $556K in PA-07 Democratic primary days before vote",
+          "summary": "TV spots and mailers from a mysterious super PAC are flooding the closing days of the PA-07 Democratic primary — one of the country's most-watched House races — where four Democrats compete to challenge GOP Rep. Ryan Mackenzie in November in the Lehigh Valley swing district.",
+          "source": "LehighValleyNews / PoliticsPA",
+          "time": "Today",
           "flagged": false,
           "url": "https://www.politicspa.com"
-        }
-      ]
-    },
-    {
-      "id": "national-politics",
-      "label": "National Politics",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "Johnson, Jeffries enter two-week stretch with shifting fortunes after SCOTUS VRA ruling",
-          "summary": "Punchbowl: Supreme Court rulings in Washington and Richmond reshape the 2026 House map, with up to 10 seats potentially affected — Tennessee Republicans already eliminated Rep. Steve Cohen's seat, Louisiana set to gain at least one GOP seat, and Alabama could yield two more if SCOTUS clears the way.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news"
-        },
-        {
-          "headline": "Schumer turns $1B Trump ballroom security ask into reconciliation flashpoint",
-          "summary": "Senate Minority Leader Chuck Schumer's Dear Colleague letter Monday morning tees up Byrd Rule challenges and forced amendment votes on the $72B ICE/border reconciliation bill ahead of a planned floor vote the week of May 18; moderate Republicans are privately objecting.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news"
-        },
-        {
-          "headline": "Trump heads to China Tuesday seeking Xi's help on Iran war",
-          "summary": "President Trump travels to Beijing Tuesday for his first in-person Xi meeting in nearly seven months, bringing a group of CEOs and pushing for progress on the Iran war and reopening the Strait of Hormuz; Trump rejected an Iranian peace offer Sunday.",
-          "source": "Punchbowl AM / NYT",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.nytimes.com/2026/05/10/us/politics/iran-war-us-peace-proposal-response.html"
-        },
-        {
-          "headline": "Senate teed up for cloture vote on Warsh as Fed governor Monday evening",
-          "summary": "Senate returns at 3 p.m. for two roll-call votes at 5:30 p.m. — a procedural vote on executive nominees and a cloture vote on Kevin Warsh's nomination to the Federal Reserve Board; a confirmation vote on Warsh as Fed chair follows later this week, with Powell's term ending Friday.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Pirates blow late lead, fall 7-6 in 12 to Giants on dropped fly",
-          "summary": "Bubba Chandler went 5 IP / 2 ER and Konnor Griffin and Oneil Cruz homered, but the Giants tied it and won 7-6 in 12 innings Sunday after RF Ryan O'Hearn dropped a Matt Chapman fly, sending the automatic runner to third; Pirates fall to 22-19, host Colorado Tuesday-Thursday.",
-          "source": "ESPN",
+          "headline": "Giants walk off Pirates 7-6 in 12 innings to take series; Pittsburgh falls to 22-19",
+          "summary": "Jesús Rodríguez's bases-loaded single in the bottom of the 12th lifted San Francisco past the Pirates 7-6 Sunday at Oracle Park after the Bucs blew a pair of two-run leads, dropping them to 22-19 and fourth in the NL Central; they had Monday off and open a homestand against Colorado tonight at PNC.",
+          "source": "ESPN / TribLIVE",
           "time": "Sunday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401815296"
+          "url": "https://www.espn.com/mlb/recap?gameId=401815296"
         },
         {
-          "headline": "Steelers wrap rookie minicamp; OTAs open May 18",
-          "summary": "Pittsburgh held its 2026 rookie minicamp this past weekend, with first-round OT Max Iheanachor (Arizona State, No. 21), 2nd-round WR Germie Bernard (Alabama), and 3rd-round QB Drew Allar (Penn State) on the field; OTAs begin May 18 and run through June 12.",
-          "source": "Steelers.com / Steelers Depot",
-          "time": "Weekend",
+          "headline": "Penguins enter offseason with NHL's most cap space and a Malkin decision looming",
+          "summary": "Kyle Dubas projects to enter free agency July 1 with roughly $40M in cap space — the most in the NHL — while weighing whether to re-sign 38-year-old Evgeni Malkin, who has said he wants to return for 2026-27; Crosby and Letang remain under contract.",
+          "source": "Pittsburgh Post-Gazette",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.steelers.com/news/dates-set-for-2026-steelers-rookie-minicamp"
+          "url": "https://www.post-gazette.com/sports/penguins/2026/05/11/offseason-preview-dubas-crosby-evgeni-malkin-letang-nhl-offseason/stories/202605080011"
+        },
+        {
+          "headline": "Aaron Rodgers visits Pittsburgh over weekend, but no Steelers meeting; OTAs open May 18",
+          "summary": "Aaron Rodgers traveled to Pittsburgh over the weekend but did not meet with the Steelers and no deal was reached, per reports; the team wrapped rookie minicamp Sunday under head coach Mike McCarthy, with the first day of organized team activities set for May 18.",
+          "source": "Steeler Nation / Steelers.com",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.steelernation.com/2026/05/11/steelers-solid-confirmation-aaron-rodgers"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 11, 8:09 a.m. ET",
+    "as_of": "May 12 9:13 a.m. EPT",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$26.90/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$25.80/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$16.14/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$16.10/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.63/MMBtu", "change": "-1.5%" },
+      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$98.40/bbl", "change": "+3.1%" }
+      { "market": "WTI Crude", "price": "$101.46/bbl", "change": "+3.5%" }
     ]
   }
 }
