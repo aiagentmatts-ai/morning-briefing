@@ -1,141 +1,158 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "type": "morning",
-  "generated_at": "2026-05-12T09:15:00-04:00",
+  "generated_at": "2026-05-13T08:30:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 3,
+      "count": 4,
       "stories": [
         {
-          "headline": "PPL's 'advanced' PA data center pipeline jumps 12% to 28.3 GW by 2034",
-          "summary": "PPL's advanced-stage Pennsylvania data center pipeline grew to 28.3 GW from 25.2 GW three months ago, with 10 GW under signed agreements and 5 GW under construction for QTS, AWS, PowerHouse and CoreWeave; CEO Vincent Sorgi warned PJM's reliability backstop auction may not adequately shift costs to large loads, while PPL-Blackstone is 'executing multiple gas turbine reservation agreements' in the queue. Western Hub printed $16.14/MWh and load hit 84,038 MW in this morning's PJM snapshot.",
+          "headline": "Constellation enters 5 GW of nuclear, gas and battery projects in PJM queue",
+          "summary": "On its Q1 earnings call, Constellation said it placed nuclear uprates, gas-fired generation and battery storage totaling roughly 5 GW into PJM's interconnection queue while waiting for more detail on PJM's backstop colocation proposal.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/constellation-energy-crane-pjm-ercot-earnings/819939/"
+        },
+        {
+          "headline": "PPL 'advanced' PA data center pipeline reaches 28.3 GW",
+          "summary": "PPL Electric's advanced-stage data center pipeline in Pennsylvania grew to 28.3 GW, up 12% in a quarter, with about 5 GW already under construction and contracts in place with QTS, AWS, PowerHouse and CoreWeave; Western Hub real-time LMP sat at $28.37/MWh this morning with PJM load forecast at 89.5 GW.",
           "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": true,
           "url": "https://www.utilitydive.com/news/ppl-data-center-pipeline-pjm-blackstone-earnings/819804/"
         },
         {
-          "headline": "Vistra adds 4.5 GW across PJM, ERCOT, ISO-NE; sees 2-3% PJM load growth through 2030",
-          "summary": "Vistra has 4.5 GW of capacity additions completed or in process — gas uprates, coal-to-gas conversions, renewables and nuclear uprates — and CEO Jim Burke told Q1 investors that 2–3% annual PJM load growth and 5–6% in ERCOT is 'reasonable' through 2030, on top of the pending $4B Cogentrix acquisition.",
+          "headline": "PJM, SPP, CAISO say they can meet summer demand",
+          "summary": "Three RTOs covering most of the eastern and western U.S. told stakeholders their summer assessments show enough generation to cover forecast peak load, easing reliability concerns ahead of cooling season.",
           "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.utilitydive.com/news/vistra-adds-45-gw-of-capacity-in-line-with-reasonable-forecasts-for-pjm/819845/"
+          "url": "https://www.utilitydive.com/"
         },
         {
-          "headline": "WTI crude jumps 3.5% to $101/bbl as Iran ceasefire on 'massive life support'",
-          "summary": "WTI crude rose $3.39 to $101.46/bbl Tuesday morning after Trump said Monday the Iran ceasefire is on 'massive life support,' raising Strait of Hormuz shipping fears; the national gasoline average sits at $4.50/gal, driving Trump and Sen. Hawley to push a federal gas tax holiday.",
-          "source": "Trading Economics / Punchbowl",
-          "time": "Today",
+          "headline": "Regulator: biggest U.S. grid may be too large to function",
+          "summary": "A sitting regulator told Bloomberg PJM's footprint — 13 states plus DC — has grown unwieldy enough to threaten effective oversight, an extraordinary public concession as PJM struggles with capacity-market price spikes and colocation litigation.",
+          "source": "Bloomberg via Utility Dive",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://tradingeconomics.com/commodity/crude-oil"
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/biggest-us-grid-may-be-too-large-to-function-regulator-says"
         }
       ]
     },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 3,
+      "count": 4,
       "stories": [
         {
-          "headline": "SCOTUS 6-3 clears Alabama's old map; South Carolina moves to redraw Clyburn's seat today",
-          "summary": "The Supreme Court Monday vacated the 2023 injunction requiring two Black-majority Alabama districts, letting GOP officials revert to a map that erases Rep. Shomari Figures's 2nd District (+1 GOP); South Carolina House Republicans take up bills today to redraw Rep. Jim Clyburn's 6th District and push primaries to August 11.",
+          "headline": "Senate confirms Kevin Warsh as Fed chair this afternoon",
+          "summary": "Warsh's 2:30 p.m. confirmation vote caps a fast-track Senate confirmation pace under Thune; Democrats on Banking warn his thin bipartisan ties on the Hill could complicate the Fed if the chamber flips.",
           "source": "Politico Playbook",
           "time": "Today",
           "flagged": false,
           "url": "https://www.politico.com/newsletters/playbook"
         },
         {
-          "headline": "Trump backs federal gas tax holiday as $4.50/gal hits GOP; Boyle bill already filed",
-          "summary": "Trump Monday called a federal gas tax holiday 'a great idea' as the national average sits at $4.50/gal post-Iran war, but Senate Majority Leader Thune sounded skeptical Democrats would go along; Rep. Brendan Boyle (D-PA) filed a similar bill last month capping the 18-cent tax when gas exceeds $4.",
-          "source": "Punchbowl News / Inquirer",
+          "headline": "House Republicans cool to Trump's federal gas tax holiday push",
+          "summary": "With WTI near $102/bbl on the Iran war, Thune is 'all but dismissing' Trump's call to pause the federal gas tax and Speaker Johnson called it merely 'intriguing,' the latest sign GOP leaders are ignoring White House asks on affordability.",
+          "source": "Punchbowl News AM",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/article/finance/economy/trump-capitalism/"
+          "url": "https://punchbowl.news/article/senate/senate-republicans-tax/"
         },
         {
-          "headline": "Senate votes on Warsh Fed Board confirmation today, procedural step on chair role",
-          "summary": "The Senate votes today to confirm Kevin Warsh to the Federal Reserve Board of Governors and takes an initial procedural vote on his elevation to Fed chair, with the final chair confirmation vote expected Wednesday.",
+          "headline": "Senate to vote on Iran war powers resolution at 11:30 a.m.",
+          "summary": "Sen. Jeff Merkley's (D-Ore.) war powers resolution gets a floor vote as Trump arrives in China for a Xi summit dominated by the still-closed Strait of Hormuz and Iran fighting that's driven gasoline prices to record highs.",
+          "source": "Punchbowl News AM",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/"
+        },
+        {
+          "headline": "House votes today on year-round E15 ethanol sales",
+          "summary": "The House is expected to take up — and Republicans expect to fail — legislation authorizing year-round nationwide sales of 15% ethanol fuel, a perennial Midwestern ag-state priority with downstream fuel-supply implications.",
           "source": "Politico Playbook",
           "time": "Today",
-          "flagged": false
+          "flagged": false,
+          "url": "https://www.politico.com/newsletters/playbook"
         }
       ]
     },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 3,
+      "count": 4,
       "stories": [
         {
-          "headline": "Trump nominates Sen. Doug Mastriano as U.S. ambassador to Slovakia",
-          "summary": "Trump Monday nominated state Sen. Doug Mastriano (R-Adams) — the 2022 GOP gubernatorial nominee who lost to Shapiro 56.5-41.7 — to be U.S. ambassador to Slovakia; confirmation by the Senate Foreign Relations Committee would vacate his SD-33 seat in conservative south-central PA and trigger a special election.",
-          "source": "Philadelphia Inquirer / PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.inquirer.com/politics/pennsylvania/mastriano-slovakia-trump-ambassador-pennsylvania-20260511.html"
-        },
-        {
-          "headline": "PA Supreme Court Justice David Wecht switches affiliation from Democrat to Independent",
-          "summary": "Justice David Wecht announced Monday he is changing his voter registration from Democrat to Independent, saying his 'jurisprudence and adjudication have always been independent, and they always will be'; voters retained Wecht to a second 10-year term last November.",
-          "source": "PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.politicspa.com"
-        },
-        {
-          "headline": "Mystery super PAC drops $556K in PA-07 Democratic primary days before vote",
-          "summary": "TV spots and mailers from a mysterious super PAC are flooding the closing days of the PA-07 Democratic primary — one of the country's most-watched House races — where four Democrats compete to challenge GOP Rep. Ryan Mackenzie in November in the Lehigh Valley swing district.",
-          "source": "LehighValleyNews / PoliticsPA",
+          "headline": "PA-03: Street, Rabb, Stanford face off in Tuesday's primary",
+          "summary": "With six days until the May 19 primary in Pennsylvania's most Democratic-leaning seat, the Inquirer contrasts the legislative styles of state Sen. Sharif Street and Rep. Chris Rabb, while physician Ala Stanford carries Rep. Dwight Evans's endorsement.",
+          "source": "Philadelphia Inquirer via PoliticsPA",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.politicspa.com"
+          "url": "https://www.politicspa.com/"
+        },
+        {
+          "headline": "PA Supreme Court Justice Wecht ditches Democratic Party",
+          "summary": "Justice David Wecht said he is 'no longer registered within any political party,' a move Sen. John Fetterman publicly defended; Franklin & Marshall's Berwood Yost called the timing optimal because Wecht is past retention politics.",
+          "source": "Tribune-Review",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://triblive.com/"
+        },
+        {
+          "headline": "PA man arrested for 'politically violent' threats against 20 state lawmakers",
+          "summary": "State Police charged 42-year-old Adam G. Berryhill of Lebanon County with terroristic threats after he allegedly posted a 'hit list' and referenced a 'Memorial Day Operation' targeting 20 Democratic House and Senate members on X in late April.",
+          "source": "Spotlight PA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.spotlightpa.org/"
+        },
+        {
+          "headline": "145,000 Pennsylvanians have dropped ACA coverage amid premium spikes",
+          "summary": "More than 145,000 PA residents have canceled Affordable Care Act coverage in recent months after monthly premiums jumped, a steady enrollment decline state officials expect to continue through 2026 — fallout from the lapsed enhanced subsidies.",
+          "source": "USA Today Network via PoliticsPA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politicspa.com/"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Giants walk off Pirates 7-6 in 12 innings to take series; Pittsburgh falls to 22-19",
-          "summary": "Jesús Rodríguez's bases-loaded single in the bottom of the 12th lifted San Francisco past the Pirates 7-6 Sunday at Oracle Park after the Bucs blew a pair of two-run leads, dropping them to 22-19 and fourth in the NL Central; they had Monday off and open a homestand against Colorado tonight at PNC.",
-          "source": "ESPN / TribLIVE",
-          "time": "Sunday",
+          "headline": "Pirates 3, Rockies 1: Skenes nearly no-hits Colorado",
+          "summary": "Paul Skenes carried a no-hitter into the seventh before Mickey Moniak singled, finishing 8 IP, 2 H, 0 R, 10 K; Oneil Cruz doubled twice and scored both Pirates runs on RBI singles from Nick Gonzales and Brandon Lowe to lift Pittsburgh to 23-19.",
+          "source": "ESPN",
+          "time": "Last night",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap?gameId=401815296"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815306"
         },
         {
-          "headline": "Penguins enter offseason with NHL's most cap space and a Malkin decision looming",
-          "summary": "Kyle Dubas projects to enter free agency July 1 with roughly $40M in cap space — the most in the NHL — while weighing whether to re-sign 38-year-old Evgeni Malkin, who has said he wants to return for 2026-27; Crosby and Letang remain under contract.",
+          "headline": "Dubas: Penguins 'would love' to re-sign Malkin; Crosby extension eligible July 1",
+          "summary": "GM Kyle Dubas's season-ending presser at UPMC Lemieux signaled continued talks with Malkin's agent J.P. Barry on at least one more year, said Crosby becomes extension-eligible July 1, and conceded the Penguins are 'well short' of contender status with defense the focus.",
           "source": "Pittsburgh Post-Gazette",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.post-gazette.com/sports/penguins/2026/05/11/offseason-preview-dubas-crosby-evgeni-malkin-letang-nhl-offseason/stories/202605080011"
-        },
-        {
-          "headline": "Aaron Rodgers visits Pittsburgh over weekend, but no Steelers meeting; OTAs open May 18",
-          "summary": "Aaron Rodgers traveled to Pittsburgh over the weekend but did not meet with the Steelers and no deal was reached, per reports; the team wrapped rookie minicamp Sunday under head coach Mike McCarthy, with the first day of organized team activities set for May 18.",
-          "source": "Steeler Nation / Steelers.com",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.steelernation.com/2026/05/11/steelers-solid-confirmation-aaron-rodgers"
+          "url": "https://www.post-gazette.com/sports/penguins/2026/05/12/dubas-sidney-crosby-extension-nhl-news-malkin-karlsson/stories/202605110043"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 12 9:13 a.m. EPT",
+    "as_of": "May 13 8:24 a.m. EPT / May 8 close",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$16.14/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$16.10/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$28.37/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$17.69/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
       { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$101.46/bbl", "change": "+3.5%" }
+      { "market": "WTI Crude", "price": "$102.16/bbl", "change": "-0.0%" }
     ]
   }
 }
