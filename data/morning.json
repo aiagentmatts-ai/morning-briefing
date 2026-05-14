@@ -1,44 +1,94 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "type": "morning",
-  "generated_at": "2026-05-13T08:30:00-04:00",
+  "generated_at": "2026-05-14T08:16:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 4,
+      "count": 5,
       "stories": [
         {
-          "headline": "Constellation enters 5 GW of nuclear, gas and battery projects in PJM queue",
-          "summary": "On its Q1 earnings call, Constellation said it placed nuclear uprates, gas-fired generation and battery storage totaling roughly 5 GW into PJM's interconnection queue while waiting for more detail on PJM's backstop colocation proposal.",
+          "headline": "FERC Chair Swett: PJM may be 'too big to function,' calls July governance hearing",
+          "summary": "FERC Chair Laura Swett said PJM 13-state footprint covers fundamentally different regulatory structures and will convene a July technical conference on capacity, colocation, and governance reforms.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/pjm-ferc-swett-capacity-governance-data-center/820085/"
+        },
+        {
+          "headline": "Constellation files 5 GW of gas, nuclear, battery into PJM interconnection queue",
+          "summary": "Constellation Energy submitted interconnection requests totaling roughly 5,000 MW across gas, nuclear uprate, and battery resources in PJM, citing capacity-price signals and data-center load.",
           "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": true,
           "url": "https://www.utilitydive.com/news/constellation-energy-crane-pjm-ercot-earnings/819939/"
         },
         {
-          "headline": "PPL 'advanced' PA data center pipeline reaches 28.3 GW",
-          "summary": "PPL Electric's advanced-stage data center pipeline in Pennsylvania grew to 28.3 GW, up 12% in a quarter, with about 5 GW already under construction and contracts in place with QTS, AWS, PowerHouse and CoreWeave; Western Hub real-time LMP sat at $28.37/MWh this morning with PJM load forecast at 89.5 GW.",
+          "headline": "Q1 utility earnings split: data-center bullishness collides with affordability pressure",
+          "summary": "Major investor-owned utilities reported mixed Q1 results as data-center load forecasts climbed while regulators and consumer advocates pushed back on customer-bill impacts.",
           "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": true,
-          "url": "https://www.utilitydive.com/news/ppl-data-center-pipeline-pjm-blackstone-earnings/819804/"
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/news/2026-q1-earnings-utilities-data-centers-affordability/820079/"
         },
         {
-          "headline": "PJM, SPP, CAISO say they can meet summer demand",
-          "summary": "Three RTOs covering most of the eastern and western U.S. told stakeholders their summer assessments show enough generation to cover forecast peak load, easing reliability concerns ahead of cooling season.",
+          "headline": "NEMA projects U.S. electricity consumption up 55% by 2050",
+          "summary": "The National Electrical Manufacturers Association said electrification and data-center demand will drive U.S. annual electricity consumption 55% higher by 2050, well above earlier baselines.",
+          "source": "Utility Dive",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.utilitydive.com/news/us-annual-electricity-consumption-data-centers-nema/820112/"
+        },
+        {
+          "headline": "Con Edison to spend $29B on NYC-area grid for electrification load",
+          "summary": "Con Edison announced a $29 billion transmission and distribution buildout to absorb New York-area building and transportation electrification, the latest signpost for PJM-side T&D capex pressures.",
           "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.utilitydive.com/"
+          "url": "https://www.utilitydive.com/news/con-edison-to-spend-29b-shoring-up-nyc-area-grid-as-electrification-rises/819865/"
+        }
+      ]
+    },
+    {
+      "id": "pa-politics",
+      "label": "PA & NJ Politics",
+      "count": 5,
+      "stories": [
+        {
+          "headline": "Mystery PAC drops $1.2M into PA-07 Democratic primary days before vote",
+          "summary": "A new outside group with GOP-operative ties spent more than $1.2 million in last-minute ads in the Lehigh Valley PA-07 Democratic primary, pulling national Democrats in to defend Tuesday contest.",
+          "source": "Philadelphia Inquirer via PoliticsPA",
+          "time": "Today",
+          "flagged": false
         },
         {
-          "headline": "Regulator: biggest U.S. grid may be too large to function",
-          "summary": "A sitting regulator told Bloomberg PJM's footprint — 13 states plus DC — has grown unwieldy enough to threaten effective oversight, an extraordinary public concession as PJM struggles with capacity-market price spikes and colocation litigation.",
-          "source": "Bloomberg via Utility Dive",
+          "headline": "Fetterman casts deciding vote against limiting Trump's Iran war",
+          "summary": "Sen. John Fetterman was the lone Democrat to side with Republicans on the 49-50 war-powers resolution, joined on the other side by Sens. Paul, Collins, and Murkowski.",
+          "source": "Philadelphia Inquirer via PoliticsPA",
           "time": "Yesterday",
-          "flagged": false,
-          "url": "https://www.bloomberg.com/news/articles/2026-05-12/biggest-us-grid-may-be-too-large-to-function-regulator-says"
+          "flagged": false
+        },
+        {
+          "headline": "PA data-center town hall blasts industry, Shapiro 'secrecy'",
+          "summary": "Speakers at a Wednesday-night virtual town hall described Pennsylvania data-center buildout as an onslaught enabled by Gov. Shapiro support, intensifying the political fight over siting and load-cost allocation.",
+          "source": "The Center Square via PoliticsPA",
+          "time": "Yesterday",
+          "flagged": true
+        },
+        {
+          "headline": "Shapiro-AOC proxy fight roils Philadelphia PA-03 primary",
+          "summary": "Gov. Josh Shapiro and Rep. Alexandria Ocasio-Cortez have backed opposing candidates in the open Philadelphia PA-03 primary, injecting national progressive vs. governing-wing drama into the final stretch.",
+          "source": "PennLive via PoliticsPA",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Hersheypark maintenance workers vote on strike days before May 21 opening",
+          "summary": "More than 200 ride mechanics, electricians, and technicians are voting on a walkout after rejecting a contract, putting Hersheypark full summer opening at risk.",
+          "source": "USA Today via PoliticsPA",
+          "time": "Today",
+          "flagged": false
         }
       ]
     },
@@ -48,75 +98,36 @@
       "count": 4,
       "stories": [
         {
-          "headline": "Senate confirms Kevin Warsh as Fed chair this afternoon",
-          "summary": "Warsh's 2:30 p.m. confirmation vote caps a fast-track Senate confirmation pace under Thune; Democrats on Banking warn his thin bipartisan ties on the Hill could complicate the Fed if the chamber flips.",
-          "source": "Politico Playbook",
+          "headline": "CBC at a crossroads as GOP redistricting threatens six-plus Black-held seats",
+          "summary": "Following the Supreme Court Callais decision gutting Section 2 of the Voting Rights Act, GOP map-redraws in South Carolina, Louisiana, Alabama, Missouri, and Tennessee could shrink the Congressional Black Caucus by six-plus members this November.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
+          "url": "https://punchbowl.news/archive/51426-am/"
         },
         {
-          "headline": "House Republicans cool to Trump's federal gas tax holiday push",
-          "summary": "With WTI near $102/bbl on the Iran war, Thune is 'all but dismissing' Trump's call to pause the federal gas tax and Speaker Johnson called it merely 'intriguing,' the latest sign GOP leaders are ignoring White House asks on affordability.",
-          "source": "Punchbowl News AM",
+          "headline": "GOP leaders in the dark on NJ Rep. Tom Kean 70-day absence",
+          "summary": "Speaker Mike Johnson and his team say they have no information on the medical issue keeping NJ-07 Tom Kean off the floor since March 5; Kean staff insists he will return very soon for one of the country most competitive seats.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/article/senate/senate-republicans-tax/"
+          "url": "https://punchbowl.news/archive/51426-am/"
         },
         {
-          "headline": "Senate to vote on Iran war powers resolution at 11:30 a.m.",
-          "summary": "Sen. Jeff Merkley's (D-Ore.) war powers resolution gets a floor vote as Trump arrives in China for a Xi summit dominated by the still-closed Strait of Hormuz and Iran fighting that's driven gasoline prices to record highs.",
-          "source": "Punchbowl News AM",
+          "headline": "Defense spending in chaos as White House withholds Iran supplemental",
+          "summary": "Appropriators are stuck without details on Trump $1.5T defense request or a supplemental for the $29B Iran conflict; the Navy says it runs out of Iran-war funds in July.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/"
+          "url": "https://punchbowl.news/archive/51426-am/"
         },
         {
-          "headline": "House votes today on year-round E15 ethanol sales",
-          "summary": "The House is expected to take up — and Republicans expect to fail — legislation authorizing year-round nationwide sales of 15% ethanol fuel, a perennial Midwestern ag-state priority with downstream fuel-supply implications.",
-          "source": "Politico Playbook",
+          "headline": "House to vote today on Iran war-powers resolution and FY27 MilCon-VA",
+          "summary": "Rep. Josh Gottheimer (D-NJ) Iran war-powers resolution gets a House floor vote today alongside the FY2027 MilCon-VA bill, the chamber first FY27 appropriations measure to reach the floor.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
-        }
-      ]
-    },
-    {
-      "id": "pa-politics",
-      "label": "PA & NJ Politics",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "PA-03: Street, Rabb, Stanford face off in Tuesday's primary",
-          "summary": "With six days until the May 19 primary in Pennsylvania's most Democratic-leaning seat, the Inquirer contrasts the legislative styles of state Sen. Sharif Street and Rep. Chris Rabb, while physician Ala Stanford carries Rep. Dwight Evans's endorsement.",
-          "source": "Philadelphia Inquirer via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
-        },
-        {
-          "headline": "PA Supreme Court Justice Wecht ditches Democratic Party",
-          "summary": "Justice David Wecht said he is 'no longer registered within any political party,' a move Sen. John Fetterman publicly defended; Franklin & Marshall's Berwood Yost called the timing optimal because Wecht is past retention politics.",
-          "source": "Tribune-Review",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://triblive.com/"
-        },
-        {
-          "headline": "PA man arrested for 'politically violent' threats against 20 state lawmakers",
-          "summary": "State Police charged 42-year-old Adam G. Berryhill of Lebanon County with terroristic threats after he allegedly posted a 'hit list' and referenced a 'Memorial Day Operation' targeting 20 Democratic House and Senate members on X in late April.",
-          "source": "Spotlight PA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.spotlightpa.org/"
-        },
-        {
-          "headline": "145,000 Pennsylvanians have dropped ACA coverage amid premium spikes",
-          "summary": "More than 145,000 PA residents have canceled Affordable Care Act coverage in recent months after monthly premiums jumped, a steady enrollment decline state officials expect to continue through 2026 — fallout from the lapsed enhanced subsidies.",
-          "source": "USA Today Network via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politicspa.com/"
+          "url": "https://punchbowl.news/archive/51426-am/"
         }
       ]
     },
@@ -126,33 +137,33 @@
       "count": 2,
       "stories": [
         {
-          "headline": "Pirates 3, Rockies 1: Skenes nearly no-hits Colorado",
-          "summary": "Paul Skenes carried a no-hitter into the seventh before Mickey Moniak singled, finishing 8 IP, 2 H, 0 R, 10 K; Oneil Cruz doubled twice and scored both Pirates runs on RBI singles from Nick Gonzales and Brandon Lowe to lift Pittsburgh to 23-19.",
+          "headline": "Skenes carries no-hit bid into 7th; Rockies still drop Pirates 10-4",
+          "summary": "Paul Skenes took a no-hitter into the seventh before Colorado broke through; Mickey Moniak birthday homer, double, and ninth-inning two-run triple powered a 10-4 Rockies win, dropping the Pirates to 23-20.",
           "source": "ESPN",
-          "time": "Last night",
-          "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815306"
-        },
-        {
-          "headline": "Dubas: Penguins 'would love' to re-sign Malkin; Crosby extension eligible July 1",
-          "summary": "GM Kyle Dubas's season-ending presser at UPMC Lemieux signaled continued talks with Malkin's agent J.P. Barry on at least one more year, said Crosby becomes extension-eligible July 1, and conceded the Penguins are 'well short' of contender status with defense the focus.",
-          "source": "Pittsburgh Post-Gazette",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.post-gazette.com/sports/penguins/2026/05/12/dubas-sidney-crosby-extension-nhl-news-malkin-karlsson/stories/202605110043"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401815321"
+        },
+        {
+          "headline": "Aaron Rodgers expected in Pittsburgh this weekend as Steelers OTAs loom May 18",
+          "summary": "NFL Network reports Aaron Rodgers will visit the Steelers this weekend and is likely to play in 2026, with OTAs opening Monday May 18 and the team still waiting on a formal answer.",
+          "source": "NFL.com",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://www.nfl.com/news/aaron-rodgers-likely-to-play-for-steelers-in-2026"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 13 8:24 a.m. EPT / May 8 close",
+    "as_of": "May 14, 8:16 a.m. EPT",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$28.37/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$17.69/MWh", "change": "—" },
-      { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.67/MMBtu", "change": "+1.5%" },
-      { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$102.16/bbl", "change": "-0.0%" }
+      { "market": "PJM West Hub (RT)", "price": "$98.87/MWh", "change": "-" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$95.68/MWh", "change": "-" },
+      { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "-" },
+      { "market": "Henry Hub", "price": "$2.83/MMBtu", "change": "+2.9%" },
+      { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "-" },
+      { "market": "WTI Crude", "price": "$99.54/bbl", "change": "-1.5%" }
     ]
   }
 }
