@@ -1,0 +1,145 @@
+name: Briefing watchdog
+
+on:
+  schedule:
+    # 15:00 UTC = 11:00 EDT / 10:00 EST. Briefing nominally fires at 08:00 ET
+    # and can hang a few hours waiting on Mode-2 permission prompts (see the
+    # diagnose-briefing skill). 15:00 UTC gives generous slack on both ends
+    # of DST before alerting, so a slow-but-eventually-successful run does
+    # not generate a false positive. Fixed UTC keeps cadence predictable
+    # across DST. Adjust here if morning routine shifts.
+    - cron: '0 15 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need enough history to see today's commit and a few days back
+          # for the "last successful run" diagnostic.
+          fetch-depth: 50
+
+      - name: Determine today's ET date and look for briefing commit
+        id: check
+        run: |
+          set -euo pipefail
+          TODAY_ET=$(TZ='America/New_York' date +%Y-%m-%d)
+          echo "today_et=$TODAY_ET" >> "$GITHUB_OUTPUT"
+
+          # Anchor at message start; tolerate suffixes like " (refresh — ...)".
+          MATCH=$(git log --oneline --grep="^Morning briefing $TODAY_ET" || true)
+          if [ -n "$MATCH" ]; then
+            echo "fresh=true" >> "$GITHUB_OUTPUT"
+            echo "Found today's briefing commit:"
+            echo "$MATCH"
+          else
+            echo "fresh=false" >> "$GITHUB_OUTPUT"
+            echo "No 'Morning briefing $TODAY_ET' commit on main."
+          fi
+
+          # Capture diagnostics for the issue body either way (cheap, useful).
+          {
+            echo "last_briefing_commits<<EOF"
+            git log -5 --pretty=format:'%h %ad %s' --date=format-local:'%Y-%m-%d %H:%M %Z' --grep='^Morning briefing' | head -5
+            echo
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo "morning_json_last_commit<<EOF"
+            git log -1 --pretty=format:'%h %ad %s' --date=format-local:'%Y-%m-%d %H:%M %Z' -- data/morning.json
+            echo
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo "morning_json_date_field<<EOF"
+            # `date` field from the artifact itself — if it lags TODAY_ET, the
+            # briefing didn't refresh even if a no-op commit somehow landed.
+            python3 -c "import json; print(json.load(open('data/morning.json')).get('date','(missing)'))" 2>&1 || echo "(parse failed)"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Open watchdog issue if briefing missing
+        if: steps.check.outputs.fresh == 'false'
+        uses: actions/github-script@v7
+        env:
+          TODAY_ET: ${{ steps.check.outputs.today_et }}
+          LAST_BRIEFING_COMMITS: ${{ steps.check.outputs.last_briefing_commits }}
+          MORNING_JSON_LAST_COMMIT: ${{ steps.check.outputs.morning_json_last_commit }}
+          MORNING_JSON_DATE_FIELD: ${{ steps.check.outputs.morning_json_date_field }}
+        with:
+          script: |
+            const today = process.env.TODAY_ET;
+            const title = `Briefing didn't run: ${today}`;
+
+            // Dedupe: if an issue with this exact title is already open, do nothing.
+            // (The watchdog only fires once daily, but workflow_dispatch + retries
+            // could create duplicates otherwise.)
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'briefing-watchdog',
+            });
+            if (existing.some(i => i.title === title)) {
+              core.notice(`watchdog issue already open: "${title}" — skipping`);
+              return;
+            }
+
+            const body = [
+              `No \`Morning briefing ${today}\` commit landed on \`main\` by 15:00 UTC (≈11:00 ET).`,
+              ``,
+              `## Diagnostics`,
+              ``,
+              `**Artifact \`date\` field in \`data/morning.json\`:** \`${process.env.MORNING_JSON_DATE_FIELD.trim()}\``,
+              ``,
+              `**Last commit touching \`data/morning.json\`:**`,
+              '```',
+              process.env.MORNING_JSON_LAST_COMMIT.trim() || '(none found)',
+              '```',
+              ``,
+              `**Last 5 \`Morning briefing\` commits:**`,
+              '```',
+              process.env.LAST_BRIEFING_COMMITS.trim() || '(none found in history window)',
+              '```',
+              ``,
+              `## Likely causes (in order of frequency)`,
+              ``,
+              `1. **Stuck dispatcher counter** — \`Skipping dispatch ... per_task_limit (active=1, limit=1)\` in \`main.log\`. Fix: fully quit Claude Desktop from the system tray and relaunch.`,
+              `2. **Mode-2 permission prompt** hanging the run — Write/Edit prompted at 08:00 ET and is still waiting. Fix: click the notification.`,
+              `3. **Dispatcher loop crashed/hung** — no recent log entries at all. Same fix: full Claude Desktop restart.`,
+              ``,
+              `## Next steps`,
+              ``,
+              `Run \`/diagnose-briefing\` in Claude Code. It enforces the logs-first evidence order:`,
+              ``,
+              `1. \`mcp__scheduled-tasks__list_scheduled_tasks\` — confirm enabled + \`nextRunAt\` sane`,
+              `2. \`git log -5 --oneline -- data/morning.json\` in the briefing repo`,
+              `3. Grep \`main.log\` for \`morning-briefing\` (look for \`per_task_limit\` or last log timestamp)`,
+              `4. \`powercfg /q SCHEME_CURRENT SUB_SLEEP RTCWAKE\` (only relevant if PC sleeps)`,
+              ``,
+              `Close this issue once the briefing artifact for ${today} has landed on \`main\`.`,
+              ``,
+              `---`,
+              `_Filed by \`.github/workflows/briefing-watchdog.yml\` · ${new Date().toISOString()}_`,
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              labels: ['briefing-watchdog'],
+              body,
+            });
+            core.notice(`opened watchdog issue: "${title}"`);
+
+      - name: Briefing landed — nothing to do
+        if: steps.check.outputs.fresh == 'true'
+        run: echo "Today's briefing commit found on main. No action."
