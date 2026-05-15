@@ -1,92 +1,62 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "type": "morning",
-  "generated_at": "2026-05-14T08:16:00-04:00",
+  "generated_at": "2026-05-15T08:15:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 5,
+      "count": 3,
       "stories": [
         {
-          "headline": "FERC Chair Swett: PJM may be 'too big to function,' calls July governance hearing",
-          "summary": "FERC Chair Laura Swett said PJM 13-state footprint covers fundamentally different regulatory structures and will convene a July technical conference on capacity, colocation, and governance reforms.",
+          "headline": "NEMA forecasts 55% jump in U.S. electricity demand by 2050, with data centers driving 38% of net growth",
+          "summary": "The National Electrical Manufacturers Association projects data center load up 300% over 10 years and EV load up 2,000% by 2050, with grid build-out lagging far behind — PJM Western Hub real-time printed $20.57/MWh this morning with nuclear (30.7 GW) and gas (28.0 GW) carrying the load.",
           "source": "Utility Dive",
           "time": "Yesterday",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/pjm-ferc-swett-capacity-governance-data-center/820085/"
-        },
-        {
-          "headline": "Constellation files 5 GW of gas, nuclear, battery into PJM interconnection queue",
-          "summary": "Constellation Energy submitted interconnection requests totaling roughly 5,000 MW across gas, nuclear uprate, and battery resources in PJM, citing capacity-price signals and data-center load.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
-          "flagged": true,
-          "url": "https://www.utilitydive.com/news/constellation-energy-crane-pjm-ercot-earnings/819939/"
-        },
-        {
-          "headline": "Q1 utility earnings split: data-center bullishness collides with affordability pressure",
-          "summary": "Major investor-owned utilities reported mixed Q1 results as data-center load forecasts climbed while regulators and consumer advocates pushed back on customer-bill impacts.",
-          "source": "Utility Dive",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.utilitydive.com/news/2026-q1-earnings-utilities-data-centers-affordability/820079/"
-        },
-        {
-          "headline": "NEMA projects U.S. electricity consumption up 55% by 2050",
-          "summary": "The National Electrical Manufacturers Association said electrification and data-center demand will drive U.S. annual electricity consumption 55% higher by 2050, well above earlier baselines.",
-          "source": "Utility Dive",
-          "time": "Today",
-          "flagged": false,
           "url": "https://www.utilitydive.com/news/us-annual-electricity-consumption-data-centers-nema/820112/"
         },
         {
-          "headline": "Con Edison to spend $29B on NYC-area grid for electrification load",
-          "summary": "Con Edison announced a $29 billion transmission and distribution buildout to absorb New York-area building and transportation electrification, the latest signpost for PJM-side T&D capex pressures.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
+          "headline": "DC Circuit hears challenge to DOE emergency orders keeping two Indiana coal plants running",
+          "summary": "Michigan, Minnesota, Illinois and EDF argue Energy Secretary Wright's emergency orders to forestall retirement of the Indiana coal units exceeded statutory authority, with petitioners pegging the cost of one order at $180 million through March 31 — argument set for 9:30 a.m. today.",
+          "source": "EDF / Law360",
+          "time": "Today",
           "flagged": false,
-          "url": "https://www.utilitydive.com/news/con-edison-to-spend-29b-shoring-up-nyc-area-grid-as-electrification-rises/819865/"
+          "url": "https://www.edf.org/media/court-hear-legal-challenge-trump-administration-mandates-coal-fired-power-plants-increase"
+        },
+        {
+          "headline": "EPA deregulates toxic wastewater limits on coal-fired plants",
+          "summary": "EPA moved Thursday to roll back the Biden-era effluent limitation guidelines for coal-fired power plants, part of a broader push to extend the operating life of fossil generation as PJM and other RTOs strain to meet reliability requirements.",
+          "source": "AP via Politico Playbook",
+          "time": "Yesterday",
+          "flagged": false
         }
       ]
     },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 5,
+      "count": 3,
       "stories": [
         {
-          "headline": "Mystery PAC drops $1.2M into PA-07 Democratic primary days before vote",
-          "summary": "A new outside group with GOP-operative ties spent more than $1.2 million in last-minute ads in the Lehigh Valley PA-07 Democratic primary, pulling national Democrats in to defend Tuesday contest.",
+          "headline": "LCV launches $1.2M ad campaign hitting Scott Perry on energy costs in 'Big Beautiful Bill'",
+          "summary": "The League of Conservation Voters' $4M accountability buy starts in Bill Huizenga's (R-Mich.) district and rolls into PA-10 next, framing Rep. Scott Perry's vote on the OBBB as a vote to raise constituent energy bills — Juan Ciscomani (R-Ariz.) also targeted.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": true,
+          "url": "https://www.politico.com/newsletters/playbook"
+        },
+        {
+          "headline": "PA State Police creating new unit to investigate threats against elected officials",
+          "summary": "PSP is standing up a dedicated threats unit after a communications failure around Adam Berryhill's May 6 arrest left most of the 20 Philadelphia-area Democratic state lawmakers on his alleged hit list unaware until the document was made public this week.",
           "source": "Philadelphia Inquirer via PoliticsPA",
           "time": "Today",
           "flagged": false
         },
         {
-          "headline": "Fetterman casts deciding vote against limiting Trump's Iran war",
-          "summary": "Sen. John Fetterman was the lone Democrat to side with Republicans on the 49-50 war-powers resolution, joined on the other side by Sens. Paul, Collins, and Murkowski.",
-          "source": "Philadelphia Inquirer via PoliticsPA",
-          "time": "Yesterday",
-          "flagged": false
-        },
-        {
-          "headline": "PA data-center town hall blasts industry, Shapiro 'secrecy'",
-          "summary": "Speakers at a Wednesday-night virtual town hall described Pennsylvania data-center buildout as an onslaught enabled by Gov. Shapiro support, intensifying the political fight over siting and load-cost allocation.",
-          "source": "The Center Square via PoliticsPA",
-          "time": "Yesterday",
-          "flagged": true
-        },
-        {
-          "headline": "Shapiro-AOC proxy fight roils Philadelphia PA-03 primary",
-          "summary": "Gov. Josh Shapiro and Rep. Alexandria Ocasio-Cortez have backed opposing candidates in the open Philadelphia PA-03 primary, injecting national progressive vs. governing-wing drama into the final stretch.",
-          "source": "PennLive via PoliticsPA",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Hersheypark maintenance workers vote on strike days before May 21 opening",
-          "summary": "More than 200 ride mechanics, electricians, and technicians are voting on a walkout after rejecting a contract, putting Hersheypark full summer opening at risk.",
-          "source": "USA Today via PoliticsPA",
+          "headline": "Lehigh Valley Democratic primaries Tuesday test progressive vs. party-establishment lanes",
+          "summary": "Tuesday's primaries in HD-22 (Rep. Ana Tiburcio vs. Allentown Councilwoman Ce-Ce Gerlach) and HD-104 (Rep. Dave Madsen vs. Swatara Twp. Commissioner Shane Steele) are framed as a fight over whether Democrats push graduated income tax and minimum-wage hikes or focus on incremental, big-tent wins.",
+          "source": "Spotlight PA via PoliticsPA",
           "time": "Today",
           "flagged": false
         }
@@ -98,72 +68,80 @@
       "count": 4,
       "stories": [
         {
-          "headline": "CBC at a crossroads as GOP redistricting threatens six-plus Black-held seats",
-          "summary": "Following the Supreme Court Callais decision gutting Section 2 of the Voting Rights Act, GOP map-redraws in South Carolina, Louisiana, Alabama, Missouri, and Tennessee could shrink the Congressional Black Caucus by six-plus members this November.",
-          "source": "Punchbowl AM",
+          "headline": "Senate Banking marks up Digital Asset Clarity Act in bipartisan vote",
+          "summary": "Chairman Tim Scott's committee advanced the crypto market-structure bill Thursday with the industry-backed framework intact after Scott ruled bank and law-enforcement amendments out of order — Warner and Lummis led the bipartisan push, Warren and Schumer flagged unprecedented industry spending.",
+          "source": "Punchbowl News",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/archive/51426-am/"
+          "url": "https://punchbowl.news"
         },
         {
-          "headline": "GOP leaders in the dark on NJ Rep. Tom Kean 70-day absence",
-          "summary": "Speaker Mike Johnson and his team say they have no information on the medical issue keeping NJ-07 Tom Kean off the floor since March 5; Kean staff insists he will return very soon for one of the country most competitive seats.",
-          "source": "Punchbowl AM",
+          "headline": "Senate parliamentarian strikes major sections of GOP immigration reconciliation language",
+          "summary": "Parliamentarian MacDonough ruled Thursday that large CBP funding sections and a $2.5B DHS slush fund violate the Byrd rule; Republicans are rewriting, and the Judiciary title — which carries $1B for Trump's ballroom security — goes through the bath today.",
+          "source": "Punchbowl / Politico",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/archive/51426-am/"
+          "url": "https://punchbowl.news"
         },
         {
-          "headline": "Defense spending in chaos as White House withholds Iran supplemental",
-          "summary": "Appropriators are stuck without details on Trump $1.5T defense request or a supplemental for the $29B Iran conflict; the Navy says it runs out of Iran-war funds in July.",
-          "source": "Punchbowl AM",
+          "headline": "House T&I close to highway bill markup with new EV registration fee",
+          "summary": "Chairman Sam Graves (R-Mo.) expects to release a $550–600B surface transportation reauthorization as soon as Friday, including a Highway Trust Fund EV fee — Graves previously tried $250 EV / $100 hybrid fees in OBBB — with markup teed up for next week.",
+          "source": "Punchbowl News",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/archive/51426-am/"
+          "url": "https://punchbowl.news"
         },
         {
-          "headline": "House to vote today on Iran war-powers resolution and FY27 MilCon-VA",
-          "summary": "Rep. Josh Gottheimer (D-NJ) Iran war-powers resolution gets a House floor vote today alongside the FY2027 MilCon-VA bill, the chamber first FY27 appropriations measure to reach the floor.",
-          "source": "Punchbowl AM",
+          "headline": "Trump claims 'fantastic' trade and Boeing deal as Beijing visit wraps",
+          "summary": "Trump told Hannity Xi 'strongly' committed not to send military equipment to Iran and that China agreed to buy 200 Boeing jets — below market expectations, sending Boeing shares down — while Beijing called for reopening the Strait of Hormuz.",
+          "source": "Politico Playbook",
           "time": "Today",
           "flagged": false,
-          "url": "https://punchbowl.news/archive/51426-am/"
+          "url": "https://www.politico.com/newsletters/playbook"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Skenes carries no-hit bid into 7th; Rockies still drop Pirates 10-4",
-          "summary": "Paul Skenes took a no-hitter into the seventh before Colorado broke through; Mickey Moniak birthday homer, double, and ninth-inning two-run triple powered a 10-4 Rockies win, dropping the Pirates to 23-20.",
+          "headline": "Pirates 7, Rockies 2: O'Hearn homers, Mlodzinski (3-3) gets the win",
+          "summary": "Ryan O'Hearn went 3-for-4 with a two-run shot off Chase Dollander in the first and Endy Rodriguez drove in two in his return; Michael Mlodzinski allowed two runs over five innings as the Bucs (24-20) close out Colorado and host the Phillies tonight at PNC.",
           "source": "ESPN",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/game/_/gameId/401815321"
+          "url": "https://www.espn.com/mlb/recap?gameId=401815335"
         },
         {
-          "headline": "Aaron Rodgers expected in Pittsburgh this weekend as Steelers OTAs loom May 18",
-          "summary": "NFL Network reports Aaron Rodgers will visit the Steelers this weekend and is likely to play in 2026, with OTAs opening Monday May 18 and the team still waiting on a formal answer.",
-          "source": "NFL.com",
+          "headline": "Steelers drop 2026 schedule: home opener vs. Falcons, NFL Paris Game vs. Saints, Black Friday vs. Broncos",
+          "summary": "Pittsburgh's slate released Thursday night includes four primetime games (TNF Week 4 at home vs. Cleveland leads off), the first-ever NFL regular-season game in France against New Orleans, and the 14th-easiest strength of schedule per CBS.",
+          "source": "Steelers.com",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.nfl.com/news/aaron-rodgers-likely-to-play-for-steelers-in-2026"
+          "url": "https://www.steelers.com/news/steelers-2026-schedule-will-be-released-on-may-14"
+        },
+        {
+          "headline": "Penguins extend Connor Dewar (2yr / $4.5M) and Ilya Solovyov (1yr / $850K)",
+          "summary": "Dewar's $2.25M AAV deal follows a career-best 14G-16A-30P, plus-16 season; Solovyov inks a one-year contract as Pittsburgh enters an offseason still facing decisions on UFA Evgeni Malkin and Sidney Crosby's final contract year.",
+          "source": "Pittsburgh Hockey Now",
+          "time": "Yesterday",
+          "flagged": false,
+          "url": "https://pittsburghhockeynow.com/pittsburgh-penguins-connor-dewar-ilya-solovyov-sign-contract-extensions/"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 14, 8:16 a.m. EPT",
+    "as_of": "May 15 7:08 a.m. EPT (PJM RT) · May 8 close (Henry Hub) · May 15 a.m. (WTI)",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$98.87/MWh", "change": "-" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$95.68/MWh", "change": "-" },
-      { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "-" },
-      { "market": "Henry Hub", "price": "$2.83/MMBtu", "change": "+2.9%" },
-      { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "-" },
-      { "market": "WTI Crude", "price": "$99.54/bbl", "change": "-1.5%" }
+      { "market": "PJM West Hub (RT)", "price": "$20.57/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$20.01/MWh", "change": "—" },
+      { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
+      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+5.6%" },
+      { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
+      { "market": "WTI Crude", "price": "$104.46/bbl", "change": "+3.3%" }
     ]
   }
 }
