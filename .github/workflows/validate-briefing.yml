@@ -1,0 +1,94 @@
+name: Validate briefing artifact
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/morning.json'
+      - 'scripts/validate-briefing.py'
+  schedule:
+    # Nightly safety net at 04:00 UTC = midnight EDT / 11pm EST — well before
+    # the next 08:00 ET briefing run. Catches the case where a manual edit or
+    # an external commit landed without going through push-time validation.
+    - cron: '0 4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run validator
+        id: validate
+        run: |
+          set +e
+          if [ ! -f data/morning.json ]; then
+            echo "No data/morning.json to validate (briefing has not run yet)."
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python scripts/validate-briefing.py data/morning.json 2> validate.err
+          if [ $? -eq 0 ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+
+      - name: Fail job if validation failed (push)
+        # On push we want the workflow itself to fail loudly so the commit
+        # status is red and the user sees it immediately. On schedule we
+        # prefer the issue path below — a red cron run is easy to miss.
+        if: steps.validate.outputs.ok == 'false' && github.event_name == 'push'
+        run: |
+          echo "::error::Briefing validation failed:"
+          cat validate.err
+          exit 1
+
+      - name: Open issue if validation failed (schedule)
+        if: steps.validate.outputs.ok == 'false' && github.event_name != 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const errors = fs.readFileSync('validate.err', 'utf8').trim();
+            const title = 'Briefing schema validation failed';
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'briefing-schema',
+            });
+            if (existing.some(i => i.title === title)) {
+              core.notice(`schema issue already open — skipping`);
+              return;
+            }
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              labels: ['briefing-schema'],
+              body: [
+                `\`scripts/validate-briefing.py\` reported errors against the current briefing artifact(s).`,
+                ``,
+                '```',
+                errors || '(no error output captured)',
+                '```',
+                ``,
+                `Either fix the artifact (re-run the briefing skill, or hand-edit the broken section), or update \`scripts/validate-briefing.py\` if the schema legitimately changed.`,
+                ``,
+                `Reproduce locally:`,
+                '```',
+                'python scripts/validate-briefing.py data/morning.json',
+                '```',
+              ].join('\n'),
+            });
