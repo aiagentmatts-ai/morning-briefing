@@ -1,64 +1,83 @@
 {
   "date": "2026-05-15",
   "type": "morning",
-  "generated_at": "2026-05-15T08:15:00-04:00",
+  "generated_at": "2026-05-15T13:30:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 3,
+      "count": 4,
       "stories": [
         {
-          "headline": "NEMA forecasts 55% jump in U.S. electricity demand by 2050, with data centers driving 38% of net growth",
-          "summary": "The National Electrical Manufacturers Association projects data center load up 300% over 10 years and EV load up 2,000% by 2050, with grid build-out lagging far behind — PJM Western Hub real-time printed $20.57/MWh this morning with nuclear (30.7 GW) and gas (28.0 GW) carrying the load.",
-          "source": "Utility Dive",
-          "time": "Yesterday",
+          "headline": "EPA deregulates toxic wastewater limits on coal-fired plants",
+          "summary": "EPA on Thursday moved to roll back limits on toxic wastewater discharges from coal-fired power plants, part of the administration's broader push to keep aging coal capacity online and ramp up fossil generation.",
+          "source": "AP via Politico Playbook",
+          "time": "Today",
           "flagged": true,
-          "url": "https://www.utilitydive.com/news/us-annual-electricity-consumption-data-centers-nema/820112/"
+          "url": "https://www.politico.com/playbook"
         },
         {
-          "headline": "DC Circuit hears challenge to DOE emergency orders keeping two Indiana coal plants running",
-          "summary": "Michigan, Minnesota, Illinois and EDF argue Energy Secretary Wright's emergency orders to forestall retirement of the Indiana coal units exceeded statutory authority, with petitioners pegging the cost of one order at $180 million through March 31 — argument set for 9:30 a.m. today.",
-          "source": "EDF / Law360",
+          "headline": "DOE coal-plant rescue order heads to DC Circuit",
+          "summary": "A legal challenge to the Energy Department's emergency orders forcing old coal plants to keep running is argued before the D.C. Circuit at 9:30 a.m. Friday, testing the administration's authority to override retirement decisions.",
+          "source": "NYT via Politico Playbook",
+          "time": "Today, 9:30 a.m.",
+          "flagged": true,
+          "url": "https://www.politico.com/playbook"
+        },
+        {
+          "headline": "Data center politics arrive in small-town PA",
+          "summary": "Op-ed argues hyperscale data center siting fights are spreading from Loudoun-style suburbs into rural Pennsylvania, raising land-use and grid-interconnection questions that hit co-op and rural utility territory directly.",
+          "source": "John Hinshaw via PoliticsPA",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.edf.org/media/court-hear-legal-challenge-trump-administration-mandates-coal-fired-power-plants-increase"
+          "url": "https://www.politicspa.com"
         },
         {
-          "headline": "EPA deregulates toxic wastewater limits on coal-fired plants",
-          "summary": "EPA moved Thursday to roll back the Biden-era effluent limitation guidelines for coal-fired power plants, part of a broader push to extend the operating life of fossil generation as PJM and other RTOs strain to meet reliability requirements.",
-          "source": "AP via Politico Playbook",
-          "time": "Yesterday",
-          "flagged": false
+          "headline": "Policy leaders urge PA to get serious about renewable energy",
+          "summary": "Pittsburgh City Paper notes Pennsylvania ranks high on utility costs and low on renewables deployment; state policy experts argue accelerating clean-energy buildout is the answer, with PJM-RTO real-time LMP at $16.97/MWh and load at 82.8 GW today.",
+          "source": "Pittsburgh City Paper",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.pghcitypaper.com"
         }
       ]
     },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 3,
+      "count": 4,
       "stories": [
         {
-          "headline": "LCV launches $1.2M ad campaign hitting Scott Perry on energy costs in 'Big Beautiful Bill'",
-          "summary": "The League of Conservation Voters' $4M accountability buy starts in Bill Huizenga's (R-Mich.) district and rolls into PA-10 next, framing Rep. Scott Perry's vote on the OBBB as a vote to raise constituent energy bills — Juan Ciscomani (R-Ariz.) also targeted.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": true,
-          "url": "https://www.politico.com/newsletters/playbook"
-        },
-        {
-          "headline": "PA State Police creating new unit to investigate threats against elected officials",
-          "summary": "PSP is standing up a dedicated threats unit after a communications failure around Adam Berryhill's May 6 arrest left most of the 20 Philadelphia-area Democratic state lawmakers on his alleged hit list unaware until the document was made public this week.",
-          "source": "Philadelphia Inquirer via PoliticsPA",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Lehigh Valley Democratic primaries Tuesday test progressive vs. party-establishment lanes",
-          "summary": "Tuesday's primaries in HD-22 (Rep. Ana Tiburcio vs. Allentown Councilwoman Ce-Ce Gerlach) and HD-104 (Rep. Dave Madsen vs. Swatara Twp. Commissioner Shane Steele) are framed as a fight over whether Democrats push graduated income tax and minimum-wage hikes or focus on incremental, big-tent wins.",
+          "headline": "Lehigh Valley Dem primaries test progressive vs. party power",
+          "summary": "Tuesday's Democratic primaries in two Lehigh Valley races — including HD-22 Tiburcio vs. Gerlach — pit graduated-income-tax progressives against incremental moderates, a proxy fight for the party's direction in Pennsylvania.",
           "source": "Spotlight PA via PoliticsPA",
           "time": "Today",
-          "flagged": false
+          "flagged": false,
+          "url": "https://www.spotlightpa.org"
+        },
+        {
+          "headline": "PA State Police to create new unit for threats against elected officials",
+          "summary": "PSP is standing up a dedicated unit after the May 6 arrest of Adam Berryhill, 42, of Lebanon County, who allegedly published a 'hit list' targeting 20 Democratic state lawmakers; legislators only learned of the threats this week.",
+          "source": "Philadelphia Inquirer via PoliticsPA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.inquirer.com"
+        },
+        {
+          "headline": "LCV launches $1.2M ad blitz hitting Scott Perry, Rob Bresnahan on energy costs",
+          "summary": "League of Conservation Voters' $4M campaign against the GOP 'Big Beautiful Bill' opens in Rep. Bill Huizenga's Michigan district, with Reps. Scott Perry (R-Pa.-10) and Juan Ciscomani (R-Ariz.) named as next targets.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.politico.com/playbook"
+        },
+        {
+          "headline": "Fetterman's vote keeps Iran war powers in Trump's hands",
+          "summary": "Sen. John Fetterman provided the decisive vote against a war powers resolution that would have directed President Trump to remove U.S. forces from the Iran conflict, the first Senate attempt since the 60-day War Powers Act window closed.",
+          "source": "USA Today via PoliticsPA",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://www.usatoday.com"
         }
       ]
     },
@@ -68,80 +87,72 @@
       "count": 4,
       "stories": [
         {
-          "headline": "Senate Banking marks up Digital Asset Clarity Act in bipartisan vote",
-          "summary": "Chairman Tim Scott's committee advanced the crypto market-structure bill Thursday with the industry-backed framework intact after Scott ruled bank and law-enforcement amendments out of order — Warner and Lummis led the bipartisan push, Warren and Schumer flagged unprecedented industry spending.",
-          "source": "Punchbowl News",
+          "headline": "Senate parliamentarian Byrds DHS reconciliation language",
+          "summary": "MacDonough ruled out large portions of the Homeland Security title — including $2.5B in extra DHS funding and CBP language — forcing Senate Republicans to rewrite ahead of Friday Judiciary arguments over ballroom-security funding.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
           "url": "https://punchbowl.news"
         },
         {
-          "headline": "Senate parliamentarian strikes major sections of GOP immigration reconciliation language",
-          "summary": "Parliamentarian MacDonough ruled Thursday that large CBP funding sections and a $2.5B DHS slush fund violate the Byrd rule; Republicans are rewriting, and the Judiciary title — which carries $1B for Trump's ballroom security — goes through the bath today.",
-          "source": "Punchbowl / Politico",
+          "headline": "House T&I closes in on $550-600B highway reauthorization",
+          "summary": "Chair Sam Graves (R-Mo.) plans to release text as early as Friday for a markup next week; the package likely includes a $250 EV registration fee and would require Ways & Means action on a gas-tax extension by June at earliest.",
+          "source": "Punchbowl AM",
           "time": "Today",
           "flagged": false,
           "url": "https://punchbowl.news"
         },
         {
-          "headline": "House T&I close to highway bill markup with new EV registration fee",
-          "summary": "Chairman Sam Graves (R-Mo.) expects to release a $550–600B surface transportation reauthorization as soon as Friday, including a Highway Trust Fund EV fee — Graves previously tried $250 EV / $100 hybrid fees in OBBB — with markup teed up for next week.",
-          "source": "Punchbowl News",
-          "time": "Today",
+          "headline": "Senate Banking advances bipartisan crypto Clarity Act",
+          "summary": "Banking Chair Tim Scott (R-S.C.) advanced the Digital Asset Market Clarity Act in a bipartisan markup Thursday, ruling out bank- and law-enforcement-backed amendments; tax-writing committees are already drafting a follow-on crypto tax package.",
+          "source": "Punchbowl AM",
+          "time": "Thursday",
           "flagged": false,
           "url": "https://punchbowl.news"
         },
         {
-          "headline": "Trump claims 'fantastic' trade and Boeing deal as Beijing visit wraps",
-          "summary": "Trump told Hannity Xi 'strongly' committed not to send military equipment to Iran and that China agreed to buy 200 Boeing jets — below market expectations, sending Boeing shares down — while Beijing called for reopening the Strait of Hormuz.",
+          "headline": "Trump returns from Beijing claiming China trade and Hormuz wins",
+          "summary": "Trump told Hannity that Xi 'strongly' committed not to send military equipment to Iran and pledged to help reopen the Strait of Hormuz; China agreed to buy 200 Boeing jets — fewer than expected — sending Boeing shares down. WTI jumped 3.8% on Hormuz uncertainty.",
           "source": "Politico Playbook",
           "time": "Today",
           "flagged": false,
-          "url": "https://www.politico.com/newsletters/playbook"
+          "url": "https://www.politico.com/playbook"
         }
       ]
     },
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Pirates 7, Rockies 2: O'Hearn homers, Mlodzinski (3-3) gets the win",
-          "summary": "Ryan O'Hearn went 3-for-4 with a two-run shot off Chase Dollander in the first and Endy Rodriguez drove in two in his return; Michael Mlodzinski allowed two runs over five innings as the Bucs (24-20) close out Colorado and host the Phillies tonight at PNC.",
+          "headline": "Pirates 7, Rockies 2: Endy Rodriguez returns with 2 hits, 2 RBI",
+          "summary": "Pittsburgh beat Colorado 7-2 in Denver on Thursday as Endy Rodriguez had two hits and drove in two runs in his return to the majors; the Pirates (24-20) open a three-game home set vs. the Phillies at PNC Park Friday.",
           "source": "ESPN",
           "time": "Yesterday",
           "flagged": false,
           "url": "https://www.espn.com/mlb/recap?gameId=401815335"
         },
         {
-          "headline": "Steelers drop 2026 schedule: home opener vs. Falcons, NFL Paris Game vs. Saints, Black Friday vs. Broncos",
-          "summary": "Pittsburgh's slate released Thursday night includes four primetime games (TNF Week 4 at home vs. Cleveland leads off), the first-ever NFL regular-season game in France against New Orleans, and the 14th-easiest strength of schedule per CBS.",
-          "source": "Steelers.com",
-          "time": "Yesterday",
+          "headline": "Steelers open OTAs Monday under Mike McCarthy",
+          "summary": "Pittsburgh's first OTA practice under new head coach Mike McCarthy is Monday, May 18; edge rusher Nick Herbig's snap-share role is the storyline insiders are watching, with Aaron Rodgers locked out under his UFA tender until July training camp.",
+          "source": "Steelers.com / Steeler Nation",
+          "time": "Monday",
           "flagged": false,
-          "url": "https://www.steelers.com/news/steelers-2026-schedule-will-be-released-on-may-14"
-        },
-        {
-          "headline": "Penguins extend Connor Dewar (2yr / $4.5M) and Ilya Solovyov (1yr / $850K)",
-          "summary": "Dewar's $2.25M AAV deal follows a career-best 14G-16A-30P, plus-16 season; Solovyov inks a one-year contract as Pittsburgh enters an offseason still facing decisions on UFA Evgeni Malkin and Sidney Crosby's final contract year.",
-          "source": "Pittsburgh Hockey Now",
-          "time": "Yesterday",
-          "flagged": false,
-          "url": "https://pittsburghhockeynow.com/pittsburgh-penguins-connor-dewar-ilya-solovyov-sign-contract-extensions/"
+          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 15 7:08 a.m. EPT (PJM RT) · May 8 close (Henry Hub) · May 15 a.m. (WTI)",
+    "as_of": "May 15 1:30 p.m. EPT",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$20.57/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$20.01/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$17.90/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$17.78/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+5.6%" },
+      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "-0.4%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$104.46/bbl", "change": "+3.3%" }
+      { "market": "WTI Crude", "price": "$104.96/bbl", "change": "+3.8%" }
     ]
   }
 }
