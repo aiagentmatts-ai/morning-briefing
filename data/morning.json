@@ -1,122 +1,85 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-17",
   "type": "morning",
-  "generated_at": "2026-05-15T13:30:00-04:00",
+  "generated_at": "2026-05-17T09:30:00-04:00",
   "sections": [
     {
       "id": "energy-industry",
       "label": "Energy Industry",
-      "count": 4,
+      "count": 1,
       "stories": [
         {
-          "headline": "EPA deregulates toxic wastewater limits on coal-fired plants",
-          "summary": "EPA on Thursday moved to roll back limits on toxic wastewater discharges from coal-fired power plants, part of the administration's broader push to keep aging coal capacity online and ramp up fossil generation.",
-          "source": "AP via Politico Playbook",
-          "time": "Today",
+          "headline": "Monitoring Analytics: PJM wholesale prices up 76% YoY, blames data centers; AEP threatens to exit",
+          "summary": "Monitoring Analytics' Q1 2026 State of the Market report, released Thursday, found PJM wholesale power cost rose to $136.53/MWh from $77.78 a year earlier and called the data-center-driven supply gap 'not adequate ... in the foreseeable future,' while AEP threatened to leave PJM in protest of the response.",
+          "source": "TechCrunch",
+          "time": "Fri",
           "flagged": true,
-          "url": "https://www.politico.com/playbook"
-        },
-        {
-          "headline": "DOE coal-plant rescue order heads to DC Circuit",
-          "summary": "A legal challenge to the Energy Department's emergency orders forcing old coal plants to keep running is argued before the D.C. Circuit at 9:30 a.m. Friday, testing the administration's authority to override retirement decisions.",
-          "source": "NYT via Politico Playbook",
-          "time": "Today, 9:30 a.m.",
-          "flagged": true,
-          "url": "https://www.politico.com/playbook"
-        },
-        {
-          "headline": "Data center politics arrive in small-town PA",
-          "summary": "Op-ed argues hyperscale data center siting fights are spreading from Loudoun-style suburbs into rural Pennsylvania, raising land-use and grid-interconnection questions that hit co-op and rural utility territory directly.",
-          "source": "John Hinshaw via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politicspa.com"
-        },
-        {
-          "headline": "Policy leaders urge PA to get serious about renewable energy",
-          "summary": "Pittsburgh City Paper notes Pennsylvania ranks high on utility costs and low on renewables deployment; state policy experts argue accelerating clean-energy buildout is the answer, with PJM-RTO real-time LMP at $16.97/MWh and load at 82.8 GW today.",
-          "source": "Pittsburgh City Paper",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.pghcitypaper.com"
-        }
-      ]
-    },
-    {
-      "id": "pa-politics",
-      "label": "PA & NJ Politics",
-      "count": 4,
-      "stories": [
-        {
-          "headline": "Lehigh Valley Dem primaries test progressive vs. party power",
-          "summary": "Tuesday's Democratic primaries in two Lehigh Valley races — including HD-22 Tiburcio vs. Gerlach — pit graduated-income-tax progressives against incremental moderates, a proxy fight for the party's direction in Pennsylvania.",
-          "source": "Spotlight PA via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.spotlightpa.org"
-        },
-        {
-          "headline": "PA State Police to create new unit for threats against elected officials",
-          "summary": "PSP is standing up a dedicated unit after the May 6 arrest of Adam Berryhill, 42, of Lebanon County, who allegedly published a 'hit list' targeting 20 Democratic state lawmakers; legislators only learned of the threats this week.",
-          "source": "Philadelphia Inquirer via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.inquirer.com"
-        },
-        {
-          "headline": "LCV launches $1.2M ad blitz hitting Scott Perry, Rob Bresnahan on energy costs",
-          "summary": "League of Conservation Voters' $4M campaign against the GOP 'Big Beautiful Bill' opens in Rep. Bill Huizenga's Michigan district, with Reps. Scott Perry (R-Pa.-10) and Juan Ciscomani (R-Ariz.) named as next targets.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.politico.com/playbook"
-        },
-        {
-          "headline": "Fetterman's vote keeps Iran war powers in Trump's hands",
-          "summary": "Sen. John Fetterman provided the decisive vote against a war powers resolution that would have directed President Trump to remove U.S. forces from the Iran conflict, the first Senate attempt since the 60-day War Powers Act window closed.",
-          "source": "USA Today via PoliticsPA",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://www.usatoday.com"
+          "url": "https://techcrunch.com/2026/05/15/power-prices-are-up-76-on-americas-biggest-grid-and-a-watchdog-is-pointing-fingers/"
         }
       ]
     },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 4,
+      "count": 5,
       "stories": [
         {
-          "headline": "Senate parliamentarian Byrds DHS reconciliation language",
-          "summary": "MacDonough ruled out large portions of the Homeland Security title — including $2.5B in extra DHS funding and CBP language — forcing Senate Republicans to rewrite ahead of Friday Judiciary arguments over ballroom-security funding.",
-          "source": "Punchbowl AM",
-          "time": "Today",
+          "headline": "Cassidy loses Louisiana primary; Letlow and Fleming advance to June 27 runoff",
+          "summary": "Trump-endorsed Rep. Julia Letlow led with 44% and former Rep. John Fleming took 28%, pushing Sen. Bill Cassidy (25%) out of contention five years after he voted to convict Trump in the second impeachment trial.",
+          "source": "CNN",
+          "time": "Sat",
           "flagged": false,
-          "url": "https://punchbowl.news"
+          "url": "https://www.cnn.com/2026/05/16/politics/louisiana-senate-primary-results-bill-cassidy-julia-letlow-john-fleming"
         },
         {
-          "headline": "House T&I closes in on $550-600B highway reauthorization",
-          "summary": "Chair Sam Graves (R-Mo.) plans to release text as early as Friday for a markup next week; the package likely includes a $250 EV registration fee and would require Ways & Means action on a gas-tax extension by June at earliest.",
-          "source": "Punchbowl AM",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://punchbowl.news"
+          "headline": "Senate GOP redrafts immigration reconciliation bill to strip $220M ballroom security funding",
+          "summary": "After moderates panicked over a surprise $1 billion Secret Service line item to 'harden' Trump's White House ballroom project, Senate Republican leaders moved Friday night to rewrite the ICE/Border Patrol reconciliation package ahead of next week's Byrd Bath and vote-a-rama.",
+          "source": "Politico Playbook / Punchbowl",
+          "time": "Sat",
+          "flagged": false
         },
         {
-          "headline": "Senate Banking advances bipartisan crypto Clarity Act",
-          "summary": "Banking Chair Tim Scott (R-S.C.) advanced the Digital Asset Market Clarity Act in a bipartisan markup Thursday, ruling out bank- and law-enforcement-backed amendments; tax-writing committees are already drafting a follow-on crypto tax package.",
-          "source": "Punchbowl AM",
-          "time": "Thursday",
-          "flagged": false,
-          "url": "https://punchbowl.news"
+          "headline": "U.S. and Nigerian forces kill senior ISIS commander Abu-Bilal al-Minuki",
+          "summary": "Trump announced on Truth Social Friday night that a joint operation killed al-Minuki, calling him a senior ISIS figure who helped plan operations targeting Americans in Africa.",
+          "source": "AP via Politico Playbook",
+          "time": "Fri night",
+          "flagged": false
         },
         {
-          "headline": "Trump returns from Beijing claiming China trade and Hormuz wins",
-          "summary": "Trump told Hannity that Xi 'strongly' committed not to send military equipment to Iran and pledged to help reopen the Strait of Hormuz; China agreed to buy 200 Boeing jets — fewer than expected — sending Boeing shares down. WTI jumped 3.8% on Hormuz uncertainty.",
+          "headline": "Trump stands by Iran-war remarks; White House weighs beef-tariff executive order",
+          "summary": "Returning from Beijing to spiking inflation, Trump told Fox's Bret Baier he doesn't think about Americans' financial situations 'even a little bit' in the Iran context and would 'make it again,' while the WH considers easing beef tariffs over ranchers' objections.",
           "source": "Politico Playbook",
-          "time": "Today",
+          "time": "Sat",
+          "flagged": false
+        },
+        {
+          "headline": "POLITICO Poll: Israel splits MAGA from non-MAGA Trump voters",
+          "summary": "Nearly half of MAGA Trump voters back Israel's current government vs. 29% of non-MAGA Trump voters, and 41% of MAGA voters call Israel's Gaza campaign justified compared with 31% of non-MAGA voters, exposing a widening coalition rift.",
+          "source": "Politico Playbook",
+          "time": "Sat",
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "id": "pa-politics",
+      "label": "PA & NJ Politics",
+      "count": 2,
+      "stories": [
+        {
+          "headline": "PA-7 four-way Democratic primary Tuesday tests Bench-backed firefighter Bob Brooks",
+          "summary": "Bethlehem firefighter Bob Brooks (endorsed by Shapiro, Sanders, Deluzio, SEIU and Buttigieg) faces Ryan Crosswell, Lamont McClure and Carol Obando-Derstine in Tuesday's Lehigh Valley primary, with the winner taking on freshman Rep. Ryan Mackenzie (R) in a national bellwether race.",
+          "source": "Ballotpedia / Politico Playbook",
+          "time": "Tue",
           "flagged": false,
-          "url": "https://www.politico.com/playbook"
+          "url": "https://ballotpedia.org/Pennsylvania's_7th_Congressional_District_election,_2026_(May_19_Democratic_primary)"
+        },
+        {
+          "headline": "NJ Rep. LaMonica McIver pregnant amid 17-year federal assault charge over ICE facility clash",
+          "summary": "McIver (D-N.J.), charged with assaulting federal officers outside a New Jersey ICE detention facility and facing up to 17 years in prison, told People Magazine she is expecting her second child.",
+          "source": "Politico Playbook / People",
+          "time": "Sat",
+          "flagged": false
         }
       ]
     },
@@ -126,33 +89,33 @@
       "count": 2,
       "stories": [
         {
-          "headline": "Pirates 7, Rockies 2: Endy Rodriguez returns with 2 hits, 2 RBI",
-          "summary": "Pittsburgh beat Colorado 7-2 in Denver on Thursday as Endy Rodriguez had two hits and drove in two runs in his return to the majors; the Pirates (24-20) open a three-game home set vs. the Phillies at PNC Park Friday.",
+          "headline": "Aaron Rodgers re-signs with Steelers on 1-year deal up to $25M, expected at Monday's OTA",
+          "summary": "Rodgers agreed to a one-year contract with $22M guaranteed and incentives pushing the total to $25M, reuniting with new HC Mike McCarthy (his Green Bay coach 2006-18) and is expected at Pittsburgh's voluntary OTA opener Monday.",
           "source": "ESPN",
-          "time": "Yesterday",
+          "time": "Sat",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap?gameId=401815335"
+          "url": "https://www.espn.com/nfl/story/_/id/48791130/aaron-rodgers-sign-1-year-deal-steelers"
         },
         {
-          "headline": "Steelers open OTAs Monday under Mike McCarthy",
-          "summary": "Pittsburgh's first OTA practice under new head coach Mike McCarthy is Monday, May 18; edge rusher Nick Herbig's snap-share role is the storyline insiders are watching, with Aaron Rodgers locked out under his UFA tender until July training camp.",
-          "source": "Steelers.com / Steeler Nation",
-          "time": "Monday",
+          "headline": "Phillies 6, Pirates 0: Sánchez fans career-high 13 in complete-game shutout",
+          "summary": "Cristopher Sánchez retired the first 11 Pirates and struck out 13 in his second career shutout, while rookie Braxton Chandler walked four in three innings (MLB-leading 31 BB on the season) as Pittsburgh dropped Saturday's game at PNC Park.",
+          "source": "ESPN",
+          "time": "Sat",
           "flagged": false,
-          "url": "https://www.steelers.com/news/dates-are-set-for-2026-minicamps-otas"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401815365"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 15 1:30 p.m. EPT",
+    "as_of": "May 17 a.m. (PJM); WTI May 15 close; Henry Hub May 8 spot",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$17.90/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$17.78/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$13.06/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$12.59/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "-0.4%" },
+      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+5.6%" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$104.96/bbl", "change": "+3.8%" }
+      { "market": "WTI Crude", "price": "$105.42/bbl", "change": "+4.2%" }
     ]
   }
 }
