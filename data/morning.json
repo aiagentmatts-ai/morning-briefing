@@ -1,84 +1,69 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "type": "morning",
-  "generated_at": "2026-05-17T09:30:00-04:00",
+  "generated_at": "2026-05-18T08:30:00-04:00",
   "sections": [
-    {
-      "id": "energy-industry",
-      "label": "Energy Industry",
-      "count": 1,
-      "stories": [
-        {
-          "headline": "Monitoring Analytics: PJM wholesale prices up 76% YoY, blames data centers; AEP threatens to exit",
-          "summary": "Monitoring Analytics' Q1 2026 State of the Market report, released Thursday, found PJM wholesale power cost rose to $136.53/MWh from $77.78 a year earlier and called the data-center-driven supply gap 'not adequate ... in the foreseeable future,' while AEP threatened to leave PJM in protest of the response.",
-          "source": "TechCrunch",
-          "time": "Fri",
-          "flagged": true,
-          "url": "https://techcrunch.com/2026/05/15/power-prices-are-up-76-on-americas-biggest-grid-and-a-watchdog-is-pointing-fingers/"
-        }
-      ]
-    },
     {
       "id": "national-politics",
       "label": "National Politics",
-      "count": 5,
+      "count": 4,
       "stories": [
         {
-          "headline": "Cassidy loses Louisiana primary; Letlow and Fleming advance to June 27 runoff",
-          "summary": "Trump-endorsed Rep. Julia Letlow led with 44% and former Rep. John Fleming took 28%, pushing Sen. Bill Cassidy (25%) out of contention five years after he voted to convict Trump in the second impeachment trial.",
-          "source": "CNN",
-          "time": "Sat",
+          "headline": "Congressional home stretch: energy permitting, immigration, crypto on the table",
+          "summary": "Republicans aim this week to move immigration enforcement and college-sports bills before recess, with possible floor action on housing, energy permitting reform, and crypto taxation as Speaker Mike Johnson negotiates with House hard-liners.",
+          "source": "Politico Playbook",
+          "time": "Today",
+          "flagged": true
+        },
+        {
+          "headline": "GOP reconciliation crunch week as parliamentarian strikes ballroom funds",
+          "summary": "Senate GOP leaders aim to pass a $72B ICE/CBP reconciliation package this week (HSGAC markup Tue, Budget markup Wed, vote-a-rama Thu), but the parliamentarian ruled the $1B Secret Service ballroom funding violates the Byrd Rule.",
+          "source": "Punchbowl News AM",
+          "time": "Today",
           "flagged": false,
-          "url": "https://www.cnn.com/2026/05/16/politics/louisiana-senate-primary-results-bill-cassidy-julia-letlow-john-fleming"
+          "url": "https://punchbowl.news/article/white-house/ballroom-trouble/"
         },
         {
-          "headline": "Senate GOP redrafts immigration reconciliation bill to strip $220M ballroom security funding",
-          "summary": "After moderates panicked over a surprise $1 billion Secret Service line item to 'harden' Trump's White House ballroom project, Senate Republican leaders moved Friday night to rewrite the ICE/Border Patrol reconciliation package ahead of next week's Byrd Bath and vote-a-rama.",
-          "source": "Politico Playbook / Punchbowl",
-          "time": "Sat",
-          "flagged": false
-        },
-        {
-          "headline": "U.S. and Nigerian forces kill senior ISIS commander Abu-Bilal al-Minuki",
-          "summary": "Trump announced on Truth Social Friday night that a joint operation killed al-Minuki, calling him a senior ISIS figure who helped plan operations targeting Americans in Africa.",
-          "source": "AP via Politico Playbook",
-          "time": "Fri night",
-          "flagged": false
-        },
-        {
-          "headline": "Trump stands by Iran-war remarks; White House weighs beef-tariff executive order",
-          "summary": "Returning from Beijing to spiking inflation, Trump told Fox's Bret Baier he doesn't think about Americans' financial situations 'even a little bit' in the Iran context and would 'make it again,' while the WH considers easing beef tariffs over ranchers' objections.",
+          "headline": "Kentucky's unprecedented primary tests Trump's reach against Massie",
+          "summary": "Final campaigning day in the Massie–Gallrein GOP primary in Kentucky's 4th District, with Trump rallying voters and Defense Secretary Pete Hegseth flying to Hebron for ex-Navy SEAL Ed Gallrein; $30M+ spent including $9M+ from pro-Israel groups.",
           "source": "Politico Playbook",
-          "time": "Sat",
+          "time": "Today",
           "flagged": false
         },
         {
-          "headline": "POLITICO Poll: Israel splits MAGA from non-MAGA Trump voters",
-          "summary": "Nearly half of MAGA Trump voters back Israel's current government vs. 29% of non-MAGA Trump voters, and 41% of MAGA voters call Israel's Gaza campaign justified compared with 31% of non-MAGA voters, exposing a widening coalition rift.",
-          "source": "Politico Playbook",
-          "time": "Sat",
-          "flagged": false
+          "headline": "Collins bets on clout as Platner attacks the system in Maine",
+          "summary": "Sen. Susan Collins (R-Maine), Senate Appropriations chair, is running on $1.5B steered to Maine over five years, while presumptive Democratic nominee Graham Platner — who beat Gov. Janet Mills — attacks the D.C. establishment.",
+          "source": "Punchbowl News AM",
+          "time": "Today",
+          "flagged": false,
+          "url": "https://punchbowl.news/article/senate/collins-maine-bonanza/"
         }
       ]
     },
     {
       "id": "pa-politics",
       "label": "PA & NJ Politics",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "PA-7 four-way Democratic primary Tuesday tests Bench-backed firefighter Bob Brooks",
-          "summary": "Bethlehem firefighter Bob Brooks (endorsed by Shapiro, Sanders, Deluzio, SEIU and Buttigieg) faces Ryan Crosswell, Lamont McClure and Carol Obando-Derstine in Tuesday's Lehigh Valley primary, with the winner taking on freshman Rep. Ryan Mackenzie (R) in a national bellwether race.",
-          "source": "Ballotpedia / Politico Playbook",
-          "time": "Tue",
-          "flagged": false,
-          "url": "https://ballotpedia.org/Pennsylvania's_7th_Congressional_District_election,_2026_(May_19_Democratic_primary)"
+          "headline": "PA primary tomorrow: Trump-aligned insurgents challenge GOP leaders statewide",
+          "summary": "Pennsylvania's May 19 primary features the most expensive legislative primary in state history — a Trump-aligned insurgent challenge to a longtime GOP leader in a state Senate district southwest of Pittsburgh, with similar dynamics rippling through other races.",
+          "source": "Pittsburgh Post-Gazette via PoliticsPA Playbook",
+          "time": "Today",
+          "flagged": false
         },
         {
-          "headline": "NJ Rep. LaMonica McIver pregnant amid 17-year federal assault charge over ICE facility clash",
-          "summary": "McIver (D-N.J.), charged with assaulting federal officers outside a New Jersey ICE detention facility and facing up to 17 years in prison, told People Magazine she is expecting her second child.",
-          "source": "Politico Playbook / People",
-          "time": "Sat",
+          "headline": "Skill games and sports betting interests pour $8.1M into three GOP state Senate primaries",
+          "summary": "Gambling interests targeted for new or higher taxes in the 2025 budget fight have spent $8.1M+ ahead of Tuesday's vote, including a deep-dive race in the 48th (Gebhard vs. Crane across Lancaster/Lebanon/Berks) — telegraphing 2026-27 budget revenue dynamics.",
+          "source": "Spotlight PA via PoliticsPA Playbook",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Mastriano write-in 'full speed ahead' despite ambassador nomination",
+          "summary": "State Sen. Doug Mastriano was nominated as a U.S. ambassador, but a write-in effort for him continues in Tuesday's GOP gubernatorial primary against the likely nominee, Treasurer Stacy Garrity.",
+          "source": "PennLive via PoliticsPA Playbook",
+          "time": "Today",
           "flagged": false
         }
       ]
@@ -86,36 +71,43 @@
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 2,
+      "count": 3,
       "stories": [
         {
-          "headline": "Aaron Rodgers re-signs with Steelers on 1-year deal up to $25M, expected at Monday's OTA",
-          "summary": "Rodgers agreed to a one-year contract with $22M guaranteed and incentives pushing the total to $25M, reuniting with new HC Mike McCarthy (his Green Bay coach 2006-18) and is expected at Pittsburgh's voluntary OTA opener Monday.",
-          "source": "ESPN",
-          "time": "Sat",
+          "headline": "Steelers OTAs open today; Rodgers expected as O-line and QB depth take center stage",
+          "summary": "Pittsburgh's organized team activities begin Monday and run through June 12, with newly-signed Aaron Rodgers expected at the first session; only center Zach Frazier and right guard Mason McCormick are locked on the O-line, and a Howard-vs-Allar depth battle is brewing behind Rodgers.",
+          "source": "Steelers Depot",
+          "time": "Today",
           "flagged": false,
-          "url": "https://www.espn.com/nfl/story/_/id/48791130/aaron-rodgers-sign-1-year-deal-steelers"
+          "url": "https://steelersdepot.com/2026/05/three-things-to-watch-for-at-steelers-otas/"
         },
         {
-          "headline": "Phillies 6, Pirates 0: Sánchez fans career-high 13 in complete-game shutout",
-          "summary": "Cristopher Sánchez retired the first 11 Pirates and struck out 13 in his second career shutout, while rookie Braxton Chandler walked four in three innings (MLB-leading 31 BB on the season) as Pittsburgh dropped Saturday's game at PNC Park.",
+          "headline": "Phillies 6, Pirates 0: Wheeler outduels Skenes at PNC, snapping two Skenes streaks",
+          "summary": "Zack Wheeler outpitched Paul Skenes in front of 37,820 at PNC Park as Philadelphia handed Pittsburgh a second straight 6-0 loss, snapping two active Skenes streaks; it was the Pirates' second shutout in as many days against the Phillies.",
           "source": "ESPN",
-          "time": "Sat",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401815365"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401815380"
+        },
+        {
+          "headline": "Penguins extend Dewar and Solovyov as offseason opens; Crosby heads to Worlds",
+          "summary": "Pittsburgh signed pending UFAs forward Connor Dewar and defenseman Ilya Solovyov to extensions with $10.2M in projected cap space; Sidney Crosby joined Team Canada at the IIHF Men's World Championship after the Penguins' first-round exit to Philadelphia.",
+          "source": "Yardbarker",
+          "time": "Today",
+          "flagged": false
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 17 a.m. (PJM); WTI May 15 close; Henry Hub May 8 spot",
+    "as_of": "May 18 8:08 a.m. ET (PJM RT); WTI intraday; Henry Hub May 13 spot",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$13.06/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$12.59/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$17.11/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$16.52/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
-      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "+5.6%" },
+      { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "—" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$105.42/bbl", "change": "+4.2%" }
+      { "market": "WTI Crude", "price": "$105.11/bbl", "change": "-0.3%" }
     ]
   }
 }
