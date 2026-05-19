@@ -1,42 +1,44 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "type": "morning",
-  "generated_at": "2026-05-18T08:30:00-04:00",
+  "generated_at": "2026-05-19T08:15:00-04:00",
   "sections": [
     {
-      "id": "national-politics",
-      "label": "National Politics",
+      "id": "energy-industry",
+      "label": "Energy Industry",
       "count": 4,
       "stories": [
         {
-          "headline": "Congressional home stretch: energy permitting, immigration, crypto on the table",
-          "summary": "Republicans aim this week to move immigration enforcement and college-sports bills before recess, with possible floor action on housing, energy permitting reform, and crypto taxation as Speaker Mike Johnson negotiates with House hard-liners.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": true
+          "headline": "PA releases 'first-of-its-kind' large-load model tariff with strict cost-causation rule",
+          "summary": "Pennsylvania regulators issued a model tariff requiring utilities to charge data-center and other large-load customers directly for any grid upgrade that 'would not have been needed but for' their interconnection, irrespective of incidental benefits to other ratepayers.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/pennsylvania-releases-first-of-its-kind-large-load-model-tariff/820456/"
         },
         {
-          "headline": "GOP reconciliation crunch week as parliamentarian strikes ballroom funds",
-          "summary": "Senate GOP leaders aim to pass a $72B ICE/CBP reconciliation package this week (HSGAC markup Tue, Budget markup Wed, vote-a-rama Thu), but the parliamentarian ruled the $1B Secret Service ballroom funding violates the Byrd Rule.",
-          "source": "Punchbowl News AM",
-          "time": "Today",
+          "headline": "States tell appeals court DOE exceeded authority with Campbell coal retirement delay",
+          "summary": "A state coalition argued in federal appeals court Monday that DOE's Section 202(c) 'emergency' order keeping Consumers Energy's Campbell coal plant online overstepped statutory authority, a ruling that could set precedent for every DOE order propping up fossil generation across PJM and MISO.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
+          "flagged": true,
+          "url": "https://www.utilitydive.com/news/doe-coal-fired-emergency-campbell-lawsuit/820459/"
+        },
+        {
+          "headline": "NextEra-Dominion merger would build world's largest regulated utility, 130-GW large-load pipeline",
+          "summary": "The proposed NextEra-Dominion combination, anchored by an 80%-plus regulated business mix, would consolidate the single largest U.S. data-center interconnection queue and signals a strategic pivot back toward the integrated utility model, analysts told Utility Dive Monday.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://punchbowl.news/article/white-house/ballroom-trouble/"
+          "url": "https://www.utilitydive.com/news/nextera-dominion-merger-would-create-worlds-largest-regulated-electric-ut/820457/"
         },
         {
-          "headline": "Kentucky's unprecedented primary tests Trump's reach against Massie",
-          "summary": "Final campaigning day in the Massie–Gallrein GOP primary in Kentucky's 4th District, with Trump rallying voters and Defense Secretary Pete Hegseth flying to Hebron for ex-Navy SEAL Ed Gallrein; $30M+ spent including $9M+ from pro-Israel groups.",
-          "source": "Politico Playbook",
-          "time": "Today",
-          "flagged": false
-        },
-        {
-          "headline": "Collins bets on clout as Platner attacks the system in Maine",
-          "summary": "Sen. Susan Collins (R-Maine), Senate Appropriations chair, is running on $1.5B steered to Maine over five years, while presumptive Democratic nominee Graham Platner — who beat Gov. Janet Mills — attacks the D.C. establishment.",
-          "source": "Punchbowl News AM",
-          "time": "Today",
+          "headline": "FERC denies stay on $1.5B in transmission ROE refunds owed by Eversource, New England TOs",
+          "summary": "FERC declined Monday to stay $1.5 billion in transmission return-on-equity refunds owed by Eversource and other New England transmission owners, letting the refund order stand pending appeal — a precedent worth watching for PJM transmission ROE disputes.",
+          "source": "Utility Dive",
+          "time": "Yesterday",
           "flagged": false,
-          "url": "https://punchbowl.news/article/senate/collins-maine-bonanza/"
+          "url": "https://www.utilitydive.com/news/ferc-declines-stay-refunds-new-england-transmission-eversource/820343/"
         }
       ]
     },
@@ -46,23 +48,51 @@
       "count": 3,
       "stories": [
         {
-          "headline": "PA primary tomorrow: Trump-aligned insurgents challenge GOP leaders statewide",
-          "summary": "Pennsylvania's May 19 primary features the most expensive legislative primary in state history — a Trump-aligned insurgent challenge to a longtime GOP leader in a state Senate district southwest of Pittsburgh, with similar dynamics rippling through other races.",
-          "source": "Pittsburgh Post-Gazette via PoliticsPA Playbook",
+          "headline": "PA primary day: Dems pick nominees in four toss-up districts shaping House majority",
+          "summary": "Pennsylvania Democrats vote today to settle nominees in four GOP-held swing districts, with Gov. Shapiro and national party leaders backing chosen candidates over progressive challengers; the slate determines whether PA delivers the U.S. House majority in November 2026.",
+          "source": "PoliticsPA Playbook",
           "time": "Today",
           "flagged": false
         },
         {
-          "headline": "Skill games and sports betting interests pour $8.1M into three GOP state Senate primaries",
-          "summary": "Gambling interests targeted for new or higher taxes in the 2025 budget fight have spent $8.1M+ ahead of Tuesday's vote, including a deep-dive race in the 48th (Gebhard vs. Crane across Lancaster/Lebanon/Berks) — telegraphing 2026-27 budget revenue dynamics.",
-          "source": "Spotlight PA via PoliticsPA Playbook",
+          "headline": "PA-07: DCCC's pre-primary backing of firefighter Bob Brooks draws pushback",
+          "summary": "The DCCC's unusual pre-primary endorsement of firefighters' union chief Bob Brooks in PA-07 — Rep. Ryan Mackenzie's R+1 seat — is drawing criticism from sitting House Democrats; Brooks faces former federal prosecutor Ryan Crosswell, who has Sanders and grassroots backing.",
+          "source": "Politico Playbook",
           "time": "Today",
           "flagged": false
         },
         {
-          "headline": "Mastriano write-in 'full speed ahead' despite ambassador nomination",
-          "summary": "State Sen. Doug Mastriano was nominated as a U.S. ambassador, but a write-in effort for him continues in Tuesday's GOP gubernatorial primary against the likely nominee, Treasurer Stacy Garrity.",
-          "source": "PennLive via PoliticsPA Playbook",
+          "headline": "McCormick at PA Press Club: 'The moment is here for Pennsylvania'",
+          "summary": "Sen. Dave McCormick told the Pennsylvania Press Club on Monday that PA must 'take leadership at the national level' amid shifts in work, productivity and national security — early framing of his agenda heading into the 2026 cycle.",
+          "source": "PoliticsPA Playbook",
+          "time": "Yesterday",
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "id": "national-politics",
+      "label": "National Politics",
+      "count": 3,
+      "stories": [
+        {
+          "headline": "Senate GOP weighs trimming East Wing ballroom funding from reconciliation bill",
+          "summary": "Senate Republican leaders are considering shrinking the $1 billion Secret Service / East Wing ballroom allocation to lock down 50 votes; Sen. Thom Tillis is a hard no, Sen. John Kennedy plans an amendment, and Rep. Brian Fitzpatrick (R-PA) says he'll vote against any House version that retains it. HSGAC markups begin 8 a.m.",
+          "source": "Punchbowl News",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "House Democrats will not adopt committee term limits next Congress",
+          "summary": "A Punchbowl whip count of dozens of House Democrats finds no majority for a rules change instituting six-year term limits on committee leaders — preserving senior posts for Meeks, Waters, Thompson, Scott and DeLauro; CBC opposition tied to the post-Callais redistricting fight is decisive.",
+          "source": "Punchbowl News",
+          "time": "Today",
+          "flagged": false
+        },
+        {
+          "headline": "Georgia Senate GOP primary headed to June 16 runoff; AL and KY test Trump endorsements",
+          "summary": "Rep. Mike Collins leads Georgia GOP Senate polling but a three-way scrum with Derek Dooley and Buddy Carter likely forces a June 16 runoff, giving Sen. Jon Ossoff a month of free airtime; Trump's endorsements of Rep. Barry Moore (AL) and Rep. Andy Barr (KY) face their first tests tonight.",
+          "source": "Politico Playbook",
           "time": "Today",
           "flagged": false
         }
@@ -71,43 +101,36 @@
     {
       "id": "pittsburgh-sports",
       "label": "Pittsburgh Sports",
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "headline": "Steelers OTAs open today; Rodgers expected as O-line and QB depth take center stage",
-          "summary": "Pittsburgh's organized team activities begin Monday and run through June 12, with newly-signed Aaron Rodgers expected at the first session; only center Zach Frazier and right guard Mason McCormick are locked on the O-line, and a Howard-vs-Allar depth battle is brewing behind Rodgers.",
-          "source": "Steelers Depot",
-          "time": "Today",
-          "flagged": false,
-          "url": "https://steelersdepot.com/2026/05/three-things-to-watch-for-at-steelers-otas/"
-        },
-        {
-          "headline": "Phillies 6, Pirates 0: Wheeler outduels Skenes at PNC, snapping two Skenes streaks",
-          "summary": "Zack Wheeler outpitched Paul Skenes in front of 37,820 at PNC Park as Philadelphia handed Pittsburgh a second straight 6-0 loss, snapping two active Skenes streaks; it was the Pirates' second shutout in as many days against the Phillies.",
-          "source": "ESPN",
+          "headline": "Steelers open OTAs with Aaron Rodgers taking first-team reps",
+          "summary": "Aaron Rodgers, on a one-year deal worth up to $25 million signed two days before camp, was present for the Steelers' first OTA session Monday and took first-team reps ahead of Will Howard, Mason Rudolph and Drew Allar; defense enters its second month under new coordinator Patrick Graham.",
+          "source": "Yahoo Sports",
           "time": "Yesterday",
           "flagged": false,
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401815380"
+          "url": "https://sports.yahoo.com/nfl/live/nfl-news-live-updates-otas-kick-off-as-aaron-rodgers-reports-to-steelers-shedeur-sanders-and-deshaun-watson-battle-for-browns-qb1-job-160505053.html"
         },
         {
-          "headline": "Penguins extend Dewar and Solovyov as offseason opens; Crosby heads to Worlds",
-          "summary": "Pittsburgh signed pending UFAs forward Connor Dewar and defenseman Ilya Solovyov to extensions with $10.2M in projected cap space; Sidney Crosby joined Team Canada at the IIHF Men's World Championship after the Penguins' first-round exit to Philadelphia.",
-          "source": "Yardbarker",
-          "time": "Today",
-          "flagged": false
+          "headline": "Phillies sweep Pirates 6-0 behind Wheeler shutout; Harper homers off Skenes",
+          "summary": "Zack Wheeler tossed seven shutout innings on four hits at PNC Park on Sunday as Philadelphia completed a three-game sweep 6-0, with Bryce Harper homering off Paul Skenes in the sixth; the Pirates were off Monday and open at St. Louis tonight.",
+          "source": "ESPN",
+          "time": "Sunday",
+          "flagged": false,
+          "url": "https://www.espn.com/mlb/recap?gameId=401815380"
         }
       ]
     }
   ],
   "market_data": {
-    "as_of": "May 18 8:08 a.m. ET (PJM RT); WTI intraday; Henry Hub May 13 spot",
+    "as_of": "May 19 8:08 a.m. EPT",
     "rows": [
-      { "market": "PJM West Hub (RT)", "price": "$17.11/MWh", "change": "—" },
-      { "market": "PJM AEP-Dayton (RT)", "price": "$16.52/MWh", "change": "—" },
+      { "market": "PJM West Hub (RT)", "price": "$25.38/MWh", "change": "—" },
+      { "market": "PJM AEP-Dayton (RT)", "price": "$24.82/MWh", "change": "—" },
       { "market": "PJM Capacity 26/27", "price": "$329.17/MW-day", "change": "—" },
       { "market": "Henry Hub", "price": "$2.82/MMBtu", "change": "—" },
       { "market": "TETCO M3 (PA/NJ)", "price": "n/a", "change": "—" },
-      { "market": "WTI Crude", "price": "$105.11/bbl", "change": "-0.3%" }
+      { "market": "WTI Crude", "price": "$103.60/bbl", "change": "-0.7%" }
     ]
   }
 }
